@@ -34,7 +34,7 @@ A complete critical review, built by applying the blueprint: **screening for dro
 | **`REVIEW-final.md`** | **The assembled paper** — title, abstract, nine sections, 59 in-text citations, five figure legends, eight tables populated from primary sources, verified reference list, author notes. **No placeholder markers.** |
 | **`figures/`** | **Figures 1–5, drawn at 300 dpi.** Framework; PEG concentration→osmotic potential computed from Michel and Kaufmann (1973); developmental strata; evidence map; concordance reporting |
 | **`supplementary-table-S1.md`** | Supplementary Tables S1–S2 — per-study design and limitation detail, which keeps the main text inside the word limit |
-| **`reference-verification.md`** | **The audit log.** Every reference checked against Crossref; the ten DOIs that resolved to different papers; the six markers and their resolution; the two entries that are publisher-verified only |
+| **`reference-verification.md`** | **The audit log.** Every reference checked against Crossref; the ten DOIs that resolved to different papers; the six markers and their resolution; the Table 4 cells and the claim one of them broke; the two entries that are publisher-verified only |
 | `make-figures.py` | Re-runnable: draws all five figures and prints the PEG conversion table on every run |
 | `resolve-markers.py`, `final-pass.py` | The two one-shot marker-resolution passes, kept as an audit record; both refuse to write unless every anchor matches |
 | `study-inventory.md` | The backbone: 14 screening studies tabulated, candidate genes with validation hosts, connecting studies, corrections log |
@@ -60,6 +60,8 @@ Applying the blueprint to a real topic caused **seven planned claims to be withd
 | "Drought" is an appropriate label | Correct, but had to become a finding rather than an assumption |
 | Most tomato genotypes fail above −0.35 MPa | True of that panel — and now cited; but it is a panel result, not a universal ceiling |
 | A model comparison supports ANOVA on germination data | The source supports it only in a 0.3–0.7 proportion band — not where osmotic screening operates |
+| Only one *Capsicum* gene has functional evidence in pepper | Three do — *CaNAC46*, *CaDIM1* and *CaSBP13*, all by VIGS in pepper. The count was too low, not too high |
+| *CaSBP13* is a drought-tolerance candidate | It is a **negative** regulator; silencing it improves tolerance |
 
 Not random failures — a pattern. **Conventional wisdom in this field is repeated more than it is checked.** Some of it was tested decades ago and "rejected" results never entered the citation loop. That is a citation problem, not a competence problem, which is both more accurate and more publishable.
 
@@ -67,7 +69,7 @@ The final review is correspondingly **constructive rather than contrarian**: eve
 
 ### Key numbers
 
-- **11,802 words counted** against the Frontiers 12,000 limit — abstract, prose, legends and tables, references excluded (198 headroom; Table 2's detail columns moved to supplementary to make room)
+- **11,907 words counted** against the Frontiers 12,000 limit — abstract, prose, legends and tables, references excluded (93 headroom; Table 2's detail columns moved to supplementary to make room)
 - **59 in-text citations** inserted, where the body previously cited nothing at all; **52 references**, six added to resolve the last markers
 - **10 of ~30 DOIs resolved to different papers** and were corrected; one pointed at a *Citrus* study
 - **7 claims** withdrawn or reversed before drafting; **1 deleted** at the reference audit for want of a source
