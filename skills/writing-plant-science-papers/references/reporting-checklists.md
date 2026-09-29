@@ -6,6 +6,24 @@ Companion files: `SKILL.md`, `manuscript-scaffold.md`, `figure-table-plan.md`.
 
 ---
 
+## 0. Venue-Match Gate (run before the others)
+
+**The single most avoidable rejection in the field is a venue/evidence mismatch.** A well-executed L1 study submitted to The Plant Cell is rejected for evidence, not writing; the same study at BMC Plant Biology is competitive. Complete this before working through the checklists below.
+
+| Required level for your venue (SKILL.md §8) | Your current strongest level | Match? |
+| --- | --- | --- |
+| [ ] | [ ] | [ ] yes — proceed · [ ] no — add evidence or move tier |
+
+- [ ] Venue family identified and its current Guide for Authors checked on [date]
+- [ ] Evidence audit scored **after** the most recent experiment
+- [ ] If planning-stage: reverse-engineering completed (`figure-table-plan.md` §0)
+- [ ] If levels moved since the last audit, the abstract's causal verbs were revised
+- [ ] Re-check scheduled for just before submission
+
+**Only apply the checklists below that match your actual work.** No qPCR → skip §1. No field trial or phenotyping experiment → skip §2. Nothing deposited in a repository → §6 is a problem, not a formality.
+
+---
+
 ## 1. qPCR / RT-qPCR — MIQE
 
 Required. Reference gene validation is the item most often missing and most often caught.

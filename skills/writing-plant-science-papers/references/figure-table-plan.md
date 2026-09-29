@@ -6,6 +6,58 @@ Companion files: `SKILL.md`, `manuscript-scaffold.md`, `reporting-checklists.md`
 
 ---
 
+## 0. Reverse-Engineering from the Target (planning-stage mode)
+
+**Use this when no data exist yet, or when the venue and the evidence are mismatched.** Normal practice is to do science and then find a journal; this inverts it, and it is the faster path when the target is known.
+
+```
+Step 1  Write the claim you want to make:
+        "We show that [X] [acts how] through [mechanism] to [trait],
+         and that this [matters why]."
+
+Step 2  Name the venue family (SKILL.md §8).
+
+Step 3  Look up the evidence level that venue's reviewers require.
+
+Step 4  Work BACKWARDS. List the panels such a paper needs —
+        use the architecture below matching your paper type.
+
+Step 5  Convert each panel into an experiment: design, n, controls, test.
+
+Step 6  Identify the critical path — which experiments gate others.
+
+Step 7  FEASIBILITY CHECK. Any panel you cannot produce (no field site, no
+        antibody, no ortholog line, no instrument time) downgrades the claim.
+
+Step 8  Revise the claim in Step 1 and return to Step 3.
+        Repeat until claim, evidence plan, and venue agree.
+```
+
+**Worked example.** Target: a specialised molecular journal (requires L3–L4). Claim: "*ABC1* promotes seed set through interaction with *XYZ*."
+
+| Backward step | Output |
+| --- | --- |
+| Required level | L3–L4 |
+| Required panels | necessity · sufficiency · specificity · interaction (4–5 figures) |
+| Experiments implied | 2 CRISPR alleles + phenotyping; overexpression line; variant-construct rescue; Y2H + Co-IP with expression verification |
+| Critical path | Alleles → phenotyping → rescue; interaction assays can run in parallel |
+| Feasibility | No Co-IP antibody available → interaction weakens to split-luc + Y2H only → claim drops toward L2–L3 |
+| Claim revision | "*ABC1* is required for seed set" — and venue moves down one tier, or an antibody is sourced |
+
+> The exercise is worth doing even when it changes nothing. It converts "we should probably also do X" into a dated, costed work plan — or into an early decision to change venue.
+
+### Feasibility → claim revision table
+
+Fill this in and keep it. It is the artefact that prevents a project from drifting toward a venue it cannot reach.
+
+| Required panel | Feasible? | If not, claim downgrades to | Resulting venue tier |
+| --- | --- | --- | --- |
+| [ ] | Y / N | L[ ] | [ ] |
+| [ ] | Y / N | L[ ] | [ ] |
+| [ ] | Y / N | L[ ] | [ ] |
+
+---
+
 ## 1. The Figure-First Rule
 
 **Never write prose before the figure sequence exists.** Work in this order:

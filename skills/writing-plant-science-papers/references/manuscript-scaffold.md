@@ -6,24 +6,82 @@ Companion files: `SKILL.md` (structure rules), `figure-table-plan.md` (display i
 
 ---
 
-## PRE-DRAFT BLOCK (complete before writing any prose)
+## §0 PRE-FLIGHT GATE — ANSWER ALL SIX BEFORE ANY PROSE
+
+**Do not fill in a single section below until this block is complete.**
+
+| # | Question | Answer |
+| --- | --- | --- |
+| 1 | Paper type: mechanistic molecular · applied agronomy · omics/discovery · method/resource? | [ ] |
+| 2 | Target venue (named, or "undecided" → run SKILL.md §8 procedure) | [ ] |
+| 3 | Strongest evidence level (L0–L7), or highest reachable if pre-data | [ ] |
+| 4 | Stage: data in hand · partially collected · planning only? | [ ] |
+| 5 | Scope: single claim · full mechanism · discovery+validation · field recommendation | [ ] |
+| 6 | Constraints: time, budget, field-site access, genotypes, equipment | [ ] |
+
+**If Q3 < the level required by Q2's venue family → stop. Add evidence or change tier.**
+
+**If Q4 = planning only → complete the Planning Block below before any other section.**
+
+### Pre-flight resolution
 
 **Target venue:** [ ]
 **Current word limit (checked on date):** [ ]
 **Abstract limit / format:** [ ]
 **Display item limit:** [ ]
 **Reference limit:** [ ]
-
-**Paper type:** [ ] mechanistic molecular · [ ] applied agronomy · [ ] omics/discovery · [ ] method/resource
+**Scope calibration applied (SKILL.md §12):** [ ] sections active · [ ] sections deliberately skipped
 
 **Central advance, one sentence:**
 > We show that [gene/pathway/practice] [acts how] through [mechanism] to [affect trait], and that this [matters why].
 
-**Highest evidence level reached (L0–L7, see SKILL.md §1):** [ ]
-**Claims that exceed that level and must be re-scoped:** [ ]
-
 **The gap, stated so it is falsifiable:**
 > Whether [X] [does Y] in [context] is unknown; the competing possibilities are [A] and [B], and they cannot currently be distinguished because [reason].
+
+---
+
+## EVIDENCE AUDIT — RE-SCORE AFTER EVERY EXPERIMENT
+
+Maintain this table for the life of the project. It is the paper's calibration instrument.
+
+| Claim you intend to make | Current level | Experiment that raised it | Next experiment that would raise it | Blocking constraint | Permitted verb |
+| --- | --- | --- | --- | --- | --- |
+| [ ] | L[ ] | [ ] | [ ] | [ ] | [ ] |
+| [ ] | L[ ] | [ ] | [ ] | [ ] | [ ] |
+| [ ] | L[ ] | [ ] | [ ] | [ ] | [ ] |
+
+**Audit recomputation triggers:** an experiment completes · a control fails and a claim drops · the venue changes · a competing paper publishes · before submission.
+
+**Last audit date:** [ ]
+**Claims that dropped a level since the previous audit:** [ ]
+**Verbs revised after the drop:** [ ]
+
+---
+
+## PLANNING BLOCK — ONLY IF STAGE = PLANNING
+
+### Experiment specification
+
+Complete one row per planned panel. If you cannot name the statistical test, you cannot design the experiment.
+
+| Panel | Question it answers | Design | n (biological) | Controls | Statistical test / model | Feasibility | Critical path? |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | high/med/low | Y/N |
+| [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+
+### Feasibility outcome
+
+- Panels that cannot be produced: [ ]
+- Claim downgrade forced by infeasibility: [ ]
+- Revised central advance after downgrade: [ ]
+- Venue re-checked against the revised level: [ ]
+
+### Status marking for the scaffold below
+
+Mark every slot as you go: **`[DRAFTED]`** data in hand · **`[PENDING: experiment X]`** planned but not run · **`[BLOCKED: reason]`** infeasible.
+
+> Do not write at the hoped-for evidence level. Write at the level you have, and revise upward when the audit moves.
 
 ---
 
@@ -73,6 +131,7 @@ Candidate 3: [ ]
 ## INTRODUCTION  (target: ___ words · 5–7 paragraphs)
 
 **P1 — Territory.** The process/trait and its stakes.
+> [DRAFTED / PENDING: which experiment / BLOCKED: reason]
 > _[Draft. Concrete, not rhetorical. One or two sentences of scope, then what is at stake.]_
 
 **P2–P3 — Established knowledge.** The funnel.
