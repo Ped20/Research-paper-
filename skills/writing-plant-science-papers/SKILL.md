@@ -29,7 +29,7 @@ This gate exists because in biology, drafting before the evidence and venue are 
 
 | # | Question | Why it changes the output |
 | --- | --- | --- |
-| 1 | **Paper type** — molecular/mechanistic · applied agronomy · omics/computational · method/resource? | Selects the figure architecture (§4) and the Results logic |
+| 1 | **Paper type** — molecular/mechanistic · applied agronomy · omics/computational · method/resource · **review**? | Selects the figure architecture (§4) and the Results logic. **If "review" → stop and use `references/review-paper-blueprint.md` instead of this document.** A review is not an IMRaD paper with the Results removed |
 | 2 | **Target venue** — named journal, or "undecided"? | Sets word/abstract/figure limits (§8). If undecided, run the §8 procedure |
 | 3 | **Strongest evidence** — where on the ladder (L0–L7), or if pre-data, the highest level *reachable*? | Sets the verb ceiling (§2) and the venue that is realistic |
 | 4 | **Stage** — data in hand · partially collected · planning only? | Planning-only triggers §3 reverse-engineering mode |
@@ -630,6 +630,7 @@ Use this to size the paper to the topic and avoid activating the whole blueprint
 | File | Use |
 | --- | --- |
 | `references/quick-reference.md` | One-page condensed card for daily use |
+| `references/review-paper-blueprint.md` | **Reviews — different genre, different skeleton. Use this instead of the main document when Q1 = review** |
 | `references/manuscript-scaffold.md` | Fillable section-by-section scaffold |
 | `references/figure-table-plan.md` | Figure architecture, panel craft, section↔figure mapping |
 | `references/reporting-checklists.md` | MIQE, MIAPPE, MINSEQE, statistics, venue-match gate |
