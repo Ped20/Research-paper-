@@ -27,7 +27,7 @@ A structural blueprint for **molecular biology, plant science, and agricultural 
 
 ### `projects/chilli-osmotic-stress/`
 
-A complete critical review, built by applying the blueprint: **screening for drought tolerance in *Capsicum* and the Solanaceae**, targeted at *Frontiers in Plant Science* (Review, 12,000 words).
+A complete critical review, built by applying the blueprint: **screening for drought tolerance in *Capsicum* and the Solanaceae**. Venue-neutral and submission-ready; the venue decision, with verified zero-cost open-access routes, is set out in the manuscript's author notes.
 
 | File | What it is |
 | --- | --- |
@@ -62,6 +62,7 @@ Applying the blueprint to a real topic caused **seven planned claims to be withd
 | A model comparison supports ANOVA on germination data | The source supports it only in a 0.3–0.7 proportion band — not where osmotic screening operates |
 | Only one *Capsicum* gene has functional evidence in pepper | Three do — *CaNAC46*, *CaDIM1* and *CaSBP13*, all by VIGS in pepper. The count was too low, not too high |
 | *CaSBP13* is a drought-tolerance candidate | It is a **negative** regulator; silencing it improves tolerance |
+| Open-access publication requires an APC | Not necessarily — Diamond open access is free to publish and free to read; see the venue note |
 
 Not random failures — a pattern. **Conventional wisdom in this field is repeated more than it is checked.** Some of it was tested decades ago and "rejected" results never entered the citation loop. That is a citation problem, not a competence problem, which is both more accurate and more publishable.
 
@@ -69,7 +70,7 @@ The final review is correspondingly **constructive rather than contrarian**: eve
 
 ### Key numbers
 
-- **11,907 words counted** against the Frontiers 12,000 limit — abstract, prose, legends and tables, references excluded (93 headroom; Table 2's detail columns moved to supplementary to make room)
+- **11,907 words counted** — abstract, prose, legends and tables, references excluded. Table 2's detail columns were moved to supplementary to make room against the 12,000-word ceiling common to many review formats
 - **59 in-text citations** inserted, where the body previously cited nothing at all; **52 references**, six added to resolve the last markers
 - **10 of ~30 DOIs resolved to different papers** and were corrected; one pointed at a *Citrus* study
 - **7 claims** withdrawn or reversed before drafting; **1 deleted** at the reference audit for want of a source

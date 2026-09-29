@@ -1,8 +1,8 @@
 # Screening for drought tolerance in *Capsicum* and the Solanaceae: methodological assumptions, an unresolved predictive link, and a cost-tiered path to markers
 
 **Article type:** Review
-**Target venue:** *Frontiers in Plant Science*
-**Status:** Complete draft. All in-text citations resolved; no placeholder markers remain in the body. Reference list verified against Crossref (`reference-verification.md`). Figures 1–5 drawn (`figures/`). Supplementary Table S1 compiled.
+**Venue:** deliberately not fixed. The manuscript is formatted for submission to any plant-science or horticulture journal that publishes review articles; the venue decision and its consequences are set out in the author notes.
+**Status:** Submission-ready draft. All in-text citations resolved; no placeholder markers anywhere in the manuscript. Reference list verified against Crossref (`reference-verification.md`). Figures 1–5 drawn (`figures/`). Supplementary Table S1 compiled.
 
 ---
 
@@ -657,7 +657,7 @@ One entry in the draft could not be verified through Crossref. It is minor and d
 
 ## Notes for the author
 
-**Word count — measured, not estimated.** Frontiers counts the abstract, main text, figure legends *and* tables toward the limit, and excludes references.
+**Word count — measured, not estimated.** Most review formats count the abstract, main text, figure legends *and* tables, and exclude references. The 12,000-word ceiling below is the common upper bound; check the chosen venue's actual limit, which may be considerably lower.
 
 | Component | Words |
 | --- | --- |
@@ -671,18 +671,29 @@ One entry in the draft could not be verified through Crossref. It is minor and d
 Table 2's detailed design and limitation columns are in **Supplementary Table S1** (with Table S2 for the connecting studies), and supplementary material does not count toward the limit. If prose is expanded, the best value is in Section 5 and Section 3.3, both compressed relative to their evidentiary weight.
 
 **Before submission.**
-1. **Confirm the specialty section accepts unsolicited Reviews** and resolve the APC question. Recommended section: **Plant Abiotic Stress**, which matches the subject directly; **Crop and Product Physiology** is the alternative.
-2. **Add the generative-AI disclosure.** This is mandatory at Frontiers and is the only correct answer to the AI-detection question — see below.
-3. **Check the Review article structure.** The *Frontiers in Plant Science* article-type page specifies Abstract, Introduction, Subsections, Discussion. Sections 7–9 carry the Discussion content but none is titled Discussion; consider retitling Section 8 or adding the heading.
-3. **Consider a presubmission enquiry** to the editor, given that the review makes methodological recommendations to the field.
-4. **Check every stated osmotic potential against its primary source.** Figure 2 shows why: the same nominal PEG-6000 percentage spans a several-fold range of potentials, and Table S1 flags one screen whose reported values differ from the equation by more than threefold.
+1. **Choose the venue — see the venue note below.** The manuscript is written to be venue-neutral; it is not tied to any publisher's format.
+2. **Add the generative-AI disclosure.** Required at essentially every reputable publisher, and at preprint servers. See the ready statement below.
+3. **Add a Data Availability statement.** For this manuscript the correct statement is short, because no new data were generated: *This review analysed only previously published literature. No new data were generated or analysed for this study.*
+4. **Add author contributions.** Most venues now require CRediT taxonomy; for a single author, *Conceptualization, Investigation, Writing – original draft, Writing – review and editing*.
+5. **Decide the Discussion heading.** Many review formats expect Abstract, Introduction, Subsections, Discussion. Sections 7–9 carry the Discussion content but none is titled Discussion.
+6. **Check every stated osmotic potential against its primary source.** Figure 2 shows why: the same nominal PEG-6000 percentage spans a several-fold range of potentials, and Table S1 flags one screen whose reported values differ from the equation by more than threefold.
+
+**Venue note — the cost problem.** Open-access publication at *Frontiers in Plant Science* costs CHF 3,150, which is real money and not a reason to abandon the paper. Three routes exist, and they are not equivalent:
+
+- **Diamond open access — free to publish, free to read, immediately.** Funded by societies and institutes rather than by authors. *Journal of Horticultural Sciences* (Society for Promotion of Horticulture, ICAR-IIHR Bengaluru) is a verified example: no APCs, CC BY-NC-SA, indexed in Scopus and Web of Science (ESCI), UGC-CARE Group II, publishes review articles, and reports roughly six weeks from submission to publication. Its limitation is reach: CiteScore below 1 and a Q4 Scopus placement mean far fewer readers than a major international journal.
+- **Subscription journal plus green open access — free to publish, free to read after an embargo.** Most established plant journals cost nothing to publish in under the subscription route and permit the accepted manuscript to be deposited in a repository, typically after 6–12 months. This buys a much larger audience but delays open access.
+- **Preprint — free, immediate, no peer review.** AgriRxiv or bioRxiv. Establishes priority and gives the community access while review proceeds. The AI disclosure obligation applies here too.
+
+**Recommendation.** Deposit a preprint, then submit to a Diamond open-access venue. The argument for this is not only cost: the review's intended readers are the people running low-cost screening programmes, many of whom work where journal subscriptions are scarce. Publishing it behind a paywall would undercut the paper's own purpose.
+
+**Caution on venue lists.** Several widely circulated “no-APC journal” listicles describe hybrid subscription journals as free open access. They are not: publishing free in a subscription journal means the published article sits behind a paywall. Verify any candidate journal in DOAJ and in Scopus or Web of Science directly, from the journal's own site, before submitting. The three routes above were each verified at source.
 
 **What changed in this revision.** Fifty-nine in-text citations were inserted throughout Sections 1–7; the manuscript previously cited nothing in the body. The reference list was rebuilt from Crossref metadata — **ten DOIs in the earlier working bibliography resolved to entirely different papers**, including one to a *Citrus* study and one to an *Arabidopsis* anthocyanin paper. Tables 2, 4 and 5 were populated from verified sources, and Table 2's detail columns were moved to Supplementary Table S1. The six remaining VERIFY markers were traced to primary sources and replaced with citations, and Figures 1–5 were drawn. One claim was deleted for want of a source (cation accumulation in pepper root xylem under PEG). **This draft contains no placeholder markers.** Details in `reference-verification.md`.
 
-**Generative AI disclosure — required, insert in the Acknowledgments before submission.**
+**Generative AI disclosure — required, insert in the Acknowledgments before submission.** It applies whatever the venue; changing journals does not avoid it.
 
 > During the preparation of this work the authors used [TOOL NAME, VERSION, PROVIDER] to assist with literature synthesis, drafting and language editing. The authors set the scope and framing, verified every cited source against primary records, drew the figures from published equations and data, and reviewed and edited all content. The authors take full responsibility for the content of the publication.
 
-Frontiers requires the name, version, model and source of any generative AI tool used in the writing or editing of a manuscript (publisher editorial policy, *Artificial intelligence: fair use and disclosure policy*). Uploading the prompts and outputs as supplementary material is encouraged. **This statement is not optional, and no amount of prose editing substitutes for it.** Disclosed AI-assisted writing is permitted; undisclosed AI-assisted writing is a policy violation.
+Publishers that follow COPE and ICMJE guidance — which includes all the venues discussed above — require the name, version, model and source of any generative AI tool used in the writing or editing of a manuscript. Disclosed AI-assisted writing is permitted; undisclosed AI-assisted writing is a policy violation, and the consequences run from correction to retraction. **This statement is not optional, and no amount of prose editing substitutes for it.**
 
 **Known limitations of this review, to be stated in the Introduction.** The search was not systematic and may have missed relevant work. The cross-stage transfer analysis draws on cereal and potato evidence where Solanaceae evidence is absent, which is a reasonable but not ideal substitution. Cost figures for genotyping platforms are order-of-magnitude. The minimum reporting standard is a proposal, not a consensus position, and has not been tested for feasibility across laboratories with differing resources.
