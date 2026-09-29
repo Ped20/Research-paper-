@@ -119,3 +119,43 @@ What the check found:
 2. **Mollah et al. (2021)** — chilli seedling-stage screening
 3. **Michel & Kaufmann (1973)** — the PEG concentration ↔ osmotic potential conversion standard, needed for Figure 2
 4. **Any *Capsicum* drought GWAS or QTL** — if one exists, the asymmetry claim in §5 needs softening
+
+---
+
+## CONNECTING STUDIES — the systematic count (falsifies the "zero" claim)
+
+Searched for studies testing the **same genotypes at more than one developmental stage**. Nine found across four crops. **The literature contradicts itself.**
+
+| # | Study | Crop | Stages connected | Outcome | Direction |
+| --- | --- | --- | --- | --- | --- |
+| C1 | *S. pennellii* introgression lines, **PLoS ONE 2023** | **Tomato** | Germination/seedling → vegetative/reproductive | IL 1-4-18 and IL 1-2 tolerant at all stages; most germination-tolerant also most tolerant later. Genes: *AHG2*, *PRXIIF*, *SAP5*, *PRXQ*, *CFS1*, *LCD*, *CCD1*, *SCS* | ✅ **supports** |
+| C2 | Sallam et al. 2018, *Euphytica* 214:169 | Wheat | Seedling indices → grain yield, 2 environments × 2 seasons | **"No significant correlations found between seedling traits and grain yield in any environment"**; only 1 genotype had both | ❌ **contradicts** |
+| C3 | Sci Rep 2024 (164 barley lines) | Barley | Germination/seedling → heading-stage yield | r = **−0.25** germination rate vs yield. 9 lines 100% germination → only 2 with no yield penalty (~22% transfer) | ❌ **contradicts** |
+| C4 | Sci Rep 2025 (barley GWAS, 198 genotypes) | Barley | Germination + seedling + vegetative + flowering | "Drought tolerance in barley is **consistent** when determined at the three important growth stages" | ✅ **supports** — directly contradicts C3 |
+| C5 | Wheat diallel, *Plant Breed. Biotech.* 2014 | Wheat | Seedling PEG → grain yield/spike | Root length r = 0.41\*, seedling DW r = 0.46\* at **15%** PEG; non-significant at **20%** | ✅ supports, concentration-dependent |
+| C6 | *Genes* 2023 (KASP wheat) | Wheat | Germination → seedling | "**Little to no correlation** in drought tolerance between germination and seedling stage" (citing Hasseb; Moursi) | ❌ contradicts |
+| C7 | *Agronomy* 2023 (potato, 20 lines, 3 trials) | Potato | Vegetative growth curves → yield | LAI and A2 turning points correlated with drought tolerance across trials | ✅ supports |
+| C8 | PMC6522565 | *Capsicum* | — (mechanism contrast) | 12 aquaporins up in tolerant KCa-4884, down in susceptible G-4 | — |
+| C9 | Yadav et al. 2025, BMC | Tomato | Germination/seedling | Tolerant lines "promising candidates for **field validation**" — authors state validation is outstanding | ⚠️ untested |
+
+### Score: 4 support, 4 contradict, 1 untested
+
+> **The "zero connecting studies" claim was wrong and is withdrawn.** The real finding — a genuinely contradictory literature — is stronger.
+
+### ⭐ THE BEST ORIGINAL METHODOLOGICAL POINT
+
+**Internal concordance is being reported as cross-stage transfer.** Several studies reporting "strong correlations" correlate traits *within* one stage or treatment (germination % with germination rate; root with shoot biomass) — near-tautological relationships between co-measured growth traits. These appear in the same correlation matrices as cross-stage relationships, making a study *appear* to demonstrate transfer when it has only demonstrated internal consistency.
+
+**Nobody appears to have made this criticism explicitly for this literature.** It explains the contradiction better than any biological account, and it is the review's strongest single contribution.
+
+### ⭐ SECOND POINT — the wrong test may be applied
+
+In C2, **no** seedling trait correlated with yield, yet **individual genotypes** were identified that were tolerant at seedling stage and high-yielding in the field. A breeding programme needs the right *genotypes*, not a significant *trait* correlation. Reviews dismissing early screening on absent trait correlations may be applying the wrong test. **The correct metric is the concordance rate among selected genotypes — and almost nobody reports it.**
+
+### Third point — tolerance and recovery are genetically distinct
+
+C2 found tolerance traits (wilting) and recovery traits (regrowth) to be weakly correlated or uncorrelated, with **QTLs entirely different except one pleiotropic locus**. Undercuts the practice of treating a composite index as a general "drought tolerance" measure.
+
+### Capsicum remains the gap
+
+Of nine connecting studies, **seven are cereals or potato**, one is tomato, and **none is *Capsicum***. The chilli-specific question — does a germination screen predict field drought performance in pepper? — has not been answered.

@@ -82,23 +82,39 @@ Progressive-drought transcriptomics in contrasting eggplant genotypes resolved t
 
 ### 5.4 Synthesis: the strata need a bridge
 
-Three conclusions follow, and they constitute this review's central synthesis.
+### ⚠️ SECOND CORRECTION — the "zero connecting studies" claim is falsified
 
-**First, the binding constraint is not genomic resources.** Pepper has a 500-accession pan-genome; tomato has a saturated QTL literature; eggplant has a characterised wild-relative donor pool. Sequence, markers and mapping populations are available.
+The claim that no study connects developmental strata was **tested by systematic search and is false.** Nine studies across four crops connect two or more stages. The corrected synthesis follows.
 
-**Second, the constraint is not effort.** Each crop has substantial work at each stage. The problem is that the work is *stratified*.
+**Evidence against the original claim:**
 
-**Third — and this is the actionable claim — the strata are connected by nothing, and connecting them is cheap.** The genotypes that a germination screen ranks are not the genotypes tested under vegetative drought, and neither set is the panel in which loci were mapped. The consequence is that a breeder holding a ranked list from a PEG screen (Stratum A) has no route to the loci in Stratum C, and a geneticist holding a validated locus has no route to knowing whether the lines it would select for are the lines a screen would have found.
+| Study | Crop | Connection | Direction |
+| --- | --- | --- | --- |
+| *S. pennellii* introgression lines, PLoS ONE 2023 | **Tomato** | Germination/seedling → vegetative/reproductive | ✅ Transfer confirmed; IL 1-4-18 and IL 1-2 tolerant at all stages |
+| Sallam et al. 2018, *Euphytica* | Wheat | Seedling indices → grain yield, 2 environments × 2 seasons | ❌ No trait correlation with yield |
+| Spring barley PEG + heading drought, Sci Rep 2024 | Barley | Germination/seedling → heading-stage yield | ❌ r = −0.25 |
+| Barley GWAS, Sci Rep 2025 | Barley | Germination, seedling, vegetative, flowering | ✅ Claims consistency |
+| Wheat diallel, 2014 | Wheat | Seedling PEG → grain yield/spike | ✅ r = 0.41–0.46 at 15% PEG |
+| Wheat germination vs seedling, *Genes* 2023 | Wheat | Germination → seedling | ❌ Little to no correlation |
+| Potato phenotypic biomarkers, *Agronomy* 2023 | Potato | Vegetative → yield across 3 trials | ✅ Biomarkers held |
 
-**The bridge is a shared genotype set.** Screening panels, validation trials and mapping populations should draw on common, diverse, publicly available germplasm — the pepper pan-genome accessions, the *Capsicum* core collection accessions that appear in the research programmes above (IT-series), and wild relatives of the kinds that eggplant work has shown carry tolerance. Design the panel once, and the three strata become three experiments on one population rather than three literatures about one species.
+**So the corrected finding is not stratification but contradiction.** The connecting studies exist — and they disagree with each other. Two recent, large barley studies reach opposite conclusions about the same question.
 
-This is not a methodological innovation. It is a coordination recommendation, and its cost is close to zero relative to any single one of the experiments it connects. That is precisely why its absence is worth stating.
+The revised §5.4 argument:
 
-**Figure 5** — Stratified literature map. Three horizontal strata (germination, vegetative, reproductive) for each of *Capsicum*, tomato and eggplant, with representative studies as nodes and no connecting edges; a fourth panel shows the proposed design with a single shared genotype set connecting all three. *Label as conceptual.*
+**First, the constraint is not genomic resources, effort, or even missing studies.** Pepper has a 500-accession pan-genome; tomato has a saturated QTL literature; eggplant has a characterised wild-relative donor pool. And connecting studies exist across four crops.
 
-**Table 5** — Cross-stratum comparison matrix: for each crop, per stratum, the number of studies identified, the typical design, the strongest evidence produced, and whether any study connects to another stratum.
+**Second — and this supersedes the stratification claim — the field is in genuine, unresolved disagreement about whether early-stage screening transfers.** That disagreement is not evenly distributed: most connecting studies are in cereals, and **the Solanaceae account rests on a single tomato study using introgression lines**. For *Capsicum* specifically, the question remains effectively untested.
 
-**Table 4** — Candidate genes with validation host and true evidence level (see inventory).
+**Third, the disagreement is resolvable and the review should say how.** Section 4 identifies four design factors that plausibly generate the conflict — internal-versus-cross-stage correlation being conflated, trait-level versus genotype-level tests, PEG concentration determining resolution, and tolerance and recovery being genetically distinct. These are testable explanations, not speculation.
+
+**Fourth, the practical bridge is unchanged but now better justified.** Screening panels, validation trials and mapping populations should share germplasm. A shared genotype set converts three stratified literatures into three experiments on one population — and in doing so would generate the cross-stage concordance data that is currently almost never reported.
+
+**Figure 5** — Evidence map: crops × stage-pairs, showing where connecting studies exist and which direction they point. Contradictions rendered as split markers. Empty cells are the gaps. *Label as conceptual.*
+
+**Table 5** — Studies connecting two or more developmental stages, with design quality assessment.
+
+**Table 6** — The four confounds from §4.3, mapped to the studies each affects.
 
 ---
 
