@@ -63,17 +63,38 @@ Populated Table 2 (screening studies) and Table 4 (candidate genes) for the Sola
 | *SlWRKY81, SlMYB50, SlMYB55, SlEREB1, SlbZIP38* | — | *S. lycopersicum* | Mixed | L1–L2 | **Negative regulators** — often omitted from reviews; include them |
 | *SlMAPK3* | MAPK | *S. lycopersicum* | **CRISPR mutant** | **L1 (genetic)** | Mutants: larger stomatal aperture, ↑ H₂O₂, ↑ MDA, ↑ electrolyte leakage, ↓ antioxidant activity, ↓ *SlDHN*, *SlDREB*, *SlGST* |
 
-### The asymmetry — the core of §5
+### ⚠️ CORRECTED — the asymmetry claim was overstated
 
-| Resource | Tomato | *Capsicum* | Eggplant |
+**An earlier version of this file claimed *Capsicum* has "not the validated loci." Verification found that is wrong.** Withdrawn and replaced.
+
+What the check found:
+
+| Finding | Source | Consequence |
+| --- | --- | --- |
+| **Pepper reproductive-stage drought GWAS + QTL** — Balkan *C. annuum* panel (n=133) + interspecific BILs (n=76), WW vs WS; loci on chr 5 & 6; candidate genes *GRL1*, *CYP77A19*, endoglucanase-like | *J Exp Bot* (2026), doi:10.1093/jxb/erag385 | **Directly contradicts the absence claim** |
+| **100 *Capsicum* accessions screened at vegetative stage** — resistant IT308761, IT250221, IT158637 (21 d water withholding); susceptible IT158411, IT163497, IT225019, IT237567, IT236754; *An2* MYB noted | ScienceDirect (2025) | Pepper does have germplasm-level drought screening beyond germination |
+| **Pepper graph pan-genome** — 500 accessions, 5 domesticated species + wild relatives; *C. baccatum* introgressions carry abiotic stress tolerance genes | *Nature Communications* (2023) | Genomic resources are **not** the constraint |
+| **Aquaporin contrast** — all 12 AQPs up in tolerant KCa-4884, down in susceptible G-4 | PMC6522565 | Pepper has genotype-contrasting mechanism data |
+
+### The revised asymmetry — stage stratification, not absence
+
+| Stratum | *Capsicum* | Tomato | Eggplant |
 | --- | --- | --- | --- |
-| Drought QTL mapped | **Many** — 19 from *S. habrochaites* sub-NILs (chr 9); 56 from 119 F7 RILs (11 under drought); 12 under drought; 54 from MAGIC | **Scarce** | Few |
-| GWAS for drought | ⚠️ limited (mostly fruit traits) | **Limited** — GWAS has targeted agronomic/fruit traits | Limited |
-| Characterised TF families | **Extensive** | **Narrow** — *CaNAC46*, *DREB1*, *AIMK1* | Emerging |
-| CRISPR validation | ✅ (*SlMAPK3*) | ⚠️ limited by transformation recalcitrance | Limited |
-| Wild relatives used as donors | ✅ (*S. habrochaites*, *S. pimpinellifolium*) | ⚠️ underused in screening panels | ✅ **Established** (*S. torvum*, *S. viarum*, *S. insanum*) |
+| **A — Germination** | Active (Table 2a: 5 studies) | Active (Yadav 2025; 32-genotype; F2/F3) | Limited |
+| **B — Vegetative** | 100-accession screen (2025); root-architecture screen (30 accessions) | Active | Active |
+| **C — Reproductive** | **1 recent GWAS+QTL study (2026)** | **Many** — 19 QTL (*S. habrochaites* chr 9); 56 QTL (F7 RILs); 12 QTL; 54 QTL (MAGIC); CRISPR *SlMAPK3* | Genetic parameters (Kouassi 2021); transcriptomics |
+| **Wild-relative donors** | Under-used in screening panels; pan-genome shows introgression potential | ✅ *S. habrochaites*, *S. pimpinellifolium* | ✅ **Best developed** — *S. torvum*, *S. viarum*, *S. violaceum*, *S. aethiopicum*, *S. insanum* |
+| **Studies connecting strata** | **0 identified** | **0 identified** | **0 identified** |
 
-> **This table is the review's argument in one view.** Tomato and eggplant have built the genetic architecture for drought breeding; *Capsicum* has the screening literature and the genomic sequence, but not the validated loci. The review's contribution is to specify what transfers and how.
+> **The corrected argument is stronger and harder to refute.** It is not "pepper lacks the genetics" — it is "all three crops stratify drought work by developmental stage, and nothing connects the strata." Pepper simply has thinner coverage in Stratum C than tomato.
+
+### Stage-specificity evidence *within Capsicum* — highly citable
+
+| Finding | Detail |
+| --- | --- |
+| ***C. chinense* more drought-tolerant** than *C. annuum* and *C. frutescens* | African 3-species comparison, 4 drought regimes × 3 stages |
+| **All three species more susceptible at vegetative than at flowering/fruiting** | Direct within-genus evidence of stage-specificity — the review's core phenomenon |
+| Capsaicin content altered by drought in *C. chinense* but not *C. annuum* | Quality consequence with applied relevance |
 
 ---
 
