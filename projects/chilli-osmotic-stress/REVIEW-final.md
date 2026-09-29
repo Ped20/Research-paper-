@@ -463,10 +463,11 @@ None of these findings requires the method to be abandoned. Each has a cheap rem
 
 | Gene | Family | Origin | Validation host | Evidence type | Level |
 | --- | --- | --- | --- | --- | --- |
-| ***CaNAC46*** | NAC (ATAF) | *C. annuum* | Transgenic *Arabidopsis*; VIGS in pepper | Overexpression + silencing | L1–L2 |
-| *CaDREBLP1* | AP2/ERF | *C. annuum* | ⚠️ confirm | Expression + heterologous | L1–L2 |
-| *CaDIM1*, *MYB1* | MYB | *C. annuum* | ⚠️ confirm | ABA-associated | L0–L1 |
-| *CaSBP13*, *CaDR1* | SBP / other | *C. annuum* | ⚠️ confirm | RNA-seq; GWAS | L0–L1 |
+| *CaNAC46* | NAC (ATAF) | *C. annuum* | VIGS in pepper; transgenic *Arabidopsis* | Overexpression + silencing | L1–L2 |
+| *CaDIM1* | MYB (R2R3) | *C. annuum* | VIGS in pepper; overexpression in *Arabidopsis* | Silencing + overexpression; ABA signalling | L1–L2 |
+| *CaSBP13* | SBP | *C. annuum* | VIGS in pepper (94% silencing); overexpression in *N. benthamiana* | Silencing + overexpression. **Negative regulator** — silencing improved tolerance | L1–L2 |
+| *CaDREBLP1* | AP2/ERF | *C. annuum* | None in planta — yeast trans-activation and in vitro DRE/CRT binding only | Expression + DNA-binding assay | L0–L1 |
+| *CaDR1* | — | *C. annuum* | **None** | RNA-seq; GWAS candidate | L0 |
 | Aquaporin family (12 genes) | PIP/AQP | *C. annuum* | **None** | Genotype-contrasting expression (↑ KCa-4884, ↓ G-4) | L0 |
 | *GRL1*, *CYP77A19*, endoglucanase-like | various | *C. annuum* | **None** | QTL/GWAS candidates, chr 5 and 6 | L0 |
 | *SlAREB1*, *SlAREB2* | bZIP | *S. lycopersicum* | Transgenic tomato | Overexpression | L2 |
@@ -477,9 +478,9 @@ None of these findings requires the method to be abandoned. Each has a cheap rem
 | *SlWRKY81*, *SlMYB50*, *SlMYB55*, *SlEREB1*, *SlbZIP38* | WRKY/MYB/ERF/bZIP | *S. lycopersicum* | Mixed | **Negative regulators** — routinely omitted from reviews | L1–L2 |
 | ***SlMAPK3*** | MAPK | *S. lycopersicum* | ***CRISPR* mutant** | Genetic loss-of-function; ↓ *SlDHN*, *SlDREB*, *SlGST* | **L1 (genetic)** |
 
-Levels: L0 association · L1 genetic/CRISPR · L2 transgenic overexpression. Sources: Ma et al. (2021); Sahitya et al. (2019); Rai et al. (2026); Pang et al. (2024).
+Levels: L0 association · L1 genetic/CRISPR · L2 transgenic overexpression. Sources: Ma et al. (2021); Sahitya et al. (2019); Rai et al. (2026); Pang et al. (2024); *CaDREBLP1* — Hong and Kim (2005); *CaDIM1* — Lim et al. (2022); *CaSBP13* — Zhang et al. (2024).
 
-> **Only one of the six *Capsicum* entries has functional evidence in pepper.** A gene demonstrated in *Arabidopsis* is not a gene demonstrated in chilli.
+> **Three of the eight entries have functional evidence in pepper itself** — *CaNAC46*, *CaDIM1* and *CaSBP13*, all validated by virus-induced gene silencing — which is more than the earlier literature suggests. One of the three, *CaSBP13*, is a **negative** regulator whose silencing improves drought tolerance, so it is a target for down-regulation rather than for introgression. A gene demonstrated only in *Arabidopsis* is still not a gene demonstrated in chilli.
 
 ---
 
@@ -489,15 +490,15 @@ Levels: L0 association · L1 genetic/CRISPR · L2 transgenic overexpression. Sou
 
 | # | Study | Crop | Stages | Outcome | Direction |
 | --- | --- | --- | --- | --- | --- |
-| C1 | Pessoa et al. (2023) | **Tomato** | Germination/seedling → vegetative/reproductive | IL 1-4-18 and IL 1-2 tolerant at all stages; most germination-tolerant also most tolerant later | ✅ **supports** |
-| C2 | Sallam et al. (2018) | Wheat | Seedling indices → grain yield, 2 environments × 2 seasons | No significant correlations between seedling traits and yield in any environment; 1 genotype combined both | ❌ **contradicts** |
-| C3 | Slawin et al. (2024) | Barley | Germination/seedling → heading yield, n = 164 | r = −0.25; 9 lines at 100% germination → 2 with no yield penalty (~22%) | ❌ **contradicts** |
-| C4 | Badr et al. (2025) | Barley | Germination + seedling + vegetative + flowering, n = 198 | Tolerance "consistent" across the three important growth stages | ✅ **supports** — directly contradicts C3 |
-| C5 | El-Rawy and Hassan (2014) | Wheat | Seedling → grain yield/spike | Root length r = 0.41\*, seedling DW r = 0.46\* at **15%**; non-significant at **20%** | ✅ supports, **concentration-dependent** |
-| C6 | Mohamed et al. (2023) | Wheat | Germination → seedling | "Little to no correlation" between the two stages | ❌ **contradicts** |
-| C7 | Köhl et al. (2023) | Potato | Vegetative → yield, 20 lines, 3 trials | LAI and A2 turning points correlated with tolerance across trials | ✅ supports |
+| C1 | Pessoa et al. (2023) | **Tomato** | Germination/seedling → vegetative/reproductive | IL 1-4-18 and IL 1-2 tolerant at all stages; most germination-tolerant also most tolerant later | **Supports** |
+| C2 | Sallam et al. (2018) | Wheat | Seedling indices → grain yield, 2 environments × 2 seasons | No significant correlations between seedling traits and yield in any environment; 1 genotype combined both | **Contradicts** |
+| C3 | Slawin et al. (2024) | Barley | Germination/seedling → heading yield, n = 164 | r = −0.25; 9 lines at 100% germination → 2 with no yield penalty (~22%) | **Contradicts** |
+| C4 | Badr et al. (2025) | Barley | Germination + seedling + vegetative + flowering, n = 198 | Tolerance "consistent" across the three important growth stages | **Supports** — directly contradicts C3 |
+| C5 | El-Rawy and Hassan (2014) | Wheat | Seedling → grain yield/spike | Root length r = 0.41\*, seedling DW r = 0.46\* at **15%**; non-significant at **20%** | **Supports**, concentration-dependent |
+| C6 | Mohamed et al. (2023) | Wheat | Germination → seedling | "Little to no correlation" between the two stages | **Contradicts** |
+| C7 | Köhl et al. (2023) | Potato | Vegetative → yield, 20 lines, 3 trials | LAI and A2 turning points correlated with tolerance across trials | Supports |
 | C8 | Sahitya et al. (2019) | *Capsicum* | — (mechanism contrast) | 12 aquaporins ↑ in tolerant KCa-4884, ↓ in susceptible G-4 | — |
-| C9 | Yadav et al. (2025) | Tomato | Germination/seedling only | Authors state field validation outstanding | ⚠️ **untested** |
+| C9 | Yadav et al. (2025) | Tomato | Germination/seedling only | Authors state field validation outstanding | **Untested** |
 
 **Score: 4 support · 4 contradict · 1 untested.**
 
@@ -605,7 +606,7 @@ Costs are order-of-magnitude, from Sahoo et al. (2025); confirm by quotation.
 
 ### Solanaceae genomics and candidate genes
 
-- Liu, F., Zhao, J., Sun, H., Xiong, C., Sun, X., Wang, X., Wang, Z., Jarret, R., Wang, J., Tang, B., Xu, H., Hu, B., Suo, H., Yang, B., Ou, L., Li, X., Zhou, S., Yang, S., Liu, Z., Yuan, F., Pei, Z., Ma, Y., Dai, X., Wu, S., Fei, Z. and Zou, X. (2023). Genomes of cultivated and wild *Capsicum* species provide insights into pepper domestication and population differentiation. *Nature Communications*, 14(1), 5320. doi:10.1038/s41467-023-41251-4 ⚠️ article number to confirm
+- Liu, F., Zhao, J., Sun, H., Xiong, C., Sun, X., Wang, X., Wang, Z., Jarret, R., Wang, J., Tang, B., Xu, H., Hu, B., Suo, H., Yang, B., Ou, L., Li, X., Zhou, S., Yang, S., Liu, Z., Yuan, F., Pei, Z., Ma, Y., Dai, X., Wu, S., Fei, Z. and Zou, X. (2023). Genomes of cultivated and wild *Capsicum* species provide insights into pepper domestication and population differentiation. *Nature Communications*, 14(1), 5487. doi:10.1038/s41467-023-41251-4
 - Ma, J., Wang, L.-y., Dai, J.-x., Wang, Y. and Lin, D. (2021). The NAC-type transcription factor *CaNAC46* regulates the salt and drought tolerance of transgenic *Arabidopsis thaliana*. *BMC Plant Biology*, 21(1), 8. doi:10.1186/s12870-020-02764-y
 - Rai, A., Vatov, E., Georgieva, A.W., Bogdanova, S., Wittenberg, M.F., Anachkov, N., Tripodi, P., Todorova, V., Tringovska, I., Ganeva, D., Petrov, V., Gechev, T. and Alseekh, S. (2026). Integrated genome-wide association and quantitative trait locus mapping elucidate the genetic basis of fruit yield and quality traits in pepper under water stress. *Journal of Experimental Botany*. doi:10.1093/jxb/erag385
 - Sahitya, U.L., Krishna, M.S.R. and Suneetha, P. (2019). Integrated approaches to study the drought tolerance mechanism in hot pepper (*Capsicum annuum* L.). *Physiology and Molecular Biology of Plants*, 25(3), 637–647. doi:10.1007/s12298-019-00655-7
@@ -638,6 +639,10 @@ Costs are order-of-magnitude, from Sahoo et al. (2025); confirm by quotation.
 - Taheri, S., Gantait, S., Azizi, P. and Mazumdar, P. (2022). Drought tolerance improvement in *Solanum lycopersicum*: an insight into “OMICS” approaches and genome editing. *3 Biotech*, 12(3), 63. doi:10.1007/s13205-022-03132-3
 - Yang, Z.-B., Eticha, D., Rao, I.M. and Horst, W.J. (2010). Alteration of cell-wall porosity is involved in osmotic stress-induced enhancement of aluminium resistance in common bean (*Phaseolus vulgaris* L.). *Journal of Experimental Botany*, 61(12), 3245–3258. doi:10.1093/jxb/erq146
 
+- Hong, J.-P. and Kim, W.T. (2005). Isolation and functional characterization of the *Ca-DREBLP1* gene encoding a dehydration-responsive element binding-factor-like protein 1 in hot pepper (*Capsicum annuum* L. cv. Pukang). *Planta*, 220(6), 875–888. doi:10.1007/s00425-004-1412-5
+- Lim, J., Lim, C.W. and Lee, S.C. (2022). Role of pepper MYB transcription factor CaDIM1 in regulation of the drought response. *Frontiers in Plant Science*, 13, 1028392. doi:10.3389/fpls.2022.1028392
+- Zhang, H.-X., Zhang, Y. and Zhang, B.-W. (2024). Pepper SBP-box transcription factor, CaSBP13, plays a negatively role in drought response. *Frontiers in Plant Science*, 15, 1412685. doi:10.3389/fpls.2024.1412685
+
 ### Entries requiring resolution before submission
 
 One entry in the draft could not be verified through Crossref. It is minor and does not carry a load-bearing claim; it is flagged here rather than left as an unresolved marker in the text.
@@ -658,19 +663,26 @@ One entry in the draft could not be verified through Crossref. It is minor and d
 | --- | --- |
 | Title, abstract, Sections 1–9 | 9,531 |
 | Figure legends | 221 |
-| Tables | 2,053 |
-| **Counted total** | **11,805** |
+| Tables | 2,155 |
+| **Counted total** | **11,907** |
 | *Limit* | *12,000* |
-| **Headroom** | **195** |
+| **Headroom** | **93** |
 
 Table 2's detailed design and limitation columns are in **Supplementary Table S1** (with Table S2 for the connecting studies), and supplementary material does not count toward the limit. If prose is expanded, the best value is in Section 5 and Section 3.3, both compressed relative to their evidentiary weight.
 
 **Before submission.**
-1. **Confirm the specialty section accepts unsolicited Reviews** and resolve the APC question.
-2. **Declare LLM assistance** per Frontiers policy.
+1. **Confirm the specialty section accepts unsolicited Reviews** and resolve the APC question. Recommended section: **Plant Abiotic Stress**, which matches the subject directly; **Crop and Product Physiology** is the alternative.
+2. **Add the generative-AI disclosure.** This is mandatory at Frontiers and is the only correct answer to the AI-detection question — see below.
+3. **Check the Review article structure.** The *Frontiers in Plant Science* article-type page specifies Abstract, Introduction, Subsections, Discussion. Sections 7–9 carry the Discussion content but none is titled Discussion; consider retitling Section 8 or adding the heading.
 3. **Consider a presubmission enquiry** to the editor, given that the review makes methodological recommendations to the field.
 4. **Check every stated osmotic potential against its primary source.** Figure 2 shows why: the same nominal PEG-6000 percentage spans a several-fold range of potentials, and Table S1 flags one screen whose reported values differ from the equation by more than threefold.
 
 **What changed in this revision.** Fifty-nine in-text citations were inserted throughout Sections 1–7; the manuscript previously cited nothing in the body. The reference list was rebuilt from Crossref metadata — **ten DOIs in the earlier working bibliography resolved to entirely different papers**, including one to a *Citrus* study and one to an *Arabidopsis* anthocyanin paper. Tables 2, 4 and 5 were populated from verified sources, and Table 2's detail columns were moved to Supplementary Table S1. The six remaining VERIFY markers were traced to primary sources and replaced with citations, and Figures 1–5 were drawn. One claim was deleted for want of a source (cation accumulation in pepper root xylem under PEG). **This draft contains no placeholder markers.** Details in `reference-verification.md`.
+
+**Generative AI disclosure — required, insert in the Acknowledgments before submission.**
+
+> During the preparation of this work the authors used [TOOL NAME, VERSION, PROVIDER] to assist with literature synthesis, drafting and language editing. The authors set the scope and framing, verified every cited source against primary records, drew the figures from published equations and data, and reviewed and edited all content. The authors take full responsibility for the content of the publication.
+
+Frontiers requires the name, version, model and source of any generative AI tool used in the writing or editing of a manuscript (publisher editorial policy, *Artificial intelligence: fair use and disclosure policy*). Uploading the prompts and outputs as supplementary material is encouraged. **This statement is not optional, and no amount of prose editing substitutes for it.** Disclosed AI-assisted writing is permitted; undisclosed AI-assisted writing is a policy violation.
 
 **Known limitations of this review, to be stated in the Introduction.** The search was not systematic and may have missed relevant work. The cross-stage transfer analysis draws on cereal and potato evidence where Solanaceae evidence is absent, which is a reasonable but not ideal substitution. Cost figures for genotyping platforms are order-of-magnitude. The minimum reporting standard is a proposal, not a consensus position, and has not been tested for feasibility across laboratories with differing resources.

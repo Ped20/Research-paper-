@@ -138,3 +138,32 @@ Every marker in §4 was traced to a primary source and replaced in the body. No 
 **Figure 2 is a computed check on this literature, not an illustration.** The Michel and Kaufmann (1973) relation was implemented in `make-figures.py`: at 25 °C, 10% PEG-6000 is approximately −0.15 MPa and 20% approximately −0.49 MPa. Sivakumar et al.'s stated solution strengths (123 g and 169 g per 1000 mL for −0.2 and −0.35 MPa) reproduce against the same equation, which is an independent check on both the implementation and that paper's reporting. Screening studies that state potentials several-fold more negative than the equation at the same nominal percentage are therefore flagged in Supplementary Table S1 rather than silently pooled.
 
 **Two entries remain outside Crossref** and are honestly marked as such: Molla et al. (2019), Science Publishing Group, and Sivakumar et al. (2014), Madras Agricultural Journal. Neither is a fabricated identifier; both are publisher-verified only.
+
+
+---
+
+## 8. Round-6 addendum: three unresolved cells in Table 4, and what one of them broke
+
+The round-5 claim that no placeholder markers remained was **too narrow**. It covered the `⟦VERIFY-n⟧` glyphs only. Three cells in Table 4 still read "⚠️ confirm" in the validation-host column, and the manuscript carried nine emoji as table status symbols. Both are now cleared.
+
+**The three cells are resolved:**
+
+| Cell | Source located through Crossref | Validation host established |
+| --- | --- | --- |
+| *CaDREBLP1* | Hong and Kim (2005), *Planta* 220(6):875–888, doi:10.1007/s00425-004-1412-5 | **None in planta.** Yeast trans-activation and in vitro DRE/CRT binding only; expression profiling in pepper. Level lowered to L0–L1 |
+| *CaDIM1* (the row also carried a redundant "*MYB1*") | Lim, Lim and Lee (2022), *Front. Plant Sci.* 13:1028392, doi:10.3389/fpls.2022.1028392 | **VIGS in pepper** plus overexpression in *Arabidopsis*. Positive regulator via ABA signalling. L1–L2 |
+| *CaSBP13* (previously paired with *CaDR1*) | Zhang, Zhang and Zhang (2024), *Front. Plant Sci.* 15:1412685, doi:10.3389/fpls.2024.1412685 | **VIGS in pepper** (94% silencing) plus overexpression in *N. benthamiana*. **Negative regulator** — silencing improved tolerance. L1–L2 |
+
+*CaDR1* remains in the table as a GWAS/RNA-seq candidate with no functional validation, which is what the evidence supports; it was previously merged into a row with *CaSBP13*, obscuring the difference between a validated gene and a candidate.
+
+**What the resolution broke.** The manuscript's Table 4 commentary claimed "**only one of the six *Capsicum* entries has functional evidence in pepper**." With *CaDIM1* and *CaSBP13* both validated by VIGS in pepper, the count is **three of eight**. The claim has been corrected. This is a correction in the field's favour: the review's argument does not depend on pepper being behind on functional validation, only on the cross-stage transfer question being untested, which it remains.
+
+**A second error caught in the same pass.** *CaSBP13* is a **negative** regulator — silencing it improves drought tolerance. It was listed among "drought-responsive candidate genes" with no direction indicated. For a review whose thesis concerns how findings are misread downstream, listing a negative regulator without its sign is precisely the failure being described. The direction is now stated in the table.
+
+**A third error, from a stale flag.** The Liu et al. (2023) reference in *Nature Communications* carried a note reading "⚠️ article number to confirm", with 5320. Crossref returns **5487**. Corrected.
+
+**Emoji removed.** Nine emoji (⚠️ ×5, ✅ ×4, ❌ ×3) functioned as status symbols in Tables 4 and 5 and in Supplementary Tables S1–S2. Status is now carried by words ("Supports", "Contradicts", "Untested", "None"). Emoji are not acceptable in a journal manuscript and would have been flagged at typesetting.
+
+**One caveat recorded rather than resolved.** The Zhang et al. (2024) author list is taken from Crossref, which returns three authors. If the published byline carries more, the reference list should be completed from the article page. The DOI and title were confirmed against Crossref and match the published record, including the grammatical error in the title, which is reproduced verbatim.
+
+**Unicode check on the whole manuscript.** No zero-width characters, bidirectional control characters, Cyrillic homoglyphs, non-breaking spaces, tab characters or CRLF line endings. There are no hidden characters of the kind sometimes called watermarks, and there is nothing of that sort to remove.
