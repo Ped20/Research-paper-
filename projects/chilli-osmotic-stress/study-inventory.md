@@ -159,3 +159,81 @@ C2 found tolerance traits (wilting) and recovery traits (regrowth) to be weakly 
 ### Capsicum remains the gap
 
 Of nine connecting studies, **seven are cereals or potato**, one is tomato, and **none is *Capsicum***. The chilli-specific question — does a germination screen predict field drought performance in pepper? — has not been answered.
+
+---
+
+## SECTION 2 SOURCE FILE — PEG chemistry and artefacts
+
+### ⚠️ THREE MORE CLAIMS CORRECTED DURING §2 DRAFTING
+
+| Planned claim | Verdict | Evidence |
+| --- | --- | --- |
+| Commercial PEG impurities cause artefacts | ❌ **TESTED AND REJECTED** | Lawlor 1970: purified by gel filtration vs unpurified, maize growth unaffected. Sephadex chromatography showed passage through plants did not alter average MW → no selective absorption of contaminant small molecules |
+| PEG detergent properties cause toxicity | ❌ **TESTED AND REJECTED** | Lawlor 1970: comparison with non-ionic detergents ruled it out |
+| PEG does not enter plant tissues (standard justification) | ❌ **CONTRADICTED** | See below — reversed into a finding |
+
+### ⭐ Claim reversed into the section's strongest point: the penetration question
+
+**Established uptake, measured directly:**
+- Lawlor 1970: **PEG ≥ 1000 MW entered plants at ~1 mg/g leaf FW/week**; entry increased substantially with **mechanically damaged roots or low water potentials** — i.e. exactly the conditions of a drought experiment. Autoradiography localised PEG 4000 at leaf margins then mesophyll ✅
+- **Lagerwerff et al., pepper (*Capsicum annuum* L. var. California Wonder)** — directly the review's focal crop. Plants at −3.0 / −5.0 bar with PEG 400, 600, 1000, 1540, 4000:
+  - PEG **1000 and 1540 most satisfactory** as osmotica
+  - Accumulation **inversely related to molecular weight**, greater at lower (more negative) osmotic potential, increased with time
+  - **Except PEG 4000, more PEG in leaves than roots**; PEG 4000 retained mainly in roots
+  - Once leaf concentration reached 1–2 mg/mL, further absorbed PEG transferred to leaves ✅
+
+**Fair qualifications to state:**
+- Entry is **slow** for high MW (~1 mg/g FW/week); over a 7–10 d germination assay this is small in absolute terms
+- Modern papers routinely assert non-penetration — but an assertion in an introduction is not a measurement
+
+**Consequence:** the PEG-vs-mannitol contrast is **one of degree, not kind**. Mannitol uptake is real; PEG uptake is also real, and molecular-weight dependent.
+
+### The osmoticum comparison is unresolved
+
+| Study | Conclusion |
+| --- | --- |
+| *Cucurbita* landraces, *Horticulturae* 2022 | **Mannitol simulated osmotic stress better than PEG** for most attributes and concentrations; PEG better for some biochemical discriminators ✅ |
+| Durum wheat, *J. Bioresource Management* | **PEG superior** to mannitol; mannitol effects **reversible**, consistent with uptake ✅ |
+| Pasture species, *Agronomy Journal* 1973 | PEG **> NaCl > mannitol** in severity at iso-potential; both NaCl and mannitol suspected to enter seeds ✅ |
+
+> **Opposite conclusions. Report as unresolved.**
+
+### Michel & Kaufmann 1973 — actual content (more useful than the usual citation)
+
+- ψs **curvilinearly related to concentration**; **linearly increasing with temperature**
+- Empirical equation valid **only 15–35 °C**
+- **Thermocouple psychrometer readings are MORE NEGATIVE than vapour pressure osmometer readings**; psychrometer judged closer to correct for bulk solutions
+- Effects "related to structural changes in the PEG polymer" — not behaving like salts/sugars ✅
+
+> **So "osmotic potential measured" is not a complete methods statement — the instrument must be named.**
+
+### PEG solutions are non-colligative
+
+- PEG produces **greater osmotic effect than the molecule count predicts**; the discrepancy correlates with polymer mass; attributed to water sequestration ✅
+- Freezing-point osmometry **overestimates** vs vapour pressure osmometry; PEG can inhibit ice crystallisation, distorting freezing-point readings ✅
+- Practical upshot: nominal % → MPa conversion tables carry error of unstated magnitude
+
+### Established artefacts (keep these)
+
+| Artefact | Evidence |
+| --- | --- |
+| **Hypoxia** — high PEG concentrations raise viscosity, limiting O₂ diffusion to roots | ✅ |
+| **Greater tissue damage than equivalent soil drying** — same water-potential decline, but **significantly greater membrane injury**, larger reductions in photosynthesis and stomatal conductance, **slower recovery**; even brief exposure worse than soil drought | 3 woody species ✅ |
+| **Ion accumulation** — PEG 400 associated with increased K⁺, Na⁺, Ca²⁺, Mg²⁺ in pepper root xylem | ⚠️ verify primary source |
+| **Mechanism** — Lawlor proposed **physical blockage of the water-movement pathway**, not chemical toxicity | ✅ |
+
+### The counter-case — MUST be reported
+
+**Agronomy Journal 1973, 5 pasture species:** under non-limiting soil/seed contact and water flow, **the equivalence of osmotic (PEG) and matric potential held for all species**, and PEG "did serve as a convenient and satisfactory media for studying the effect of true drought on seed germination" ✅
+
+> Omitting this would make §2 advocacy rather than review.
+
+### The concrete methodological gap
+
+**Solidified PEG media and raft-and-membrane systems** were developed specifically to prevent PEG uptake while imposing osmotic stress (Cereal Research Communications 2010) ✅. They remain **almost unused in Solanaceae screening**. Specific, cheap, and links §2 to §7's framework.
+
+### The terminology finding
+
+**Kylyshbayeva et al. 2025, *Plants* 14(1):92** — "Polyethylene Glycol (PEG) Application Triggers Plant Dehydration but Does Not Accurately Simulate Drought." States that authors describing PEG application as "drought, dehydration, osmotic, or water stresses" **mislead readers** ✅. Reviews the agar/Petri-dish use for germinated seeds and young seedlings ✅.
+
+> Cite this as the authoritative basis for the "stop calling it drought" recommendation.
