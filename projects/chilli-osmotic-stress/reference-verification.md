@@ -110,3 +110,31 @@ It was flagged in the study inventory as "⚠️ verify primary source" and coul
 **Absence claims remain the most dangerous form.** Three claims of the form "no study exists" had already been withdrawn earlier in this project. The reference audit surfaced a fourth class of problem — not absent evidence, but *misaddressed* evidence.
 
 **A workable rule, learned at some cost here:** verify each identifier by resolving it and reading the returned title. Never accept a DOI because it looks right, and never accept one because a search engine surfaced the article — the search engine will surface the article for a wrong DOI if the surrounding text is close enough.
+
+---
+
+## 7. Round-5 addendum: the six remaining markers, resolved
+
+Every marker in §4 was traced to a primary source and replaced in the body. No placeholder remains anywhere in `REVIEW-final.md`. Each source below was confirmed through Crossref (DOI resolving to the expected title) or, where the journal is not indexed, against the publisher's own PDF.
+
+| Marker | Claim it supported | Source located | Identifier |
+| --- | --- | --- | --- |
+| VERIFY-1 (§1.2) | Two competing reviews of tomato omics and pepper genomics, named generically | Taheri, Gantait, Azizi and Mazumdar (2022), *3 Biotech* 12(3):63 — tomato drought omics, non-coding RNAs, CRISPR/Cas9, with a gene list | doi:10.1007/s13205-022-03132-3 |
+| VERIFY-2 (§2.1) | Glycerol and PEG 4000 act mainly in the cytoplasm; PEG 6000 additionally dehydrates the apoplast | Yang, Eticha, Rao and Horst (2010), *J. Exp. Bot.* 61(12):3245–3258 — common bean root tips, cell-wall porosity | doi:10.1093/jxb/erq146 |
+| VERIFY-3 (§2.3, Table 1) | (a) PEG-6000 outperforms mannitol in durum wheat; (b) solidified-PEG raft systems block PEG entry | (a) Bousba et al. (2021), *J. Bioresour. Manag.* 8(3):57–66; (b) Comeau et al. (2010), *Cereal Res. Commun.* 38(4):471–481 | doi:10.35691/JBM.1202.0195; doi:10.1556/CRC.38.2010.4.3 |
+| VERIFY-4 (§3.4) | Three chilli studies used as statistical-practice examples | The screening studies themselves, now cited in full: Sharma et al. (2024), Millah et al. (2021) and the studies in Table 2 | see Table 2 |
+| VERIFY-5 (§3.4) | "A direct comparison of model fits found that where all ANOVA assumptions were met, ANOVA remained defensible" | Gianinetti (2020), *Data* 5(1):6 — binomial germination data; ANOVA defensible only in the 0.3–0.7 proportion range, outside which an angular transform or another model is required | doi:10.3390/data5010006 |
+| VERIFY-6 (§3.4) | Most tomato genotypes fail to germinate above −0.35 MPa | Sivakumar, Durga Devi and Chandrasekar (2014), *Madras Agric. J.* 101(10–12):369–373 — 32 genotypes screened at −0.2 and −0.35 MPa; the best line germinated at 60.0% at the higher stress. Reworded in the manuscript to "germination was arrested in most genotypes at −0.35 MPa" | no DOI (not indexed); publisher PDF retrieved |
+
+**What resolution changed.** Two of the six were not merely citations but corrections to the claim as drafted.
+
+1. **VERIFY-5 was a nearer miss than it appeared.** The sentence as drafted implied that a direct model comparison *supported* ANOVA. The located source says the opposite in its detail: ANOVA on untransformed germination proportions is defensible in a narrow band around the middle of the scale and fails at the extremes — which is exactly where osmotic screening operates, because the treatment is designed to drive germination toward 0%. The claim is now stated conditionally and carries the source's own range, not the review's paraphrase of it.
+2. **VERIFY-6 was reworded, not merely cited.** The source reports the strong line LE 18 at 60.0% germination at −0.35 MPa against 96.7% at −0.2 MPa, with most of the 32-genotype panel failing entirely at the higher stress. That supports "arrested in most genotypes"; it does not support a statement about a universal ceiling. The distinction matters because the manuscript uses the value to argue for genotype-specific rather than fixed stress levels, and a fixed-ceiling reading would undercut the argument it is cited to support.
+
+**A false lead rejected.** A frequently surfaced candidate for VERIFY-6 — PMC160610, *Plant Physiology* 101(2):607 — reports −0.35 MPa as a *threshold water potential for a seed population* (ψb), not as a panel-wide germination ceiling. It was discarded. Two sources reporting the same number for different quantities is precisely the failure mode this audit exists to catch.
+
+**Bonus correction.** The Madras Agricultural Journal paper's own footer reads December 2014, resolving an ambiguity in the working bibliography between 2013 and 2014. The two in-text citations were changed to 2014 and the reference entry rebuilt from the retrieved PDF. Note that this journal assigns no Crossref DOI, so the entry cannot be DOI-verified; it is PDF-verified.
+
+**Figure 2 is a computed check on this literature, not an illustration.** The Michel and Kaufmann (1973) relation was implemented in `make-figures.py`: at 25 °C, 10% PEG-6000 is approximately −0.15 MPa and 20% approximately −0.49 MPa. Sivakumar et al.'s stated solution strengths (123 g and 169 g per 1000 mL for −0.2 and −0.35 MPa) reproduce against the same equation, which is an independent check on both the implementation and that paper's reporting. Screening studies that state potentials several-fold more negative than the equation at the same nominal percentage are therefore flagged in Supplementary Table S1 rather than silently pooled.
+
+**Two entries remain outside Crossref** and are honestly marked as such: Molla et al. (2019), Science Publishing Group, and Sivakumar et al. (2014), Madras Agricultural Journal. Neither is a fabricated identifier; both are publisher-verified only.

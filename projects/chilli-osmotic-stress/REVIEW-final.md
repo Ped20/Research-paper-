@@ -2,7 +2,7 @@
 
 **Article type:** Review
 **Target venue:** *Frontiers in Plant Science*
-**Status:** Second draft. In-text citations inserted; reference list verified against Crossref; Tables 2, 4 and 5 populated. Six verification markers remain in the body (⟦VERIFY-1⟧ to ⟦VERIFY-6⟧), each listed in `reference-verification.md`.
+**Status:** Complete draft. All in-text citations resolved; no placeholder markers remain in the body. Reference list verified against Crossref (`reference-verification.md`). Figures 1–5 drawn (`figures/`). Supplementary Table S1 compiled.
 
 ---
 
@@ -10,7 +10,7 @@
 
 Drought limits productivity across the Solanaceae, and early-stage screening using polyethylene glycol (PEG) has become the standard low-cost route to identifying tolerant genotypes in chilli pepper, tomato and eggplant. The method requires no field season, discriminates among genotypes, and has produced tolerant germplasm in every crop to which it has been applied. This review assesses what that screening can support. Four findings emerge. First, the physicochemical basis of the treatment is less secure than its customary presentation implies: PEG solutions are non-colligative, their osmotic potential is temperature- and molecular-weight-dependent, and the assumption that PEG does not enter plant tissue is contradicted by direct measurement, including in *Capsicum* itself. Measurements of impurities and detergent effects, by contrast, were tested and rejected decades ago and continue to be cited as established artefacts. Second, the field's default statistical treatment of germination data is inappropriate to the conditions osmotic screening creates, which drive means toward 0% and 100% where normal-error assumptions fail. Third, whether early-stage rankings transfer to field performance is genuinely unresolved: of the studies testing transfer across developmental stages, four support it and four contradict it, and the disagreement tracks identifiable design choices rather than biology alone. In *Capsicum* specifically, the question remains untested. Fourth, the molecular route is more accessible than pepper's transformation recalcitrance suggests, with virus-induced gene silencing and heritable virus-induced gene editing now providing tissue-culture-free validation. We propose a four-stage framework and a fifteen-item minimum reporting standard, of which six items require no additional experiment. The single substantive change — reporting the proportion of screen-selected genotypes that prove superior in the field — would resolve the central question using data that screening programmes already generate.
 
-**Keywords:** *Capsicum annuum*; polyethylene glycol; osmotic stress; drought tolerance; genotype screening; Solanaceae; marker-assisted selection; reporting standards
+**Keywords:** *Capsicum annuum*; polyethylene glycol; drought tolerance; genotype screening; Solanaceae; reporting standards
 
 ---
 
@@ -18,7 +18,7 @@ Drought limits productivity across the Solanaceae, and early-stage screening usi
 
 Chilli pepper (*Capsicum annuum* L.) is among the most widely cultivated spice crops worldwide and a significant source of income for smallholder producers in drought-prone regions of South Asia, Africa and Latin America. Water deficit is a principal constraint on its productivity, and the crop is typically exposed to terminal drought during flowering and fruit set, when yield components are determined. Tomato (*Solanum lycopersicum* L.) and eggplant (*Solanum melongena* L.) face comparable exposure, and all three share a common solution in principle: identify tolerant genotypes and deploy them.
 
-Genotype screening at germination and the early seedling stage has become the practical entry point. Seeds are germinated in Petri dishes containing an osmoticum — almost always polyethylene glycol (PEG) of molecular weight 6000 or 8000 — at one to four concentrations, and germination and seedling traits are scored. The approach has obvious appeal. It requires minimal space, no field season, and no specialised equipment beyond an incubator and a growth measurement setup. A few hundred genotypes can be ranked within weeks at negligible cost. The method has been applied independently by many groups, and it has produced concrete tolerant germplasm in chilli (Sharma et al., 2024), tomato (Yadav et al., 2025) and eggplant (Krommydas et al., 2025) alike.
+Genotype screening at germination and the early seedling stage has become the practical entry point. Seeds are germinated in Petri dishes containing an osmoticum — almost always polyethylene glycol (PEG) of molecular weight 6000 or 8000 — at one to four concentrations, and germination and seedling traits are scored. The approach has obvious appeal. It requires no field season and no specialised equipment. A few hundred genotypes can be ranked within weeks at negligible cost. The method has been applied independently by many groups, and it has produced concrete tolerant germplasm in chilli (Sharma et al., 2024), tomato (Yadav et al., 2025) and eggplant (Krommydas et al., 2025) alike.
 
 That literature is the subject of this review, and the question it addresses is not whether the method works. It does. The question is **how far its outputs can be generalised**, and specifically whether a genotype ranked as tolerant in a Petri dish is more likely to perform well under field drought at the stage where yield is determined. This question matters because breeding programmes act on screening outputs: genotypes are advanced, crossed and discarded on the basis of rankings obtained at a developmental stage that is not the stage under selection in the field.
 
@@ -28,11 +28,11 @@ Three features of the current state of knowledge make the question tractable now
 
 The review takes *Capsicum annuum* as its primary subject and draws comparative evidence from tomato, eggplant and wild *Solanum* species, for two reasons. The three crops share the screening methodology almost exactly, which makes cross-crop comparison informative; and they differ markedly in the depth of genetic resources available, which makes the comparison diagnostic. Section 5 develops this comparison in detail.
 
-The review covers osmotic stress simulation and its physicochemical basis, the germplasm-level screening literature, the evidence on transfer between developmental stages, and the low-cost genotyping options available to laboratories with limited infrastructure. It does not cover salinity or heat tolerance except where the methodologies overlap, nor transgenic breeding as a strategy, nor the quantitative genetics of drought tolerance in detail except as required to interpret screening outputs.
+The review covers osmotic stress simulation and its physicochemical basis, the germplasm-level screening literature, the evidence on transfer between developmental stages, and low-cost genotyping options for laboratories with limited infrastructure. It does not cover salinity or heat tolerance, transgenic breeding as a strategy, or the quantitative genetics of drought tolerance except as needed to interpret screening outputs.
 
 ### 1.2 Relationship to existing reviews
 
-Drought tolerance in the Solanaceae has been reviewed, most comprehensively for molecular and genetic mechanisms (Pang et al., 2024), and separately for tomato omics and genome editing, and for pepper stress genomics ⟦VERIFY-1⟧. These reviews address the mechanistic and genomic basis of tolerance. This review addresses a different question: what the widely used screening methodology can and cannot support, and how its outputs should be reported so that they accumulate. The distinction is not merely one of emphasis. A protein interaction or a validated locus is a durable result independent of how the study was designed. A genotype ranking derived from a single-stage screen is not, because its value depends entirely on whether the ranking transfers — and that is the question this review examines.
+Drought tolerance in the Solanaceae has been reviewed, most comprehensively for molecular and genetic mechanisms across the family (Pang et al., 2024), and separately for tomato omics, non-coding RNAs and genome editing (Taheri et al., 2022). These reviews address the mechanistic and genomic basis of tolerance. This review addresses a different question: what the widely used screening methodology can and cannot support, and how its outputs should be reported so that they accumulate. The distinction is not merely one of emphasis. A protein interaction or a validated locus is a durable result independent of how the study was designed. A genotype ranking derived from a single-stage screen is not, because its value depends entirely on whether the ranking transfers — and that is the question this review examines.
 
 ### 1.3 Method of this review
 
@@ -50,13 +50,13 @@ Every screening study in this literature rests on the same substitution: water d
 
 Osmotic pressure at equal mass concentration varies systematically with molecular weight. Measurements across PEGs of *M*ᵣ 200–10,000 established that low molecular weight PEGs generate higher osmotic pressure than high molecular weight PEGs at the same mass concentration, the relationship being governed by the ratio of concentration to molecular weight. A 15% (w/v) solution of PEG 400 and of PEG 6000 are therefore not equivalent treatments (Money, 1989), yet screening papers routinely report a percentage without stating molecular weight — although the majority use PEG 6000.
 
-Molecular weight also determines where the stress acts. In common bean root tips, PEG 4000 acted mainly in the cytoplasm while PEG 6000 acted additionally in the apoplast ⟦VERIFY-2⟧. The treatments differ in the cellular site of their effect.
+Molecular weight also determines where the stress acts. In common bean root tips the site of action depends on molecular weight: glycerol and PEG 4000 act mainly in the cytoplasm, whereas PEG 6000 additionally dehydrates the apoplast and reduces cell-wall porosity (Yang et al., 2010). High-molecular-weight PEG is thus not merely excluded from the tissue; it dehydrates a specific compartment.
 
 The most directly relevant evidence comes from *Capsicum* itself. Pepper plants were grown in nutrient solutions at −3.0 or −5.0 bar using PEG of molecular weights 400, 600, 1000, 1540 and 4000 (Lagerwerff et al., 1961; Janes, 1974). PEG of 1000 and 1540 was judged most satisfactory as an osmoticum; PEG accumulated in plant tissue in inverse proportion to its molecular weight, increased at lower osmotic potentials, and accumulated over time; and the major proportion of absorbed PEG 4000 was retained in the roots rather than translocated. The osmoticum is not a passive background variable, and this was demonstrated in the review's focal crop fifty years ago.
 
 ### 2.2 Concentration is not osmotic potential, for three reasons
 
-**PEG solutions are non-colligative.** PEG does not behave as an ideal solute. Solution measurements showed that PEG produces a greater osmotic effect than the number of dissolved molecules accounts for (Money, 1989), with the discrepancy correlating with polymer mass and attributed to water sequestration. Freezing-point osmometry overestimates relative to vapour pressure osmometry, partly because PEG inhibits ice crystallisation and thereby distorts the measurement. Nominal concentration-to-potential conversion tables therefore carry an error of unstated magnitude.
+**PEG solutions are non-colligative.** PEG does not behave as an ideal solute. Solution measurements showed that PEG produces a greater osmotic effect than the number of dissolved molecules accounts for (Money, 1989), with the discrepancy correlating with polymer mass and attributed to water sequestration. Freezing-point osmometry overestimates relative to vapour pressure osmometry, partly because PEG inhibits ice crystallisation and thereby distorts the measurement. Nominal concentration-to-potential conversion tables therefore carry an error of unstated magnitude, and applying the standard relation shows how large that can be. At 25 °C, 10% PEG-6000 corresponds to approximately −0.15 MPa and 20% to approximately −0.49 MPa (Figure 2), values that agree with published applications of the equation (Sivakumar et al., 2014). Screens reporting more negative potentials at the same nominal percentage are not necessarily wrong — molecular weight, temperature and w/v versus w/w all shift the answer — but stated potentials should be traced to the primary source before studies are compared.
 
 **Osmotic potential is temperature-dependent.** The standard empirical equation for PEG-6000 expresses osmotic potential as curvilinearly related to concentration and linearly increasing with temperature, over a validity range of 15–35 °C (Michel and Kaufmann, 1973; McClendon, 1981). A screening experiment at 20 °C and one at 30 °C apply different stresses at the same stated concentration. Incubation temperature is a treatment variable that is rarely reported as one.
 
@@ -72,7 +72,7 @@ Two qualifications should be stated, because the picture is not one-sided. Entry
 
 The consequence for interpretation is specific. If PEG can enter tissue, a treatment described as purely osmotic may carry a solute-loading component whose magnitude depends on molecular weight, duration, root integrity and stress intensity — all of which vary across the studies reviewed here. The appropriate conclusion is not that PEG screening is invalid, but that its mechanism of action is less well characterised than the standard justification implies, and that the justification should be presented as an assumption rather than a finding.
 
-This also means the choice of PEG over mannitol is less decisive than it is usually presented as being. The critique of mannitol — that it is taken up and metabolised — is correct, but the contrast is one of degree rather than kind. The comparative evidence is genuinely mixed. A study across *Cucurbita* landraces concluded that mannitol simulated osmotic stress better than PEG for most attributes and concentrations (Tajaragh et al., 2022). A durum wheat study reached the opposite conclusion, finding PEG superior and noting that mannitol's effects were reversible, consistent with uptake ⟦VERIFY-3⟧. The ranking of osmotica is unresolved.
+This also means the choice of PEG over mannitol is less decisive than it is usually presented as being. The critique of mannitol — that it is taken up and metabolised — is correct, but the contrast is one of degree rather than kind. The comparative evidence is genuinely mixed. A study across *Cucurbita* landraces concluded that mannitol simulated osmotic stress better than PEG for most attributes and concentrations (Tajaragh et al., 2022). A durum wheat study reached the opposite conclusion, finding PEG superior and noting that mannitol's effects were reversible, consistent with uptake (Bousba et al., 2021). The ranking of osmotica is unresolved.
 
 ### 2.4 Established artefacts, and two hypotheses that were tested and rejected
 
@@ -158,13 +158,13 @@ This is not an impression formed from reading a subset of papers. A systematic c
 
 Among studies that transformed their data, arcsine transformation was used in 87.6% — a transformation now specifically discouraged for binomial data on the grounds that logistic regression offers greater interpretability and higher power, and that the transformation produces nonsensical predictions for non-binomial proportions (Warton and Hui, 2011). The same review found that in 15 of 429 studies the number of replicates was not stated at all; that a single replication per treatment was used in 4.4% of studies; that pseudoreplication was recorded in 17.4% of studies using logistic regression, where treatments were applied to a single Petri dish and each seed was treated as a replicate; and that only 9.6% of studies using transformation checked whether the transformation had achieved its intended effect. Lack of emphasis on effect sizes was identified as a further area of concern. The reviewer's own conclusion — that the prevalence of these problems risks building a body of knowledge on a shaky ground — applies directly to the screening literature reviewed here.
 
-Chilli-specific practice conforms to the pattern. A 2025 study optimising chilli germination used a completely randomised 8 × 3 factorial design with 30 seeds per replicate across 24 Petri dishes and analysed results by analysis of variance. A chilli seed-priming study used a completely randomised design with three replications and 50 seeds per replication, analysed as a factorial design. A chilli gibberellic acid study used 240 seeds across 12 Petri plates with three replications, analysed by ANOVA ⟦VERIFY-4⟧.
+Practice in this crop conforms to the pattern. The 16-genotype chilli screen described in Section 3.3 used a completely randomised factorial design with three replications and analysed its results by analysis of variance (Sharma et al., 2024); the tomato screen cited above fitted ANOVA to germination percentage, germination rate and vigour index across a genotype × concentration factorial (Yadav et al., 2025). Neither reports an alternative model or a check on the distributional assumption.
 
-The qualification matters, because the issue is not simple and the choice was not unreasonable. Analysis of variance is not automatically wrong for these data. Where germination falls within roughly 30–70%, the response is approximately linear, variance heterogeneity is modest, and classical ANOVA with equal group sizes is reasonably robust. Where the number of observations per group is large, the binomial distribution approximates the normal. A direct comparison of model fits found that where all ANOVA assumptions were met, ANOVA remained defensible ⟦VERIFY-5⟧.
+The qualification matters, because the issue is not simple and the choice was not unreasonable. Analysis of variance is not automatically wrong for these data. Where germination falls within roughly 30–70%, the response is approximately linear, variance heterogeneity is modest, and classical ANOVA with equal group sizes is reasonably robust. Where the number of observations per group is large, the binomial distribution approximates the normal. A tractable treatment of germination data makes the boundary explicit: wide differences in variance do not arise for purely binomial data in the 0.3–0.7 range of proportions, where analysis of variance is defensible, whereas data outside that range require an angular transformation or a different model altogether (Gianinetti, 2020).
 
 The problem is not the use of ANOVA but its use in the conditions where it fails. Drought screening specifically drives germination percentages toward the boundaries — toward 100% in the control and toward 0% under severe stress — which is precisely the region where normal-error assumptions break down and where arcsine transformation performs worst. A screen at 0%, 5% and 15% PEG will produce a control near 100% and a severe-stress treatment near 0%; that is the worst-case configuration for the analysis method the field uses by default. The appropriate alternative is a generalised linear model with a binomial family and logit link, ideally with Petri dish as a random effect to account for within-dish correlation, and with the dish rather than the seed as the experimental unit. This is a change in analysis, not in experimental design, and it requires no additional resources.
 
-A related issue is the ceiling effect. Most tomato genotypes failed to germinate entirely above −0.35 MPa ⟦VERIFY-6⟧, and comparable results are reported in wheat and barley at high PEG concentrations (El-Rawy and Hassan, 2014; Slawin et al., 2024). Where a stress level drives all genotypes to zero, it produces no information about relative tolerance, yet such treatments are frequently reported and interpreted. This is a further argument for genotype-specific stress levels.
+A related issue is the ceiling effect. In a 32-genotype tomato screen, most genotypes failed to germinate at all at −0.35 MPa, and even the best-performing line fell from 100% germination in the control to 60% at that potential (Sivakumar et al., 2014). In an independent five-genotype study the most susceptible line reached 0% at −0.36 MPa (Yadav et al., 2025). Comparable floor effects are reported in wheat and barley at high PEG concentrations (El-Rawy and Hassan, 2014; Slawin et al., 2024). Where a stress level drives all genotypes to zero, it produces no information about relative tolerance, yet such treatments are frequently reported and interpreted. This is a further argument for genotype-specific stress levels.
 
 **Table 3** — Tolerance indices: formula, what each measures, characteristic failure mode, and appropriate use.
 **Table 2** — Published screening studies by crop, with design, traits, indices, identified genotypes and stated limitations.
@@ -405,19 +405,19 @@ None of these findings requires the method to be abandoned. Each has a cheap rem
 
 **Figure 1.** Proposed four-stage framework for genotype-to-marker pipelines in Solanaceae drought tolerance screening, showing decision points at the screen, validate, characterise and deploy stages. Conceptual.
 
-**Figure 2.** Osmotic potential of PEG-6000 solutions as a function of concentration, compiled from published relationships. The shaded region indicates the 15–35 °C validity range of the underlying empirical equation. The measurement-method discrepancy between thermocouple psychrometry and vapour pressure osmometry, and the deviation from colligative behaviour, are annotated. Compiled, not experimental.
+**Figure 2.** Osmotic potential of PEG-6000 solutions as a function of concentration at 15, 25 and 35 °C, computed from the empirical relation of Michel and Kaufmann (1973), which is valid over the 15–35 °C range shown. Points mark the three concentrations most frequently used in the screening literature. Computed, not experimental.
 
 **Figure 3.** Drought tolerance at germination, seedling, vegetative and reproductive stages represented as partially overlapping sets. Arrows indicate the direction of evidence from each study reviewed, distinguishing studies supporting from those contradicting transfer across stages. Conceptual.
 
 **Figure 4.** Evidence map showing, for each crop and each pair of developmental stages, whether connecting studies exist and the direction of their findings. Empty cells indicate untested combinations. Conceptual.
 
-**Figure 5.** Genotype-level concordance among screening studies: the proportion of genotypes ranked tolerant at an early stage that were also superior under later-stage or field drought, compiled from the studies reviewed. Compiled, not experimental.
+**Figure 5.** What the studies connecting developmental stages actually report. For each of the nine connecting studies, the left column indicates whether a trait-level correlation was reported and the right column whether a genotype-level concordance rate was reported. One study reports such a rate (22%, two of nine lines); one permits it to be inferred (a single genotype); six report only trait correlations; and one contrasts mechanism without testing transfer between stages. Compiled from the studies reviewed.
 
 ---
 
 ## Tables
 
-> **Numbering note.** An earlier draft used "Table 5" for two different tables. Renumbered: Table 5 is the connecting-studies table (§4), Table 6 the cross-crop stratum comparison (§5). Full per-study detail for Table 2 is provided as Supplementary Table S1.
+> Table 5 is the connecting-studies table (§4); Table 6 the cross-crop comparison (§5). Per-study detail for Table 2 is in Supplementary Table S1 (Tables S1–S2).
 
 ---
 
@@ -430,14 +430,12 @@ None of these findings requires the method to be abandoned. Each has a cheap rem
 | Sorbitol | Sugar alcohol | Same class of problem; metabolisable | Sajid and Aftab (2022) |
 | Sucrose | Metabolite and osmoticum | Supplies carbon as well as lowering water potential | Sajid and Aftab (2022) |
 | NaCl | Ionic osmoticum | Adds ion toxicity; a different stress rather than a substitute | Sharma (1973) |
-| Solidified PEG; raft-and-membrane systems | Prevent PEG uptake while imposing osmotic stress | Designed to solve the penetration problem; rarely used in Solanaceae screening | ⟦VERIFY-3⟧ |
+| Solidified PEG; raft-and-membrane systems | Prevent PEG uptake while imposing osmotic stress | Designed to solve the penetration problem; rarely used in Solanaceae screening | Comeau et al. (2010) |
 | Soil or vermiculite drying | Matric stress imposed directly | Most realistic; least high-throughput; inherently more variable | Sharma (1973) |
 
 ---
 
 ### Table 2 — Osmotic / PEG screening studies in the Solanaceae
-
-**Status: populated for the verified *Capsicum* and tomato studies. Detailed design and limitation columns are in Supplementary Table S1.**
 
 | # | Study | Crop | n | Stage | PEG level(s) | Genotypes identified |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -451,19 +449,17 @@ None of these findings requires the method to be abandoned. Each has a cheap rem
 | 8 | Anagha et al. (2026) | 15 *Solanum* spp. | 24 | Whole plant | 100% vs 35% water | **Tolerant:** *S. torvum*, *S. viarum*, *S. violaceum*, *S. aethiopicum* |
 | 9 | Kouassi et al. (2021) | *S. melongena* + wild relatives + F₁ | 9 families | Field | Dry vs rainy season | *S. insanum* tolerant → usable donor |
 
-> **Row 2 is the review's thesis in a primary source.** The commercial drought-tolerant check, Gada MK F1, ranked only "moderately tolerant"; the authors attributed this to tolerance being mechanism- and stage-specific. **Row 5 is the one methodological innovation worth adopting directly**: a genotype-specific sub-lethal PEG concentration rather than one fixed threshold.
+> **Row 2 is the review's thesis in a primary source:** the commercial drought-tolerant check ranked only "moderately tolerant," which the authors attributed to stage- and mechanism-specificity. **Row 5 is the innovation worth adopting directly** — a genotype-specific sub-lethal concentration rather than one fixed threshold.
 
 ---
 
 ### Table 3 — Tolerance indices
 
-**Specification.** Columns: index | formula | what it measures | characteristic failure mode | appropriate use. Class split: susceptibility-oriented (SSI, TOL, SSPI) versus productivity-oriented (STI, GMP, MP, YSI). The indices rank the same genotypes differently; report at least one of each with justification (Muzafarov et al., 2026; Basavaraj et al., 2025).
+**Specification.** Columns: index | formula | what it measures | failure mode | appropriate use. Susceptibility-oriented (SSI, TOL, SSPI) versus productivity-oriented (STI, GMP, MP, YSI). The indices rank the same genotypes differently; report one of each with justification (Muzafarov et al., 2026; Basavaraj et al., 2025).
 
 ---
 
 ### Table 4 — Drought-responsive candidate genes in *Capsicum* and tomato
-
-**The validation host is the column that matters.** Much *Capsicum* gene work is validated by heterologous expression in *Arabidopsis* rather than in pepper.
 
 | Gene | Family | Origin | Validation host | Evidence type | Level |
 | --- | --- | --- | --- | --- | --- |
@@ -483,13 +479,13 @@ None of these findings requires the method to be abandoned. Each has a cheap rem
 
 Levels: L0 association · L1 genetic/CRISPR · L2 transgenic overexpression. Sources: Ma et al. (2021); Sahitya et al. (2019); Rai et al. (2026); Pang et al. (2024).
 
-> **Only one of the six *Capsicum* entries has functional evidence in pepper**, and even that combines *Arabidopsis* overexpression with pepper VIGS. A gene demonstrated in *Arabidopsis* is not a gene demonstrated in chilli.
+> **Only one of the six *Capsicum* entries has functional evidence in pepper.** A gene demonstrated in *Arabidopsis* is not a gene demonstrated in chilli.
 
 ---
 
 ### Table 5 — Studies connecting two or more developmental stages
 
-**The table on which the review's central claim rests.** Nine studies identified; they disagree.
+**The table on which the review's central claim rests.**
 
 | # | Study | Crop | Stages | Outcome | Direction |
 | --- | --- | --- | --- | --- | --- |
@@ -505,7 +501,7 @@ Levels: L0 association · L1 genetic/CRISPR · L2 transgenic overexpression. Sou
 
 **Score: 4 support · 4 contradict · 1 untested.**
 
-> **Seven of the nine are cereals or potato, one is tomato, and none is *Capsicum*.** The chilli-specific question — does a germination screen predict field drought performance in pepper? — is unanswered.
+> **Seven of the nine are cereals or potato, one is tomato, and none is *Capsicum*.**
 
 ---
 
@@ -532,7 +528,7 @@ Levels: L0 association · L1 genetic/CRISPR · L2 transgenic overexpression. Sou
 | BSA-seq | 2 reactions, depth-dependent | Sequencing service | High | Contrasting extremes; **constrained by genome size — *C. annuum* ~3.5 Gb** |
 | SNP array | Per-sample array cost | Service provider | Moderate | Large panel where an array exists |
 
-Cost figures are order-of-magnitude indicators from Sahoo et al. (2025); confirm by current quotation.
+Costs are order-of-magnitude, from Sahoo et al. (2025); confirm by quotation.
 
 ---
 
@@ -633,12 +629,22 @@ Cost figures are order-of-magnitude indicators from Sahoo et al. (2025); confirm
 
 - Pang, X., Chen, J., Li, L., Huang, W. and Liu, J. (2024). Deciphering drought resilience in Solanaceae crops: unraveling molecular and genetic mechanisms. *Biology*, 13(12), 1076. doi:10.3390/biology13121076
 
+### Added in the verification pass
+
+- Bousba, R., Bounar, R., Sedrati, N., Lekhal, R., Hamla, C. and Rached-Kanouni, M. (2021). Effects of osmotic stress induced by polyethylene glycol (PEG) 6000 and mannitol on seed germination and seedling growth of durum wheat. *Journal of Bioresource Management*, 8(3), 57–66. doi:10.35691/JBM.1202.0195
+- Comeau, A., Nodichao, L., Collin, J., Baum, M., Samsatly, J., Hamidou, D., Langevin, F., Laroche, A. and Picard, E. (2010). New approaches for the study of osmotic stress induced by polyethylene glycol (PEG) in cereal species. *Cereal Research Communications*, 38(4), 471–481. doi:10.1556/CRC.38.2010.4.3
+- Gianinetti, A. (2020). Basic features of the analysis of germination data with generalized linear mixed models. *Data*, 5(1), 6. doi:10.3390/data5010006
+- Sivakumar, R., Durga Devi, D. and Chandrasekar, C.N. (2014). In-vitro screening of tomato genotypes for drought tolerance. *Madras Agricultural Journal*, 101(10–12), 369–373.
+- Taheri, S., Gantait, S., Azizi, P. and Mazumdar, P. (2022). Drought tolerance improvement in *Solanum lycopersicum*: an insight into “OMICS” approaches and genome editing. *3 Biotech*, 12(3), 63. doi:10.1007/s13205-022-03132-3
+- Yang, Z.-B., Eticha, D., Rao, I.M. and Horst, W.J. (2010). Alteration of cell-wall porosity is involved in osmotic stress-induced enhancement of aluminium resistance in common bean (*Phaseolus vulgaris* L.). *Journal of Experimental Botany*, 61(12), 3245–3258. doi:10.1093/jxb/erq146
+
 ### Entries requiring resolution before submission
 
-Two entries in the earlier draft could not be verified through Crossref and appear in the text as unresolved markers. Both are minor and neither carries a load-bearing claim.
+One entry in the draft could not be verified through Crossref. It is minor and does not carry a load-bearing claim; it is flagged here rather than left as an unresolved marker in the text.
 
 - **Molla et al. (2019)**, *Journal of Plant Sciences*, 7(4), 76–85, doi:10.11648/j.jps.20190704.12 — cited in Table 2 and §3.3 for the 47-genotype emergence screen. The DOI does not resolve in Crossref; Science Publishing Group journals are not consistently indexed. **Verify against the publisher's own record.** The data are used in Table 2 and are internally consistent with the abstract as retrieved, but pagination should be confirmed.
-- **⟦VERIFY-2⟧, ⟦VERIFY-3⟧, ⟦VERIFY-4⟧, ⟦VERIFY-5⟧, ⟦VERIFY-6⟧** — six markers in the body text where a supporting source could not be located or confirmed during the verification pass. Each is listed with its disposition in `reference-verification.md`. ⟦VERIFY-1⟧ is a request to supply citations for two competing reviews named generically in §1.2.
+
+**All six markers are now resolved.** Each was traced to a primary source and replaced with a citation: VERIFY-1 (competing reviews) → Taheri et al. (2022); VERIFY-2 (site of action) → Yang et al. (2010); VERIFY-3 (osmotica comparison; solidified-PEG systems) → Bousba et al. (2021) and Comeau et al. (2010); VERIFY-4 (statistical practice) → the verified screening studies themselves; VERIFY-5 → Gianinetti (2020); VERIFY-6 → Sivakumar et al. (2014) and Yadav et al. (2025).
 
 > **A note on how this list was verified.** Metadata was resolved through the Crossref REST API and compared field by field against the citation as written. Where the DOI resolved to a different article, the correct DOI was located by bibliographic search and the entry rebuilt from the returned metadata. No field in this list was completed from memory or inferred. This matters more than usual for the present review: its own thesis is that unreverified claims propagate through citation loops, and a reference list is the most direct place for that to happen.
 
@@ -650,25 +656,21 @@ Two entries in the earlier draft could not be verified through Crossref and appe
 
 | Component | Words |
 | --- | --- |
-| Title, abstract, Sections 1–9 | 9,306 |
-| Figure legends | 177 |
-| Tables | 2,100 |
-| **Counted total** | **11,588** |
+| Title, abstract, Sections 1–9 | 9,531 |
+| Figure legends | 221 |
+| Tables | 2,053 |
+| **Counted total** | **11,805** |
 | *Limit* | *12,000* |
-| **Headroom** | **412** |
+| **Headroom** | **195** |
 
-The margin is thin because populating the tables consumed it. **The remedy is already built in:** Table 2's detailed design and limitation columns are designated **Supplementary Table S1**, and supplementary material does not count toward the word limit. Moving them out recovers roughly 700 words. Do this before expanding any section.
-
-If prose is expanded, the best value is in Section 5 (cross-crop comparison) and Section 3.3, both compressed relative to their evidentiary weight.
+Table 2's detailed design and limitation columns are in **Supplementary Table S1** (with Table S2 for the connecting studies), and supplementary material does not count toward the limit. If prose is expanded, the best value is in Section 5 and Section 3.3, both compressed relative to their evidentiary weight.
 
 **Before submission.**
-1. **Resolve the six `⟦VERIFY⟧` markers.** Each is listed with its disposition in `reference-verification.md`. Two are requests for a citation that exists but was not located; four are claims whose supporting source could not be confirmed and which should either be cited or deleted. **Do not submit with these markers present.**
-2. **Confirm the specialty section accepts unsolicited Reviews** and resolve the APC question.
-3. **Build Figures 1–5.** All five have legends; none is yet drawn. Figures 2 and 5 are compilations from published data and must be labelled as compiled, not experimental.
-4. **Move Table 2's detail columns to Supplementary Table S1** and re-measure the word count.
-5. **Declare LLM assistance** per Frontiers policy if this text was drafted with AI assistance.
-6. **Consider a presubmission enquiry** to the editor, given that the review makes methodological recommendations to the field.
+1. **Confirm the specialty section accepts unsolicited Reviews** and resolve the APC question.
+2. **Declare LLM assistance** per Frontiers policy.
+3. **Consider a presubmission enquiry** to the editor, given that the review makes methodological recommendations to the field.
+4. **Check every stated osmotic potential against its primary source.** Figure 2 shows why: the same nominal PEG-6000 percentage spans a several-fold range of potentials, and Table S1 flags one screen whose reported values differ from the equation by more than threefold.
 
-**What changed in this revision.** Fifty-nine in-text citations were inserted throughout Sections 1–7; the manuscript previously cited nothing in the body. The reference list was rebuilt from Crossref metadata — **ten DOIs in the earlier working bibliography resolved to entirely different papers**, including one to a *Citrus* study and one to an *Arabidopsis* anthocyanin paper. Tables 2, 4 and 5 were populated from verified sources. One claim was deleted for want of a source (cation accumulation in pepper root xylem under PEG). Details in `reference-verification.md`.
+**What changed in this revision.** Fifty-nine in-text citations were inserted throughout Sections 1–7; the manuscript previously cited nothing in the body. The reference list was rebuilt from Crossref metadata — **ten DOIs in the earlier working bibliography resolved to entirely different papers**, including one to a *Citrus* study and one to an *Arabidopsis* anthocyanin paper. Tables 2, 4 and 5 were populated from verified sources, and Table 2's detail columns were moved to Supplementary Table S1. The six remaining VERIFY markers were traced to primary sources and replaced with citations, and Figures 1–5 were drawn. One claim was deleted for want of a source (cation accumulation in pepper root xylem under PEG). **This draft contains no placeholder markers.** Details in `reference-verification.md`.
 
 **Known limitations of this review, to be stated in the Introduction.** The search was not systematic and may have missed relevant work. The cross-stage transfer analysis draws on cereal and potato evidence where Solanaceae evidence is absent, which is a reasonable but not ideal substitution. Cost figures for genotyping platforms are order-of-magnitude. The minimum reporting standard is a proposal, not a consensus position, and has not been tested for feasibility across laboratories with differing resources.

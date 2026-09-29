@@ -31,8 +31,12 @@ A complete critical review, built by applying the blueprint: **screening for dro
 
 | File | What it is |
 | --- | --- |
-| **`REVIEW-final.md`** | **The assembled paper** — title, abstract, nine sections, 59 in-text citations, five figure legends, eight tables (three populated from primary sources), verified reference list, author notes |
-| **`reference-verification.md`** | **The audit log.** Every reference checked against Crossref; the ten DOIs that resolved to different papers; the six unresolved items and their disposition |
+| **`REVIEW-final.md`** | **The assembled paper** — title, abstract, nine sections, 59 in-text citations, five figure legends, eight tables populated from primary sources, verified reference list, author notes. **No placeholder markers.** |
+| **`figures/`** | **Figures 1–5, drawn at 300 dpi.** Framework; PEG concentration→osmotic potential computed from Michel and Kaufmann (1973); developmental strata; evidence map; concordance reporting |
+| **`supplementary-table-S1.md`** | Supplementary Tables S1–S2 — per-study design and limitation detail, which keeps the main text inside the word limit |
+| **`reference-verification.md`** | **The audit log.** Every reference checked against Crossref; the ten DOIs that resolved to different papers; the six markers and their resolution; the two entries that are publisher-verified only |
+| `make-figures.py` | Re-runnable: draws all five figures and prints the PEG conversion table on every run |
+| `resolve-markers.py`, `final-pass.py` | The two one-shot marker-resolution passes, kept as an audit record; both refuse to write unless every anchor matches |
 | `study-inventory.md` | The backbone: 14 screening studies tabulated, candidate genes with validation hosts, connecting studies, corrections log |
 | `preflight-and-plan.md` | The gate result and reverse-engineered research plan |
 | `review-outline.md` | Pre-draft outline, Frontiers format constraints, section plan |
@@ -54,6 +58,8 @@ Applying the blueprint to a real topic caused **seven planned claims to be withd
 | PEG detergent effects cause toxicity | Tested and rejected in 1970 |
 | PEG does not enter plant tissue | Contradicted by direct measurement in pepper itself |
 | "Drought" is an appropriate label | Correct, but had to become a finding rather than an assumption |
+| Most tomato genotypes fail above −0.35 MPa | True of that panel — and now cited; but it is a panel result, not a universal ceiling |
+| A model comparison supports ANOVA on germination data | The source supports it only in a 0.3–0.7 proportion band — not where osmotic screening operates |
 
 Not random failures — a pattern. **Conventional wisdom in this field is repeated more than it is checked.** Some of it was tested decades ago and "rejected" results never entered the citation loop. That is a citation problem, not a competence problem, which is both more accurate and more publishable.
 
@@ -61,11 +67,11 @@ The final review is correspondingly **constructive rather than contrarian**: eve
 
 ### Key numbers
 
-- **11,588 words counted** against the Frontiers 12,000 limit — abstract, prose, legends and tables, references excluded (412 headroom)
-- **59 in-text citations** inserted, where the body previously cited nothing at all
+- **11,802 words counted** against the Frontiers 12,000 limit — abstract, prose, legends and tables, references excluded (198 headroom; Table 2's detail columns moved to supplementary to make room)
+- **59 in-text citations** inserted, where the body previously cited nothing at all; **52 references**, six added to resolve the last markers
 - **10 of ~30 DOIs resolved to different papers** and were corrected; one pointed at a *Citrus* study
 - **7 claims** withdrawn or reversed before drafting; **1 deleted** at the reference audit for want of a source
-- **14 studies** tabulated with genotype counts, PEG levels and identified lines
+- **14 studies** tabulated with genotype counts, PEG levels and identified lines; **5 figures drawn**; **6 of 6 verification markers** closed to primary sources
 - **15-item** minimum reporting standard proposed, 6 items requiring no new experiment
 
 ### The reference audit
