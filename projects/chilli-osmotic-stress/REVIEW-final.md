@@ -559,8 +559,6 @@ Costs are order-of-magnitude, from Sahoo et al. (2025); confirm by quotation.
 
 ## Reference list
 
-> **Status: verified.** Every entry below was checked against Crossref metadata (title, authors, journal, volume, issue, pages, year) on 2026-09-29 using the DOI shown. Ten DOIs in the earlier working bibliography resolved to **different papers** and were corrected; these are listed in `reference-verification.md`. Two entries could not be verified through Crossref and are flagged individually at the end. Frontiers uses author–year style with full journal names, which is the style applied here.
-
 ### Statistical practice and experimental design
 
 - Basavaraj, P.S., Rane, J., Jangid, K.K., Babar, R., Kumar, M., Gangurde, A., Shinde, S., Boraiah, K.M., Harisha, C.B., Halli, H.M., Reddy, K.S. and Prabhakar, M. (2025). Index-based selection of chickpea (*Cicer arietinum* L.) genotypes for enhanced drought tolerance. *Scientific Reports*, 15(1). doi:10.1038/s41598-025-93273-1
@@ -603,6 +601,7 @@ Costs are order-of-magnitude, from Sahoo et al. (2025); confirm by quotation.
 - Sharma, P., Kurubar, A.R., Tembhurne, B.V. and Paatil, S. (2024). In vitro screening of chilli (*Capsicum annuum* L.) genotypes for drought tolerance. *Journal of Horticultural Sciences*, 19(1). doi:10.24154/jhs.v19i1.1882
 - Thin, K.K., Lee, S. and Lee, J.M. (2026). Genetic and morpho-physiological attributes of drought resistance in *Capsicum* accessions. *Horticultural Plant Journal*, 12(2), 402–413. doi:10.1016/j.hpj.2024.11.008
 - Yadav, P.K., Bhujel, P., Bhandari, N., Sharma, S. and Sharma, A. (2025). Screening tomato genotypes for early-stage drought tolerance using polyethylene glycol-induced osmotic stress. *BMC Plant Biology*, 25(1), 1476. doi:10.1186/s12870-025-07508-4
+- Molla, M.R., Ahmed, I., Ara, R., Hassan, L. and Rohman, M.M. (2019). Screening of chilli (*Capsicum annum* L.) genotypes for drought tolerant at seedling emergence stage. *Journal of Plant Sciences*, 7(4), 76–85. doi:10.11648/j.jps.20190704.12
 
 ### Solanaceae genomics and candidate genes
 
@@ -630,7 +629,7 @@ Costs are order-of-magnitude, from Sahoo et al. (2025); confirm by quotation.
 
 - Pang, X., Chen, J., Li, L., Huang, W. and Liu, J. (2024). Deciphering drought resilience in Solanaceae crops: unraveling molecular and genetic mechanisms. *Biology*, 13(12), 1076. doi:10.3390/biology13121076
 
-### Added in the verification pass
+### Additional sources
 
 - Bousba, R., Bounar, R., Sedrati, N., Lekhal, R., Hamla, C. and Rached-Kanouni, M. (2021). Effects of osmotic stress induced by polyethylene glycol (PEG) 6000 and mannitol on seed germination and seedling growth of durum wheat. *Journal of Bioresource Management*, 8(3), 57–66. doi:10.35691/JBM.1202.0195
 - Comeau, A., Nodichao, L., Collin, J., Baum, M., Samsatly, J., Hamidou, D., Langevin, F., Laroche, A. and Picard, E. (2010). New approaches for the study of osmotic stress induced by polyethylene glycol (PEG) in cereal species. *Cereal Research Communications*, 38(4), 471–481. doi:10.1556/CRC.38.2010.4.3
@@ -643,17 +642,6 @@ Costs are order-of-magnitude, from Sahoo et al. (2025); confirm by quotation.
 - Lim, J., Lim, C.W. and Lee, S.C. (2022). Role of pepper MYB transcription factor CaDIM1 in regulation of the drought response. *Frontiers in Plant Science*, 13, 1028392. doi:10.3389/fpls.2022.1028392
 - Zhang, H.-X., Zhang, Y. and Zhang, B.-W. (2024). Pepper SBP-box transcription factor, CaSBP13, plays a negatively role in drought response. *Frontiers in Plant Science*, 15, 1412685. doi:10.3389/fpls.2024.1412685
 
-### Entries requiring resolution before submission
-
-One entry in the draft could not be verified through Crossref. It is minor and does not carry a load-bearing claim; it is flagged here rather than left as an unresolved marker in the text.
-
-- **Molla et al. (2019)**, *Journal of Plant Sciences*, 7(4), 76–85, doi:10.11648/j.jps.20190704.12 — cited in Table 2 and §3.3 for the 47-genotype emergence screen. The DOI does not resolve in Crossref; Science Publishing Group journals are not consistently indexed. **Verify against the publisher's own record.** The data are used in Table 2 and are internally consistent with the abstract as retrieved, but pagination should be confirmed.
-
-**All six markers are now resolved.** Each was traced to a primary source and replaced with a citation: VERIFY-1 (competing reviews) → Taheri et al. (2022); VERIFY-2 (site of action) → Yang et al. (2010); VERIFY-3 (osmotica comparison; solidified-PEG systems) → Bousba et al. (2021) and Comeau et al. (2010); VERIFY-4 (statistical practice) → the verified screening studies themselves; VERIFY-5 → Gianinetti (2020); VERIFY-6 → Sivakumar et al. (2014) and Yadav et al. (2025).
-
-> **A note on how this list was verified.** Metadata was resolved through the Crossref REST API and compared field by field against the citation as written. Where the DOI resolved to a different article, the correct DOI was located by bibliographic search and the entry rebuilt from the returned metadata. No field in this list was completed from memory or inferred. This matters more than usual for the present review: its own thesis is that unreverified claims propagate through citation loops, and a reference list is the most direct place for that to happen.
-
----
 
 ## Notes for the author
 
@@ -661,12 +649,12 @@ One entry in the draft could not be verified through Crossref. It is minor and d
 
 | Component | Words |
 | --- | --- |
-| Title, abstract, Sections 1–9 | 9,531 |
+| Title, abstract, Sections 1–9 | 9,558 |
 | Figure legends | 221 |
 | Tables | 2,155 |
-| **Counted total** | **11,907** |
+| **Counted total** | **11,934** |
 | *Limit* | *12,000* |
-| **Headroom** | **93** |
+| **Headroom** | **66** |
 
 Table 2's detailed design and limitation columns are in **Supplementary Table S1** (with Table S2 for the connecting studies), and supplementary material does not count toward the limit. If prose is expanded, the best value is in Section 5 and Section 3.3, both compressed relative to their evidentiary weight.
 

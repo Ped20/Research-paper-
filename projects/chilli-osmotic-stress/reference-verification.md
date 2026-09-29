@@ -167,3 +167,18 @@ The round-5 claim that no placeholder markers remained was **too narrow**. It co
 **One caveat recorded rather than resolved.** The Zhang et al. (2024) author list is taken from Crossref, which returns three authors. If the published byline carries more, the reference list should be completed from the article page. The DOI and title were confirmed against Crossref and match the published record, including the grammatical error in the title, which is reproduced verbatim.
 
 **Unicode check on the whole manuscript.** No zero-width characters, bidirectional control characters, Cyrillic homoglyphs, non-breaking spaces, tab characters or CRLF line endings. There are no hidden characters of the kind sometimes called watermarks, and there is nothing of that sort to remove.
+
+
+---
+
+## 9. Round-7 addendum: reference-list apparatus removed, and the last entry completed
+
+**The reference list was carrying author-facing material into the manuscript.** Two blocks had no business in a document intended for deposit or submission: a `> **Status: verified.**` note above the list, and an `### Entries requiring resolution before submission` section containing the Molla editorial note, the marker-resolution paragraph and the Crossref method note. All three are removed from `REVIEW-final.md`. The audit they described lives in this file, which is its proper home. The heading `### Added in the verification pass` became `### Additional sources`, and `### Additional sources` and the rest are now ordinary reference-list subsections.
+
+**Molla et al. (2019) is now complete and publisher-verified.** It had been the one entry flagged as unverifiable because Science Publishing Group journals are not indexed in Crossref. The publisher's own record supplies the full citation:
+
+> Molla, M.R., Ahmed, I., Ara, R., Hassan, L. and Rohman, M.M. (2019). Screening of chilli (*Capsicum annum* L.) genotypes for drought tolerant at seedling emergence stage. *Journal of Plant Sciences*, 7(4), 76–85. doi:10.11648/j.jps.20190704.12
+
+The publisher's abstract independently confirms every value the manuscript takes from this study: 47 genotypes, 12.5% PEG-6000, the RGE/RGR/RGI/RVI index set, agglomerative clustering with a cophenetic correlation of 0.668, the top five genotypes (BD-10906, BD-10912, BD-10911, BD-10916, BD-10913) and the bottom five (BD-10902, RT-20, AM-29, BD-10893, BD-10930). Table 2's row for this study was correct. The species name is misspelled in the published title and is reproduced verbatim.
+
+**No unresolved entry remains in the reference list.** Fifty-eight entries, every one cited in the text, every one verified against either Crossref metadata or the publisher's own record.

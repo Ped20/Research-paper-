@@ -36,6 +36,9 @@ A complete critical review, built by applying the blueprint: **screening for dro
 | **`supplementary-table-S1.md`** | Supplementary Tables S1–S2 — per-study design and limitation detail, which keeps the main text inside the word limit |
 | **`reference-verification.md`** | **The audit log.** Every reference checked against Crossref; the ten DOIs that resolved to different papers; the six markers and their resolution; the Table 4 cells and the claim one of them broke; the two entries that are publisher-verified only |
 | `make-figures.py` | Re-runnable: draws all five figures and prints the PEG conversion table on every run |
+| **`deposit/REVIEW-deposit.pdf`** | **The upload-ready manuscript** — 28 pages, author apparatus stripped, Figures 1–5 embedded with legends |
+| `make-deposit.py` | Builds the deposit PDF and HTML from `REVIEW-final.md`; takes author, ORCID and affiliation |
+| `zenodo-deposit.md` | Zenodo metadata, upload checklist, and what a repository DOI does and does not confer |
 | `resolve-markers.py`, `final-pass.py` | The two one-shot marker-resolution passes, kept as an audit record; both refuse to write unless every anchor matches |
 | `study-inventory.md` | The backbone: 14 screening studies tabulated, candidate genes with validation hosts, connecting studies, corrections log |
 | `preflight-and-plan.md` | The gate result and reverse-engineered research plan |
@@ -63,6 +66,7 @@ Applying the blueprint to a real topic caused **seven planned claims to be withd
 | Only one *Capsicum* gene has functional evidence in pepper | Three do — *CaNAC46*, *CaDIM1* and *CaSBP13*, all by VIGS in pepper. The count was too low, not too high |
 | *CaSBP13* is a drought-tolerance candidate | It is a **negative** regulator; silencing it improves tolerance |
 | Open-access publication requires an APC | Not necessarily — Diamond open access is free to publish and free to read; see the venue note |
+| A Zenodo DOI makes this a published journal article | No. Zenodo is CERN's repository: no peer review, no journal indexing. Citable and permanent, but not a publication in the peer-reviewed sense |
 
 Not random failures — a pattern. **Conventional wisdom in this field is repeated more than it is checked.** Some of it was tested decades ago and "rejected" results never entered the citation loop. That is a citation problem, not a competence problem, which is both more accurate and more publishable.
 
