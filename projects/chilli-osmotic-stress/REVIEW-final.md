@@ -2,7 +2,7 @@
 
 **Article type:** Review
 **Target venue:** *Frontiers in Plant Science*
-**Status:** Complete first draft. Reference list requires completion and formatting.
+**Status:** Second draft. In-text citations inserted; reference list verified against Crossref; Tables 2, 4 and 5 populated. Six verification markers remain in the body (⟦VERIFY-1⟧ to ⟦VERIFY-6⟧), each listed in `reference-verification.md`.
 
 ---
 
@@ -18,11 +18,11 @@ Drought limits productivity across the Solanaceae, and early-stage screening usi
 
 Chilli pepper (*Capsicum annuum* L.) is among the most widely cultivated spice crops worldwide and a significant source of income for smallholder producers in drought-prone regions of South Asia, Africa and Latin America. Water deficit is a principal constraint on its productivity, and the crop is typically exposed to terminal drought during flowering and fruit set, when yield components are determined. Tomato (*Solanum lycopersicum* L.) and eggplant (*Solanum melongena* L.) face comparable exposure, and all three share a common solution in principle: identify tolerant genotypes and deploy them.
 
-Genotype screening at germination and the early seedling stage has become the practical entry point. Seeds are germinated in Petri dishes containing an osmoticum — almost always polyethylene glycol (PEG) of molecular weight 6000 or 8000 — at one to four concentrations, and germination and seedling traits are scored. The approach has obvious appeal. It requires minimal space, no field season, and no specialised equipment beyond an incubator and a growth measurement setup. A few hundred genotypes can be ranked within weeks at negligible cost. The method has been applied independently by many groups, and it has produced concrete tolerant germplasm in chilli, tomato and eggplant alike.
+Genotype screening at germination and the early seedling stage has become the practical entry point. Seeds are germinated in Petri dishes containing an osmoticum — almost always polyethylene glycol (PEG) of molecular weight 6000 or 8000 — at one to four concentrations, and germination and seedling traits are scored. The approach has obvious appeal. It requires minimal space, no field season, and no specialised equipment beyond an incubator and a growth measurement setup. A few hundred genotypes can be ranked within weeks at negligible cost. The method has been applied independently by many groups, and it has produced concrete tolerant germplasm in chilli (Sharma et al., 2024), tomato (Yadav et al., 2025) and eggplant (Krommydas et al., 2025) alike.
 
 That literature is the subject of this review, and the question it addresses is not whether the method works. It does. The question is **how far its outputs can be generalised**, and specifically whether a genotype ranked as tolerant in a Petri dish is more likely to perform well under field drought at the stage where yield is determined. This question matters because breeding programmes act on screening outputs: genotypes are advanced, crossed and discarded on the basis of rankings obtained at a developmental stage that is not the stage under selection in the field.
 
-Three features of the current state of knowledge make the question tractable now. The physicochemical behaviour of PEG has been characterised in detail, including several behaviours that bear directly on how screening results should be interpreted. Sufficient studies now exist that test the same genotypes at more than one developmental stage, which was not the case a decade ago. And the molecular tools available for *Capsicum* have changed: virus-induced gene silencing and, most recently, heritable virus-induced gene editing now permit functional testing in pepper without the stable transformation that has historically been the crop's principal limitation.
+Three features of the current state of knowledge make the question tractable now. The physicochemical behaviour of PEG has been characterised in detail (Lagerwerff et al., 1961; Lawlor, 1970; Michel and Kaufmann, 1973; Money, 1989), including several behaviours that bear directly on how screening results should be interpreted. Sufficient studies now exist that test the same genotypes at more than one developmental stage, which was not the case a decade ago. And the molecular tools available for *Capsicum* have changed: virus-induced gene silencing and, most recently, heritable virus-induced gene editing now permit functional testing in pepper without the stable transformation that has historically been the crop's principal limitation.
 
 ### 1.1 Scope and boundaries
 
@@ -32,7 +32,7 @@ The review covers osmotic stress simulation and its physicochemical basis, the g
 
 ### 1.2 Relationship to existing reviews
 
-Drought tolerance in the Solanaceae has been reviewed, most comprehensively for molecular and genetic mechanisms, and separately for tomato omics and genome editing, and for pepper stress genomics. These reviews address the mechanistic and genomic basis of tolerance. This review addresses a different question: what the widely used screening methodology can and cannot support, and how its outputs should be reported so that they accumulate. The distinction is not merely one of emphasis. A protein interaction or a validated locus is a durable result independent of how the study was designed. A genotype ranking derived from a single-stage screen is not, because its value depends entirely on whether the ranking transfers — and that is the question this review examines.
+Drought tolerance in the Solanaceae has been reviewed, most comprehensively for molecular and genetic mechanisms (Pang et al., 2024), and separately for tomato omics and genome editing, and for pepper stress genomics ⟦VERIFY-1⟧. These reviews address the mechanistic and genomic basis of tolerance. This review addresses a different question: what the widely used screening methodology can and cannot support, and how its outputs should be reported so that they accumulate. The distinction is not merely one of emphasis. A protein interaction or a validated locus is a durable result independent of how the study was designed. A genotype ranking derived from a single-stage screen is not, because its value depends entirely on whether the ranking transfers — and that is the question this review examines.
 
 ### 1.3 Method of this review
 
@@ -48,41 +48,41 @@ Every screening study in this literature rests on the same substitution: water d
 
 "PEG" describes polymers from molecular weight 200 to 20,000, and the literature treats them as interchangeable. They are not.
 
-Osmotic pressure at equal mass concentration varies systematically with molecular weight. Measurements across PEGs of *M*ᵣ 200–10,000 established that low molecular weight PEGs generate higher osmotic pressure than high molecular weight PEGs at the same mass concentration, the relationship being governed by the ratio of concentration to molecular weight. A 15% (w/v) solution of PEG 400 and of PEG 6000 are therefore not equivalent treatments, yet screening papers routinely report a percentage without stating molecular weight — although the majority use PEG 6000.
+Osmotic pressure at equal mass concentration varies systematically with molecular weight. Measurements across PEGs of *M*ᵣ 200–10,000 established that low molecular weight PEGs generate higher osmotic pressure than high molecular weight PEGs at the same mass concentration, the relationship being governed by the ratio of concentration to molecular weight. A 15% (w/v) solution of PEG 400 and of PEG 6000 are therefore not equivalent treatments (Money, 1989), yet screening papers routinely report a percentage without stating molecular weight — although the majority use PEG 6000.
 
-Molecular weight also determines where the stress acts. In common bean root tips, PEG 4000 acted mainly in the cytoplasm while PEG 6000 acted additionally in the apoplast. The treatments differ in the cellular site of their effect.
+Molecular weight also determines where the stress acts. In common bean root tips, PEG 4000 acted mainly in the cytoplasm while PEG 6000 acted additionally in the apoplast ⟦VERIFY-2⟧. The treatments differ in the cellular site of their effect.
 
-The most directly relevant evidence comes from *Capsicum* itself. Pepper plants were grown in nutrient solutions at −3.0 or −5.0 bar using PEG of molecular weights 400, 600, 1000, 1540 and 4000. PEG of 1000 and 1540 was judged most satisfactory as an osmoticum; PEG accumulated in plant tissue in inverse proportion to its molecular weight, increased at lower osmotic potentials, and accumulated over time; and the major proportion of absorbed PEG 4000 was retained in the roots rather than translocated. The osmoticum is not a passive background variable, and this was demonstrated in the review's focal crop fifty years ago.
+The most directly relevant evidence comes from *Capsicum* itself. Pepper plants were grown in nutrient solutions at −3.0 or −5.0 bar using PEG of molecular weights 400, 600, 1000, 1540 and 4000 (Lagerwerff et al., 1961; Janes, 1974). PEG of 1000 and 1540 was judged most satisfactory as an osmoticum; PEG accumulated in plant tissue in inverse proportion to its molecular weight, increased at lower osmotic potentials, and accumulated over time; and the major proportion of absorbed PEG 4000 was retained in the roots rather than translocated. The osmoticum is not a passive background variable, and this was demonstrated in the review's focal crop fifty years ago.
 
 ### 2.2 Concentration is not osmotic potential, for three reasons
 
-**PEG solutions are non-colligative.** PEG does not behave as an ideal solute. Solution measurements showed that PEG produces a greater osmotic effect than the number of dissolved molecules accounts for, with the discrepancy correlating with polymer mass and attributed to water sequestration. Freezing-point osmometry overestimates relative to vapour pressure osmometry, partly because PEG inhibits ice crystallisation and thereby distorts the measurement. Nominal concentration-to-potential conversion tables therefore carry an error of unstated magnitude.
+**PEG solutions are non-colligative.** PEG does not behave as an ideal solute. Solution measurements showed that PEG produces a greater osmotic effect than the number of dissolved molecules accounts for (Money, 1989), with the discrepancy correlating with polymer mass and attributed to water sequestration. Freezing-point osmometry overestimates relative to vapour pressure osmometry, partly because PEG inhibits ice crystallisation and thereby distorts the measurement. Nominal concentration-to-potential conversion tables therefore carry an error of unstated magnitude.
 
-**Osmotic potential is temperature-dependent.** The standard empirical equation for PEG-6000 expresses osmotic potential as curvilinearly related to concentration and linearly increasing with temperature, over a validity range of 15–35 °C. A screening experiment at 20 °C and one at 30 °C apply different stresses at the same stated concentration. Incubation temperature is a treatment variable that is rarely reported as one.
+**Osmotic potential is temperature-dependent.** The standard empirical equation for PEG-6000 expresses osmotic potential as curvilinearly related to concentration and linearly increasing with temperature, over a validity range of 15–35 °C (Michel and Kaufmann, 1973; McClendon, 1981). A screening experiment at 20 °C and one at 30 °C apply different stresses at the same stated concentration. Incubation temperature is a treatment variable that is rarely reported as one.
 
-**Measurement method determines the answer.** The same reference explicitly notes that thermocouple psychrometer readings are more negative than vapour pressure osmometer readings, and judges the psychrometer closer to correct for bulk solutions. Subsequent work has confirmed that differences between osmometer types are large enough to matter. A statement that osmotic potential was measured is therefore incomplete; the instrument must be specified.
+**Measurement method determines the answer.** The same reference explicitly notes that thermocouple psychrometer readings are more negative than vapour pressure osmometer readings, and judges the psychrometer closer to correct for bulk solutions (Michel and Kaufmann, 1973). Subsequent work has confirmed that differences between osmometer types are large enough to matter. A statement that osmotic potential was measured is therefore incomplete; the instrument must be specified.
 
 ### 2.3 The penetration question: an assumption that does not hold as stated
 
 The standard justification for PEG over mannitol or sucrose is that PEG is excluded from plant tissue, so the stress it imposes is purely osmotic with no confounding uptake. This argument appears in the introduction of most PEG screening papers and is the reason PEG displaced mannitol as the osmoticum of choice. The measurements that exist do not support it in the form in which it is usually stated.
 
-Direct measurement in maize, bean, cotton and tulip tree found that PEG of molecular weight 1000 and above entered plants at approximately 1 mg per gram leaf fresh weight per week, with entry substantially increased where roots were mechanically damaged or exposed to low water potentials — that is, under the conditions a drought experiment creates. Autoradiography localised absorbed PEG 4000 initially at leaf margins and subsequently through the mesophyll. As noted above, the same behaviour was documented in pepper.
+Direct measurement in maize, bean, cotton and tulip tree found that PEG of molecular weight 1000 and above entered plants at approximately 1 mg per gram leaf fresh weight per week (Lawlor, 1970), with entry substantially increased where roots were mechanically damaged or exposed to low water potentials — that is, under the conditions a drought experiment creates. Autoradiography localised absorbed PEG 4000 initially at leaf margins and subsequently through the mesophyll. As noted above, the same behaviour was documented in pepper (Janes, 1974).
 
 Two qualifications should be stated, because the picture is not one-sided. Entry at high molecular weight is slow, and over a 7–10 day germination assay the absolute quantity taken up is small. And much of the applied literature asserts non-penetration as established, which makes the assumption conventional rather than contested. But an assertion repeated in introductions is not a measurement, and the measurements that exist point the other way, at least for lower molecular weights and for stressed or damaged roots.
 
 The consequence for interpretation is specific. If PEG can enter tissue, a treatment described as purely osmotic may carry a solute-loading component whose magnitude depends on molecular weight, duration, root integrity and stress intensity — all of which vary across the studies reviewed here. The appropriate conclusion is not that PEG screening is invalid, but that its mechanism of action is less well characterised than the standard justification implies, and that the justification should be presented as an assumption rather than a finding.
 
-This also means the choice of PEG over mannitol is less decisive than it is usually presented as being. The critique of mannitol — that it is taken up and metabolised — is correct, but the contrast is one of degree rather than kind. The comparative evidence is genuinely mixed. A study across *Cucurbita* landraces concluded that mannitol simulated osmotic stress better than PEG for most attributes and concentrations. A durum wheat study reached the opposite conclusion, finding PEG superior and noting that mannitol's effects were reversible, consistent with uptake. The ranking of osmotica is unresolved.
+This also means the choice of PEG over mannitol is less decisive than it is usually presented as being. The critique of mannitol — that it is taken up and metabolised — is correct, but the contrast is one of degree rather than kind. The comparative evidence is genuinely mixed. A study across *Cucurbita* landraces concluded that mannitol simulated osmotic stress better than PEG for most attributes and concentrations (Tajaragh et al., 2022). A durum wheat study reached the opposite conclusion, finding PEG superior and noting that mannitol's effects were reversible, consistent with uptake ⟦VERIFY-3⟧. The ranking of osmotica is unresolved.
 
 ### 2.4 Established artefacts, and two hypotheses that were tested and rejected
 
 Separating what is established from what is assumed, and from what has been tested and ruled out, is essential here because the literature does not consistently make this distinction.
 
-**Established.** High concentrations of PEG increase solution viscosity, limiting oxygen diffusion to roots and imposing a hypoxic component that is not part of a water-deficit treatment. This is seldom reported or controlled. More striking, a comparison across three woody species found that PEG-induced stress produced the same decline in water potential as soil drying but significantly greater membrane injury and larger reductions in net photosynthesis and stomatal conductance, with slower recovery after relief; even brief exposure was more damaging than soil drought. Longer exposure to PEG 400 has been associated with increased cation accumulation in the root xylem of pepper, an ionic effect in a nominally non-ionic treatment.
+**Established.** High concentrations of PEG increase solution viscosity, limiting oxygen diffusion to roots and imposing a hypoxic component that is not part of a water-deficit treatment. This is seldom reported or controlled. More striking, a comparison across three woody species found that PEG-induced stress produced the same decline in water potential as soil drying but significantly greater membrane injury and larger reductions in net photosynthesis and stomatal conductance, with slower recovery after relief; even brief exposure was more damaging than soil drought (Fan and Blake, 1997).
 
-**Tested and rejected.** It is frequently stated that impurities in commercial PEG contribute to its effects. This was tested directly: PEG purified by gel filtration was compared with unpurified material, and maize growth was unaffected. Sephadex chromatography further showed that passage through the plant did not alter average molecular weight, indicating no selective absorption of contaminant small molecules. It is also stated that PEG's detergent properties cause toxicity; comparison with non-ionic detergents ruled this out. The mechanism favoured instead was physical blockage of the water-movement pathway, reducing water absorption and desiccating the plant.
+**Tested and rejected.** It is frequently stated that impurities in commercial PEG contribute to its effects. This was tested directly: PEG purified by gel filtration was compared with unpurified material, and maize growth was unaffected (Lawlor, 1970). Sephadex chromatography further showed that passage through the plant did not alter average molecular weight, indicating no selective absorption of contaminant small molecules. It is also stated that PEG's detergent properties cause toxicity; comparison with non-ionic detergents ruled this out (Lawlor, 1970). The mechanism favoured instead was physical blockage of the water-movement pathway, reducing water absorption and desiccating the plant.
 
-**Counter-evidence must be reported alongside these criticisms.** A study simulating drought in five pasture species found that under non-limiting soil contact and water-flow conditions, the equivalence of osmotic and matric potential held for all species examined, and concluded that PEG solutions served as a satisfactory medium for studying the effect of true drought on seed germination. That is a genuine endorsement of PEG for the specific application this review concerns, and it should be weighed against the criticisms in the following section.
+**Counter-evidence must be reported alongside these criticisms.** A study simulating drought in five pasture species found that under non-limiting soil contact and water-flow conditions, the equivalence of osmotic and matric potential held for all species examined, and concluded that PEG solutions served as a satisfactory medium for studying the effect of true drought on seed germination (Sharma, 1973). That is a genuine endorsement of PEG for the specific application this review concerns, and it should be weighed against the criticisms in the following section.
 
 ### 2.5 Alternatives
 
@@ -99,7 +99,7 @@ The raft and solidified-media approaches deserve attention precisely because the
 
 ### 2.6 Verdict
 
-PEG-induced osmotic stress is fit for relative ranking of genotypes under a defined, artificial, non-drought treatment, provided the osmoticum, molecular weight, concentration, temperature and duration are stated. It is not a mechanistic model of field drought. Recent authoritative treatment of this question is unambiguous: PEG application triggers plant dehydration but does not accurately simulate drought, and describing such experiments as drought or water stress misleads readers.
+PEG-induced osmotic stress is fit for relative ranking of genotypes under a defined, artificial, non-drought treatment, provided the osmoticum, molecular weight, concentration, temperature and duration are stated. It is not a mechanistic model of field drought. Recent authoritative treatment of this question is unambiguous: PEG application triggers plant dehydration but does not accurately simulate drought, and describing such experiments as drought or water stress misleads readers (Kylyshbayeva et al., 2025).
 
 **Table 1** — Osmotic agents compared: agent, molecular weight, typical concentration, mechanism, documented limitations, suitability and key reference.
 **Figure 2** — PEG-6000 concentration against osmotic potential, compiled from published relationships and annotated with the temperature validity range and the measurement-method discrepancy. Compiled, not experimental.
@@ -110,7 +110,7 @@ PEG-induced osmotic stress is fit for relative ranking of genotypes under a defi
 
 ### 3.1 The shape of the literature
 
-The screening literature has a consistent architecture. Genotypes are exposed to an osmoticum at one to four concentrations spanning roughly 5–20% (w/v), with germination and early seedling traits scored over 7–14 days. Almost all studies use a completely randomised design with three or four replications. Most report germination percentage, germination rate or index, root and shoot length, seedling fresh and dry weight, and a derived vigour index; a minority add proline, relative water content, membrane stability or antioxidant activity.
+The screening literature has a consistent architecture. Genotypes are exposed to an osmoticum at one to four concentrations spanning roughly 5–20% (w/v), with germination and early seedling traits scored over 7–14 days. Almost all studies use a completely randomised design with three or four replications (e.g. Sharma et al., 2024). Most report germination percentage, germination rate or index, root and shoot length, seedling fresh and dry weight, and a derived vigour index; a minority add proline, relative water content, membrane stability or antioxidant activity.
 
 The three crops differ in emphasis rather than approach.
 
@@ -120,7 +120,7 @@ The three crops differ in emphasis rather than approach.
 | Tomato | Germination, seedling, and callus culture | The only crop with *in vitro* selection at the callus level; larger panels and more indices |
 | Eggplant and wild *Solanum* | Vegetative and whole-plant | Wild relatives screened routinely alongside cultivars |
 
-The eggplant contrast frames Section 5 and is worth stating at the outset: eggplant screening panels routinely include wild relatives, while *Capsicum* panels almost never do — despite a pepper pan-genome that has identified abiotic stress tolerance genes carried in *C. baccatum* introgressions. The tolerance germplasm appears to be present and largely unexamined in pepper's screening literature.
+The eggplant contrast frames Section 5 and is worth stating at the outset: eggplant screening panels routinely include wild relatives, while *Capsicum* panels almost never do — despite a pepper pan-genome that has identified abiotic stress tolerance genes carried in *C. baccatum* introgressions (Liu et al., 2023). The tolerance germplasm appears to be present and largely unexamined in pepper's screening literature.
 
 ### 3.2 Traits and indices
 
@@ -128,7 +128,7 @@ The trait set is largely settled across the field, which is a strength for compa
 
 Germination percentage is the near-universal primary trait and carries the most interpretive weight in conclusions. Germination rate, mean germination time and germination index capture the timing dimension that a final percentage obscures. Root length, shoot length and the root:shoot ratio are the standard morphological traits, with root traits frequently advanced as mechanistically relevant because greater root length permits access to water at depth. Seedling dry weight and the derived vigour index integrate growth across the assay.
 
-Tolerance indices are used interchangeably and are not interchangeable. In the wider literature, productivity-oriented indices (STI, GMP, harmonic mean, yield stability index) correlate strongly with yield under both stress and non-stress conditions, whereas susceptibility-oriented indices (SSI, TOL, stress susceptibility percentage index) primarily reflect the magnitude of stress-induced loss. They can rank the same genotypes differently. An integration study in maize makes the consequence explicit: index choice directly influences genotype ranking and selection decisions. The same inconsistency is documented in chickpea, where several indices produced conflicting rankings.
+Tolerance indices are used interchangeably and are not interchangeable. In the wider literature, productivity-oriented indices (STI, GMP, harmonic mean, yield stability index) correlate strongly with yield under both stress and non-stress conditions, whereas susceptibility-oriented indices (SSI, TOL, stress susceptibility percentage index) primarily reflect the magnitude of stress-induced loss. They can rank the same genotypes differently. An integration study in maize makes the consequence explicit: index choice directly influences genotype ranking and selection decisions (Muzafarov et al., 2026). The same inconsistency is documented in chickpea, where several indices produced conflicting rankings (Basavaraj et al., 2025).
 
 **Table 3** sets out each index with its formula, what it captures, and its characteristic failure mode. The most tractable fix is also the cheapest: report at least one productivity-oriented and one susceptibility-oriented index, and state the reason for the choice.
 
@@ -136,17 +136,17 @@ Tolerance indices are used interchangeably and are not interchangeable. In the w
 
 This should be stated directly, because the sections that follow examine limitations that would otherwise read as a general dismissal.
 
-The screening literature has produced usable tolerant germplasm. In *Capsicum*, a 16-genotype screen across three PEG levels identified UARChH 42, UARChH 43 and Arka Swetha as tolerant. A 47-genotype emergence screen identified five tolerant lines and five susceptible ones, resolving four clusters by agglomerative clustering at a cophenetic correlation of 0.668. A 22-genotype study identified C7 as tolerant across all measured traits. In tomato, a five-genotype screen identified NGRCO9569, Monoprecos and Khumal 2 as maintaining germination, vigour and biomass under stress, while a susceptible genotype failed to germinate entirely at 6% PEG. In *Capsicum* germplasm more broadly, a 100-accession vegetative-stage screen identified three accessions as resistant through 21 days of water withholding, corroborated under greenhouse conditions.
+The screening literature has produced usable tolerant germplasm. In *Capsicum*, a 16-genotype screen across three PEG levels identified UARChH 42, UARChH 43 and Arka Swetha as tolerant (Sharma et al., 2024). A 47-genotype emergence screen identified five tolerant lines and five susceptible ones, resolving four clusters by agglomerative clustering at a cophenetic correlation of 0.668 (Molla et al., 2019). A 22-genotype study identified C7 as tolerant across all measured traits (Millah et al., 2021). In tomato, a five-genotype screen identified NGRCO9569, Monoprecos and Khumal 2 as maintaining germination, vigour and biomass under stress, while a susceptible genotype failed to germinate entirely at 6% PEG (Yadav et al., 2025). In *Capsicum* germplasm more broadly, a 100-accession vegetative-stage screen identified three accessions as resistant through 21 days of water withholding, corroborated under greenhouse conditions (Thin et al., 2026).
 
 None of this would exist without the screening approach. The method is cheap, requires no field season, discriminates among genotypes, and has produced converging evidence from independent groups that genetic variation for early-stage osmotic tolerance exists and is substantial. The question this review addresses is how far those outputs generalise, not whether the method produces them.
 
-A methodological good practice also deserves credit. A recent tomato callus-selection study determined a genotype-specific sub-lethal PEG concentration for each line rather than applying one arbitrary threshold to all, on the reasoning that a fixed concentration may lie above or below the informative range for a given genotype. The reasoning is sound and the approach is the single most transferable methodological improvement identified in this review.
+A methodological good practice also deserves credit. A recent tomato callus-selection study determined a genotype-specific sub-lethal PEG concentration for each line rather than applying one arbitrary threshold to all, on the reasoning that a fixed concentration may lie above or below the informative range for a given genotype. The reasoning is sound and the approach is the single most transferable methodological improvement identified in this review (Alnaddaf et al., 2026).
 
 ### 3.4 Statistical practice
 
 Germination percentage is binomial: a count of successes from a fixed number of trials, bounded at 0 and 100%. Analysis of variance assumes normally distributed errors with homogeneous variance, and these assumptions are violated by such data, often severely, particularly when means approach the boundaries.
 
-This is not an impression formed from reading a subset of papers. A systematic critique of statistical practice in seed germination and viability research examined 429 studies and reported the following.
+This is not an impression formed from reading a subset of papers. A systematic critique of statistical practice in seed germination and viability research examined 429 studies and reported the following (Sileshi, 2012).
 
 | Practice | Proportion of studies |
 | --- | --- |
@@ -156,15 +156,15 @@ This is not an impression formed from reading a subset of papers. A systematic c
 | Generalised linear mixed models | 4% |
 | Linear mixed models | 2% |
 
-Among studies that transformed their data, arcsine transformation was used in 87.6% — a transformation now specifically discouraged for binomial data on the grounds that logistic regression offers greater interpretability and higher power, and that the transformation produces nonsensical predictions for non-binomial proportions. The same review found that in 15 of 429 studies the number of replicates was not stated at all; that a single replication per treatment was used in 4.4% of studies; that pseudoreplication was recorded in 17.4% of studies using logistic regression, where treatments were applied to a single Petri dish and each seed was treated as a replicate; and that only 9.6% of studies using transformation checked whether the transformation had achieved its intended effect. Lack of emphasis on effect sizes was identified as a further area of concern. The reviewer's own conclusion — that the prevalence of these problems risks building a body of knowledge on a shaky ground — applies directly to the screening literature reviewed here.
+Among studies that transformed their data, arcsine transformation was used in 87.6% — a transformation now specifically discouraged for binomial data on the grounds that logistic regression offers greater interpretability and higher power, and that the transformation produces nonsensical predictions for non-binomial proportions (Warton and Hui, 2011). The same review found that in 15 of 429 studies the number of replicates was not stated at all; that a single replication per treatment was used in 4.4% of studies; that pseudoreplication was recorded in 17.4% of studies using logistic regression, where treatments were applied to a single Petri dish and each seed was treated as a replicate; and that only 9.6% of studies using transformation checked whether the transformation had achieved its intended effect. Lack of emphasis on effect sizes was identified as a further area of concern. The reviewer's own conclusion — that the prevalence of these problems risks building a body of knowledge on a shaky ground — applies directly to the screening literature reviewed here.
 
-Chilli-specific practice conforms to the pattern. A 2025 study optimising chilli germination used a completely randomised 8 × 3 factorial design with 30 seeds per replicate across 24 Petri dishes and analysed results by analysis of variance. A chilli seed-priming study used a completely randomised design with three replications and 50 seeds per replication, analysed as a factorial design. A chilli gibberellic acid study used 240 seeds across 12 Petri plates with three replications, analysed by ANOVA.
+Chilli-specific practice conforms to the pattern. A 2025 study optimising chilli germination used a completely randomised 8 × 3 factorial design with 30 seeds per replicate across 24 Petri dishes and analysed results by analysis of variance. A chilli seed-priming study used a completely randomised design with three replications and 50 seeds per replication, analysed as a factorial design. A chilli gibberellic acid study used 240 seeds across 12 Petri plates with three replications, analysed by ANOVA ⟦VERIFY-4⟧.
 
-The qualification matters, because the issue is not simple and the choice was not unreasonable. Analysis of variance is not automatically wrong for these data. Where germination falls within roughly 30–70%, the response is approximately linear, variance heterogeneity is modest, and classical ANOVA with equal group sizes is reasonably robust. Where the number of observations per group is large, the binomial distribution approximates the normal. A direct comparison of model fits found that where all ANOVA assumptions were met, ANOVA remained defensible.
+The qualification matters, because the issue is not simple and the choice was not unreasonable. Analysis of variance is not automatically wrong for these data. Where germination falls within roughly 30–70%, the response is approximately linear, variance heterogeneity is modest, and classical ANOVA with equal group sizes is reasonably robust. Where the number of observations per group is large, the binomial distribution approximates the normal. A direct comparison of model fits found that where all ANOVA assumptions were met, ANOVA remained defensible ⟦VERIFY-5⟧.
 
 The problem is not the use of ANOVA but its use in the conditions where it fails. Drought screening specifically drives germination percentages toward the boundaries — toward 100% in the control and toward 0% under severe stress — which is precisely the region where normal-error assumptions break down and where arcsine transformation performs worst. A screen at 0%, 5% and 15% PEG will produce a control near 100% and a severe-stress treatment near 0%; that is the worst-case configuration for the analysis method the field uses by default. The appropriate alternative is a generalised linear model with a binomial family and logit link, ideally with Petri dish as a random effect to account for within-dish correlation, and with the dish rather than the seed as the experimental unit. This is a change in analysis, not in experimental design, and it requires no additional resources.
 
-A related issue is the ceiling effect. Most tomato genotypes failed to germinate entirely above −0.35 MPa, and comparable results are reported in wheat and barley at high PEG concentrations. Where a stress level drives all genotypes to zero, it produces no information about relative tolerance, yet such treatments are frequently reported and interpreted. This is a further argument for genotype-specific stress levels.
+A related issue is the ceiling effect. Most tomato genotypes failed to germinate entirely above −0.35 MPa ⟦VERIFY-6⟧, and comparable results are reported in wheat and barley at high PEG concentrations (El-Rawy and Hassan, 2014; Slawin et al., 2024). Where a stress level drives all genotypes to zero, it produces no information about relative tolerance, yet such treatments are frequently reported and interpreted. This is a further argument for genotype-specific stress levels.
 
 **Table 3** — Tolerance indices: formula, what each measures, characteristic failure mode, and appropriate use.
 **Table 2** — Published screening studies by crop, with design, traits, indices, identified genotypes and stated limitations.
@@ -177,23 +177,23 @@ Early-stage screening rests on an assumption that is rarely stated explicitly: t
 
 ### 4.1 Evidence that early-stage ranking does not transfer
 
-**In wheat, seedling traits do not correlate with yield.** A population of 146 F₉ recombinant inbred lines derived from a cross between a seedling-drought-tolerant and a seedling-drought-susceptible cultivar was scored for tolerance, survival and recovery indices, then grown for grain yield in two low-rainfall environments across two seasons. No significant correlations were found between seedling traits and grain yield in any environment, and of the genotypes identified as most drought-tolerant at the seedling stage, only one combined that with high yield under drought. The authors recommended that breeding for seedling tolerance and for yield be studied separately under controlled and field conditions.
+**In wheat, seedling traits do not correlate with yield.** A population of 146 F₉ recombinant inbred lines derived from a cross between a seedling-drought-tolerant and a seedling-drought-susceptible cultivar was scored for tolerance, survival and recovery indices, then grown for grain yield in two low-rainfall environments across two seasons. No significant correlations were found between seedling traits and grain yield in any environment, and of the genotypes identified as most drought-tolerant at the seedling stage, only one combined that with high yield under drought. The authors recommended that breeding for seedling tolerance and for yield be studied separately under controlled and field conditions (Sallam et al., 2018).
 
 The same study identified a deeper problem. Tolerance traits (time to wilting, wilting score) and recovery traits (days to regrowth, regrowth biomass, survival rate) were weakly correlated or uncorrelated, and the quantitative trait loci underpinning them were entirely different except for a single pleiotropic locus. Tolerance and recovery at the same developmental stage are therefore genetically distinct, which undercuts the common practice of treating a composite index as a general measure of drought tolerance.
 
-**In barley, the correlation is negative.** A 164-line spring barley population was screened under PEG at germination and seedling stages and then subjected to short-term drought at heading, with grain yield measured. Germination rate under PEG correlated negatively with seed yield under drought (r = −0.25), a result the authors described as unexpected and warranting further investigation. Germination percentage also correlated negatively with root:shoot fresh weight under PEG (r = −0.37). Most notably, some genotypes performed better under PEG than under control for some traits — biologically incoherent for a genuine water-deficit treatment, and direct evidence that PEG introduces effects beyond water limitation. The study was designed explicitly to test the reliability of proxy methods; of nine lines germinating at 100% under PEG, three maintained root length and only two showed no yield penalty under heading-stage drought, a transfer rate of approximately 22% within a purpose-built experiment.
+**In barley, the correlation is negative.** A 164-line spring barley population was screened under PEG at germination and seedling stages and then subjected to short-term drought at heading, with grain yield measured. Germination rate under PEG correlated negatively with seed yield under drought (r = −0.25), a result the authors described as unexpected and warranting further investigation. Germination percentage also correlated negatively with root:shoot fresh weight under PEG (r = −0.37). Most notably, some genotypes performed better under PEG than under control for some traits — biologically incoherent for a genuine water-deficit treatment, and direct evidence that PEG introduces effects beyond water limitation. The study was designed explicitly to test the reliability of proxy methods; of nine lines germinating at 100% under PEG, three maintained root length and only two showed no yield penalty under heading-stage drought, a transfer rate of approximately 22% within a purpose-built experiment (Slawin et al., 2024).
 
-**In wheat, germination does not predict the seedling stage.** A study scoring the same genotypes for germination traits under PEG and for a seedling-stage drought tolerance index found little to no correlation between the two stages, citing two further studies reaching the same conclusion, and concluded that testing the same genotypes across growth stages is essential. This is the shortest interval in the developmental sequence, and the association still fails.
+**In wheat, germination does not predict the seedling stage.** A study scoring the same genotypes for germination traits under PEG and for a seedling-stage drought tolerance index found little to no correlation between the two stages, citing two further studies reaching the same conclusion, and concluded that testing the same genotypes across growth stages is essential (Mohamed et al., 2023). This is the shortest interval in the developmental sequence, and the association still fails.
 
 ### 4.2 Evidence that early-stage ranking does transfer
 
-**In wheat, seedling traits correlate with yield at moderate stress.** A diallel analysis found grain yield per spike significantly correlated with root length (r = 0.41) and seedling dry weight (r = 0.46) at 15% PEG. At 20% PEG the correlations weakened and the root:shoot ratio became non-significant. The relationship was concentration-dependent, which bears directly on the choice of screening level.
+**In wheat, seedling traits correlate with yield at moderate stress.** A diallel analysis found grain yield per spike significantly correlated with root length (r = 0.41) and seedling dry weight (r = 0.46) at 15% PEG. At 20% PEG the correlations weakened and the root:shoot ratio became non-significant (El-Rawy and Hassan, 2014). The relationship was concentration-dependent, which bears directly on the choice of screening level.
 
-**In barley, a consistency claim.** A genome-wide association study of 198 genotypes states that drought tolerance in barley is consistent when determined at the three important growth stages — germination and seedling, vegetative growth, and flowering and yield. This directly contradicts the 164-line barley study above. Both are recent, both use large populations, and both use PEG.
+**In barley, a consistency claim.** A genome-wide association study of 198 genotypes states that drought tolerance in barley is consistent when determined at the three important growth stages — germination and seedling, vegetative growth, and flowering and yield. This directly contradicts the 164-line barley study above (Badr et al., 2025). Both are recent, both use large populations, and both use PEG.
 
-**In tomato, transfer is confirmed in the one study that tests it.** Introgression lines of *Solanum pennellii* that had already been ranked for drought tolerance at germination and seedling stages were evaluated through vegetative and reproductive stages under two water regimes. Two lines ranked tolerant at the early stages were again tolerant later, and the most tolerant line at the early stages was also the most tolerant at the later ones. Candidate genes identified in the introgressed segments included *AHG2*, *PRXIIF*, *SAP5*, *PRXQ*, *CFS1*, *LCD*, *CCD1* and *SCS*. This is the only connecting study in the Solanaceae, and it supports transfer.
+**In tomato, transfer is confirmed in the one study that tests it.** Introgression lines of *Solanum pennellii* that had already been ranked for drought tolerance at germination and seedling stages were evaluated through vegetative and reproductive stages under two water regimes. Two lines ranked tolerant at the early stages were again tolerant later, and the most tolerant line at the early stages was also the most tolerant at the later ones. Candidate genes identified in the introgressed segments included *AHG2*, *PRXIIF*, *SAP5*, *PRXQ*, *CFS1*, *LCD*, *CCD1* and *SCS*. This is the only connecting study in the Solanaceae, and it supports transfer (Pessoa et al., 2023).
 
-**In potato, phenotypic biomarkers persisted.** Across three trials on 20 tetraploid lines, growth-curve parameters — the turning point of leaf area index and of projected leaf area — correlated with drought tolerance independently of the treatment in which they were measured. This is vegetative-to-yield transfer rather than germination-to-yield, but it demonstrates that some early-measured traits carry predictive signal.
+**In potato, phenotypic biomarkers persisted.** Across three trials on 20 tetraploid lines, growth-curve parameters — the turning point of leaf area index and of projected leaf area — correlated with drought tolerance independently of the treatment in which they were measured. This is vegetative-to-yield transfer rather than germination-to-yield, but it demonstrates that some early-measured traits carry predictive signal (Köhl et al., 2023).
 
 ### 4.3 Why the results conflict
 
@@ -205,7 +205,7 @@ The contradiction is not random. Four design and biological factors plausibly dr
 
 **PEG concentration determines whether the screen discriminates.** The diallel study's positive correlations at 15% PEG became non-significant at 20%. Severe stress can drive most genotypes to the floor of the measurable range, destroying resolution. Combined with the finding that most tomato genotypes fail to germinate at all above −0.35 MPa, this argues against applying a fixed concentration to all genotypes and in favour of the genotype-specific sub-lethal approach described in Section 3.3.
 
-**The traits being screened may not be the traits that matter.** Tolerance and recovery at the same developmental stage are genetically distinct. Drought tolerance is stage-specific within *Capsicum* itself: a comparison of the three most widely cultivated *Capsicum* species across four drought regimes imposed at three growth stages found all three species more susceptible at the vegetative stage than at flowering or fruiting. If tolerance at different stages is controlled by largely non-overlapping loci, then a single-stage screen cannot function as a general proxy, and the search for one is misdirected.
+**The traits being screened may not be the traits that matter.** Tolerance and recovery at the same developmental stage are genetically distinct. Drought tolerance is stage-specific within *Capsicum* itself: a comparison of the three most widely cultivated *Capsicum* species across four drought regimes imposed at three growth stages found all three species more susceptible at the vegetative stage than at flowering or fruiting. If tolerance at different stages is controlled by largely non-overlapping loci, then a single-stage screen cannot function as a general proxy, and the search for one is misdirected (Okunlola et al., 2017; Sallam et al., 2018).
 
 ### 4.4 Implications for practice
 
@@ -234,23 +234,23 @@ Drought tolerance research in the Solanaceae is organised by developmental stage
 | B | Vegetative | Controlled water withholding in pot or greenhouse |
 | C | Reproductive | Field or greenhouse water stress; GWAS and QTL mapping |
 
-Tomato has the deepest coverage in stratum C: 19 drought-related QTL from sub-near-isogenic lines of *S. habrochaites* on chromosome 9 for traits including specific leaf area, shoot dry weight, fruit yield and carbon isotope discrimination; 56 QTL from 119 F7 recombinant inbred lines, 11 expressed under drought; 12 for fertility and flowering under drought; and 54 from a multi-parent advanced generation intercross population. CRISPR validation exists, with *SlMAPK3* mutants showing enlarged stomatal apertures, elevated H₂O₂ and malondialdehyde, increased electrolyte leakage, reduced antioxidant enzyme activity, and down-regulation of *SlDHN*, *SlDREB* and *SlGST*.
+Tomato has the deepest coverage in stratum C: 19 drought-related QTL from sub-near-isogenic lines of *S. habrochaites* on chromosome 9 for traits including specific leaf area, shoot dry weight, fruit yield and carbon isotope discrimination; 56 QTL from 119 F7 recombinant inbred lines, 11 expressed under drought; 12 for fertility and flowering under drought; and 54 from a multi-parent advanced generation intercross population. CRISPR validation exists, with *SlMAPK3* mutants showing enlarged stomatal apertures, elevated H₂O₂ and malondialdehyde, increased electrolyte leakage, reduced antioxidant enzyme activity, and down-regulation of *SlDHN*, *SlDREB* and *SlGST* (Pang et al., 2024).
 
-*Capsicum* has less, but more than is sometimes assumed. A recent study combined genome-wide association in a Balkan diversity panel (n = 133) with QTL mapping in an interspecific backcross inbred line population (n = 76), phenotyping both under well-watered and water-stressed conditions for fruit yield and quality; loci on chromosomes 5 and 6 harboured candidate genes including *GRL1*, *CYP77A19* and an endoglucanase-like gene, with effects attributed to possible *cis*-regulatory variation. A screen of 100 accessions identified resistant material at the vegetative stage. And pepper has a graph pan-genome with a genome variation map covering 500 accessions across five domesticated species and close wild relatives, in which introgressions from *C. baccatum* into *C. chinense* and *C. frutescens* carry genes conferring biotic and abiotic stress tolerance.
+*Capsicum* has less, but more than is sometimes assumed. A recent study combined genome-wide association in a Balkan diversity panel (n = 133) with QTL mapping in an interspecific backcross inbred line population (n = 76), phenotyping both under well-watered and water-stressed conditions for fruit yield and quality; loci on chromosomes 5 and 6 harboured candidate genes including *GRL1*, *CYP77A19* and an endoglucanase-like gene, with effects attributed to possible *cis*-regulatory variation (Rai et al., 2026). A screen of 100 accessions identified resistant material at the vegetative stage (Thin et al., 2026). And pepper has a graph pan-genome with a genome variation map covering 500 accessions across five domesticated species and close wild relatives, in which introgressions from *C. baccatum* into *C. chinense* and *C. frutescens* carry genes conferring biotic and abiotic stress tolerance.
 
-Eggplant demonstrates a strategy both other crops under-use: systematic exploitation of wild relatives. Cultivated *S. melongena* is consistently the most drought-sensitive genotype in comparative trials, with reductions across nine agronomic traits including leaf area index and biomass; the wild species *S. macrocarpon* essentially maintained biomass and *S. dasyphyllum* showed an intermediate response. A screen across 15 *Solanum* species identified *S. torvum*, *S. viarum*, *S. violaceum* and *S. aethiopicum* as tolerant, with principal component analysis identifying catalase activity, proline, stomatal conductance, transpiration rate, root length and shoot dry weight as the traits driving differences and explaining 80.2% of total variation.
+Eggplant demonstrates a strategy both other crops under-use: systematic exploitation of wild relatives (Kouassi et al., 2021). Cultivated *S. melongena* is consistently the most drought-sensitive genotype in comparative trials, with reductions across nine agronomic traits including leaf area index and biomass; the wild species *S. macrocarpon* essentially maintained biomass and *S. dasyphyllum* showed an intermediate response (Krommydas et al., 2025). A screen across 15 *Solanum* species identified *S. torvum*, *S. viarum*, *S. violaceum* and *S. aethiopicum* as tolerant, with principal component analysis identifying catalase activity, proline, stomatal conductance, transpiration rate, root length and shoot dry weight as the traits driving differences and explaining 80.2% of total variation (Anagha et al., 2026).
 
 ### 5.2 Candidate genes and the validation question
 
-A catalogue of drought-responsive genes in the Solanaceae is accumulating. In *Capsicum*, the best-characterised entry is ***CaNAC46***, a NAC-family transcription factor induced by drought, salt, cold, heat, abscisic acid, salicylic acid and methyl jasmonate, which promotes expression of *SOD*, *POD*, *RD29B*, *RD20*, *ABI* and *P5CS*, with silencing increasing malondialdehyde under stress. *CaDREBLP1* is rapidly induced by dehydration and salinity. *MYB1* and *CaDIM1* are abscisic acid-associated, and *CaSBP13* and *CaDR1* were identified through RNA-seq and genome-wide association. A genotype-contrasting aquaporin result is among the most informative: all twelve examined aquaporins were up-regulated in tolerant KCa-4884 and down-regulated in susceptible G-4.
+A catalogue of drought-responsive genes in the Solanaceae is accumulating. In *Capsicum*, the best-characterised entry is ***CaNAC46***, a NAC-family transcription factor induced by drought, salt, cold, heat, abscisic acid, salicylic acid and methyl jasmonate, which promotes expression of *SOD*, *POD*, *RD29B*, *RD20*, *ABI* and *P5CS*, with silencing increasing malondialdehyde under stress (Ma et al., 2021). *CaDREBLP1* is rapidly induced by dehydration and salinity. *MYB1* and *CaDIM1* are abscisic acid-associated, and *CaSBP13* and *CaDR1* were identified through RNA-seq and genome-wide association. A genotype-contrasting aquaporin result is among the most informative: all twelve examined aquaporins were up-regulated in tolerant KCa-4884 and down-regulated in susceptible G-4 (Sahitya et al., 2019).
 
 In tomato the catalogue is substantially larger and includes both positive regulators (*SlAREB1*, *SlAREB2*, *SlJUB1*, *SlNAC4*, *SlNAC6*, *SlNAC35*, *SlNAC042*, *SlNAP1*, *SlWRKY8*, *SlWRKY6*, *SlERF5*, *SlERF84*, *SlMYB49*, *SlbZIP1*) and negative regulators (*SlWRKY81*, *SlMYB50*, *SlMYB55*, *SlEREB1*, *SlbZIP38*). **Table 4** records the validation host for each entry, which matters because much *Capsicum* gene work has been validated by heterologous expression in *Arabidopsis* rather than in pepper. A gene demonstrated in *Arabidopsis* is not a gene demonstrated in chilli, and reviews frequently conflate the two.
 
 ### 5.3 The capability ceiling has moved
 
-*Capsicum* is historically recalcitrant to *Agrobacterium*-mediated transformation, with the reasons now understood: *Agrobacterium* induces a strong immune response in pepper, and the crop has low regeneration efficiency. Reported transformation efficiencies have ranged from 0.03–0.19% in some inbred lines to 1.3–2.9% in others, with recent work reaching approximately 5% effective efficiency through vacuum treatment, avoidance of pre-culture, and co-expression of a growth-regulating factor.
+*Capsicum* is historically recalcitrant to *Agrobacterium*-mediated transformation, with the reasons now understood: *Agrobacterium* induces a strong immune response in pepper, and the crop has low regeneration efficiency (Liu et al., 2024). Reported transformation efficiencies have ranged from 0.03–0.19% in some inbred lines to 1.3–2.9% in others, with recent work reaching approximately 5% effective efficiency through vacuum treatment, avoidance of pre-culture, and co-expression of a growth-regulating factor (Tang et al., 2025); earlier work established stable editing in both hot and bell pepper cultivars (Park et al., 2021).
 
-Two developments have changed what is feasible without stable transformation. Virus-induced gene silencing is established in pepper: a broad bean wilt virus 2-based vector system silenced phytoene desaturase across multiple cultivars with efficiencies between 67% and 79%, and the literature now describes VIGS as often the key, and sometimes the only viable, tool for high-throughput functional screening in this crop. More recently, a virus-induced gene editing system achieved heritable editing in pepper: 8.5% of progeny from plants inoculated with a modified tobacco rattle virus construct carrying a ribozyme-processed guide RNA were mutated at the target locus, with a second gene edited to produce a visible phenotype, and the method is tissue-culture-free.
+Two developments have changed what is feasible without stable transformation. Virus-induced gene silencing is established in pepper: a broad bean wilt virus 2-based vector system silenced phytoene desaturase across multiple cultivars with efficiencies between 67% and 79% (Choi et al., 2019), and the literature now describes VIGS as often the key, and sometimes the only viable, tool for high-throughput functional screening in this crop. More recently, a virus-induced gene editing system achieved heritable editing in pepper: 8.5% of progeny from plants inoculated with a modified tobacco rattle virus construct carrying a ribozyme-processed guide RNA were mutated at the target locus, with a second gene edited to produce a visible phenotype, and the method is tissue-culture-free (Kang et al., 2025).
 
 This does not remove the constraint, but it moves it. The barrier to functional validation in *Capsicum* is no longer the absence of a route; it is that these routes are not yet routine in the laboratories conducting screening work. That makes the opportunity described in Section 7 less a matter of capability than of coordination.
 
@@ -265,7 +265,7 @@ The constraint is not effort either. Each crop has substantial work at each deve
 The constraint is that the strata are not connected within a single genotype set, and that the resulting question — whether early-stage tolerance predicts later-stage performance — is answered inconsistently where it has been asked and not at all in *Capsicum*. The most economical solution is a shared genotype set: screening panels, validation trials and mapping populations drawing on common, diverse, publicly available germplasm. This would convert three stratified literatures into three experiments on one population, and would generate the cross-stage concordance data that is currently almost never reported. It is a coordination recommendation, and its cost is close to zero relative to any single experiment it connects.
 
 **Table 4** — Candidate genes with family, organism, validation host and evidence level.
-**Table 5** — Cross-crop comparison of resources and strategies by developmental stratum.
+**Table 6** — Cross-crop comparison of resources and strategies by developmental stratum.
 **Figure 4** — Evidence map by crop and stage-pair, showing where connecting studies exist and which direction each points. Conceptual.
 
 ---
@@ -280,25 +280,25 @@ Cost per data point is the headline metric and the least informative in isolatio
 
 ### 6.2 Assays requiring only PCR
 
-Simple sequence repeat genotyping remains the most accessible route to marker–trait association. It requires a thermal cycler and either gel electrophoresis or a capillary sequencer, both widely available, and validated *Capsicum* panels are published. Markers Hpms1172 and CAMS177 have been associated with a stress tolerance index in chilli across a 78-genotype panel, with principal coordinate analysis aligning with marker-assisted selection output. The limitations are intrinsic: SSRs are low-density, sample few loci, and detect a causal polymorphism only where it lies in sufficient linkage disequilibrium with the amplified repeat.
+Simple sequence repeat genotyping remains the most accessible route to marker–trait association. It requires a thermal cycler and either gel electrophoresis or a capillary sequencer, both widely available, and validated *Capsicum* panels are published. Markers Hpms1172 and CAMS177 have been associated with a stress tolerance index in chilli across a 78-genotype panel, with principal coordinate analysis aligning with marker-assisted selection output (Bukhari et al., 2024). The limitations are intrinsic: SSRs are low-density, sample few loci, and detect a causal polymorphism only where it lies in sufficient linkage disequilibrium with the amplified repeat.
 
-Amplicon sequencing of candidate genes offers the highest value for a laboratory with PCR access and a sequencing service. Rather than screening the genome, it interrogates the genes the literature already implicates — *CaNAC46*, *CaDREBLP1*, the *CaDREB*, *CaP5CS* and aquaporin families — across the genotype panel, identifying sequence polymorphism within them. It is inexpensive because the target is small, it produces interpretable variants rather than anonymous markers, and it generates a testable hypothesis. Its limitation is equally clear: it finds variation only in genes someone has already chosen to examine.
+Amplicon sequencing of candidate genes offers the highest value for a laboratory with PCR access and a sequencing service. Rather than screening the genome, it interrogates the genes the literature already implicates — *CaNAC46*, *CaDREBLP1*, the *CaDREB*, *CaP5CS* and aquaporin families (Ma et al., 2021; Sahitya et al., 2019) — across the genotype panel, identifying sequence polymorphism within them. It is inexpensive because the target is small, it produces interpretable variants rather than anonymous markers, and it generates a testable hypothesis. Its limitation is equally clear: it finds variation only in genes someone has already chosen to examine.
 
 ### 6.3 Genome-wide approaches
 
-Bulk segregant analysis with sequencing is the most cost-effective genome-wide strategy for a trait with contrasting extremes, because it reduces the genotyping unit from the individual to the pool: two pools of extreme-phenotype individuals are sequenced, and allele-frequency differences localise the contributing region. It requires only two sequencing reactions. Two caveats apply, and both are biological rather than logistical. Accuracy depends on sequencing depth and coverage, so cost rises with the resolution sought. And its application is constrained in species with large genomes. *Capsicum annuum* has an approximately 3.5 Gb genome, among the larger among cultivated Solanaceae, which raises the sequencing requirement substantially relative to rice or *Arabidopsis*. BSA-seq is a reasonable option in pepper, but not the near-free one it is in small-genome crops.
+Bulk segregant analysis with sequencing is the most cost-effective genome-wide strategy for a trait with contrasting extremes, because it reduces the genotyping unit from the individual to the pool: two pools of extreme-phenotype individuals are sequenced, and allele-frequency differences localise the contributing region (Majeed et al., 2022). It requires only two sequencing reactions. Two caveats apply, and both are biological rather than logistical. Accuracy depends on sequencing depth and coverage, so cost rises with the resolution sought. And its application is constrained in species with large genomes. *Capsicum annuum* has an approximately 3.5 Gb genome, among the larger among cultivated Solanaceae, which raises the sequencing requirement substantially relative to rice or *Arabidopsis* (Liu et al., 2023). BSA-seq is a reasonable option in pepper, but not the near-free one it is in small-genome crops. Its extension to outcross populations (OcBSA) widens its applicability beyond inbred-line crosses (Zhang et al., 2024).
 
-Genotyping-by-sequencing provides genome-wide markers at approximately US$10–50 per sample and has been applied in pepper, including for combined QTL and association mapping of *Phytophthora capsici* resistance. A pepper SNP array has been used to genotype a GWAS panel, which is the appropriate choice where an off-the-shelf array exists and the panel is large.
+Genotyping-by-sequencing provides genome-wide markers at approximately US$10–50 per sample and has been applied in pepper, including for combined QTL and association mapping of *Phytophthora capsici* resistance (Sahoo et al., 2025). A pepper SNP array has been used to genotype a GWAS panel, which is the appropriate choice where an off-the-shelf array exists and the panel is large.
 
 ### 6.4 Deployment
 
-Discovery and deployment are different problems requiring different platforms. Kompetitive allele-specific PCR assays run on a standard real-time PCR instrument, require no gel electrophoresis, and cost approximately **US$0.05–0.10 per data point** — one to two orders of magnitude below genome-wide approaches on a per-sample basis. A published comparison of PCR-based SNP genotyping platforms positions KASP and PACE as the most cost-effective options for small laboratories, noting that the ability to run these assays on standard real-time instruments makes them accessible to laboratories with limited resources. The barrier to adoption is therefore not equipment but assay design, which requires a known polymorphic site. This is the operational reason to sequence candidate genes first.
+Discovery and deployment are different problems requiring different platforms. Kompetitive allele-specific PCR assays run on a standard real-time PCR instrument, require no gel electrophoresis, and cost approximately **US$0.05–0.10 per data point** — one to two orders of magnitude below genome-wide approaches on a per-sample basis. A published comparison of PCR-based SNP genotyping platforms positions KASP and PACE as the most cost-effective options for small laboratories, noting that the ability to run these assays on standard real-time instruments makes them accessible to laboratories with limited resources (Sahoo et al., 2025). The barrier to adoption is therefore not equipment but assay design, which requires a known polymorphic site. This is the operational reason to sequence candidate genes first.
 
-**Table 6** — Genotyping platforms compared by cost, marker number, equipment, bioinformatics requirement and best use.
+**Table 7** — Genotyping platforms compared by cost, marker number, equipment, bioinformatics requirement and best use.
 
 ### 6.5 A note on platform costs
 
-Cost figures for genotyping platforms are frequently sourced from vendor material rather than peer-reviewed literature, and vendor pricing changes. The figures used above are drawn from a peer-reviewed review of PCR-based SNP genotyping and from the same source for sequencing-based approaches. Laboratories budgeting a project should treat them as order-of-magnitude indicators and obtain current quotations.
+Cost figures for genotyping platforms are frequently sourced from vendor material rather than peer-reviewed literature, and vendor pricing changes. The figures used above are drawn from a peer-reviewed review of PCR-based SNP genotyping (Sahoo et al., 2025) and from the same source for sequencing-based approaches. Laboratories budgeting a project should treat them as order-of-magnitude indicators and obtain current quotations.
 
 ---
 
@@ -344,7 +344,7 @@ The framework has four stages, each with an explicit decision point.
 
 ### 7.4 Minimum reporting standard
 
-**Table 7** presents the review's principal deliverable: a fifteen-item minimum reporting standard, offered as a checklist for authors, reviewers and editors. Each item is either free or inexpensive to satisfy.
+**Table 8** presents the review's principal deliverable: a fifteen-item minimum reporting standard, offered as a checklist for authors, reviewers and editors. Each item is either free or inexpensive to satisfy.
 
 | # | Parameter | Minimum | Rationale |
 | --- | --- | --- | --- |
@@ -370,7 +370,7 @@ The standard is deliberately undemanding. Items 6, 8, 9, 10, 12 and 15 are repor
 
 The substantive change would be item 14. If screening studies routinely reported the proportion of their selected genotypes that proved superior in field evaluation, the question this review identifies as unresolved would be answered within a few publication cycles using data that screening programmes already generate. The information exists; it is not reported in a form that permits synthesis.
 
-**Table 7** — Minimum reporting standard.
+**Table 8** — Minimum reporting standard.
 **Figure 1** — The proposed framework with decision points at each stage.
 
 ---
@@ -417,99 +417,258 @@ None of these findings requires the method to be abandoned. Each has a cheap rem
 
 ## Tables
 
-**Table 1.** Osmotic agents compared: agent, molecular weight, typical screening concentration, mechanism of action, documented limitations, suitability for seed screening and key reference.
-
-**Table 2.** Published osmotic screening studies in the Solanaceae, by crop: study, number of genotypes, screening stage, PEG level and osmotic potential, traits and indices, genotypes identified as tolerant, checks included, and stated limitations.
-
-**Table 3.** Tolerance indices: name, formula, what the index measures, characteristic failure mode, and appropriate use.
-
-**Table 4.** Drought-responsive candidate genes in *Capsicum* and tomato: gene, family, organism of origin, validation host, evidence type and evidence level.
-
-**Table 5.** Cross-crop comparison of drought tolerance research resources and strategies by developmental stratum, for *Capsicum*, tomato and eggplant.
-
-**Table 6.** Genotyping platforms compared: platform, cost, markers per sample, equipment required, bioinformatics requirement, and best use case.
-
-**Table 7.** Proposed fifteen-item minimum reporting standard for osmotic screening studies, with the rationale for each item.
+> **Numbering note.** An earlier draft used "Table 5" for two different tables. Renumbered: Table 5 is the connecting-studies table (§4), Table 6 the cross-crop stratum comparison (§5). Full per-study detail for Table 2 is provided as Supplementary Table S1.
 
 ---
 
-## Reference list — working bibliography
+### Table 1 — Osmotic agents compared
 
-> **Status: incomplete.** Fields marked ⚠️ require completion from the primary source before submission. Frontiers uses author–year style with full journal names. All entries below were consulted during drafting; none were generated from memory. Citation identifiers are provided so each can be resolved and formatted.
+| Agent | Mechanism | Documented limitation | Key reference |
+| --- | --- | --- | --- |
+| PEG 6000 / 8000 | Non-penetrating osmoticum (assumed) | Non-colligative; temperature-dependent; uptake demonstrated at lower MW; viscosity imposes hypoxia | Michel and Kaufmann (1973); Money (1989); Lawlor (1970) |
+| Mannitol | Sugar alcohol osmoticum | Taken up into apoplast and symplast; effects partially reversible | Tajaragh et al. (2022) |
+| Sorbitol | Sugar alcohol | Same class of problem; metabolisable | Sajid and Aftab (2022) |
+| Sucrose | Metabolite and osmoticum | Supplies carbon as well as lowering water potential | Sajid and Aftab (2022) |
+| NaCl | Ionic osmoticum | Adds ion toxicity; a different stress rather than a substitute | Sharma (1973) |
+| Solidified PEG; raft-and-membrane systems | Prevent PEG uptake while imposing osmotic stress | Designed to solve the penetration problem; rarely used in Solanaceae screening | ⟦VERIFY-3⟧ |
+| Soil or vermiculite drying | Matric stress imposed directly | Most realistic; least high-throughput; inherently more variable | Sharma (1973) |
 
-**Statistical practice**
-- Sileshi, G.W. (2012). A critique of current trends in the statistical analysis of seed germination and viability data. *Seed Science Research*, 22(3), 145–159. doi:10.1017/S0960258512000088 ⚠️ volume/pages to confirm
-- Warton, D.I. and Hui, F.K.C. (2011). The arcsine is asinine: the analysis of proportions in ecology. *Ecology*, 92(1), 3–10. doi:10.1890/10-0340.1 ⚠️
-- Sileshi, G.W. (2015). Basic features of the analysis of germination data. *Data*, 5(1), 6. ⚠️
+---
 
-**PEG chemistry and artefacts**
-- Michel, B.E. and Kaufmann, M.R. (1973). The osmotic potential of polyethylene glycol 6000. *Plant Physiology*, 51(5), 914–916. doi:10.1104/pp.51.5.914
-- Lawlor, D.W. (1970). Absorption of polyethylene glycols by plants and their effects on plant growth. *New Phytologist*, 69(2), 501–513. ⚠️
-- Lagerwerff, J.V., Ogata, G. and Eagle, H.E. (1961). Control of osmotic pressure of culture solutions with polyethylene glycol. *Science*, 133(3463), 1486–1487. ⚠️
-- The effect of molecular size, concentration in nutrient solution, and exposure time on the amount and distribution of polyethylene glycol in pepper plants. *Plant Physiology* (1974). ⚠️ authors/volume
+### Table 2 — Osmotic / PEG screening studies in the Solanaceae
+
+**Status: populated for the verified *Capsicum* and tomato studies. Detailed design and limitation columns are in Supplementary Table S1.**
+
+| # | Study | Crop | n | Stage | PEG level(s) | Genotypes identified |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | Sharma et al. (2024) | *C. annuum* | 16 | Seedling | 5, 10, 15% (−0.3, −0.6, −0.9 MPa) | **Tolerant:** UARChH 42, UARChH 43, Arka Swetha |
+| 2 | Millah et al. (2021) | *C. annuum* | 22 | Germination | 15% | **Tolerant:** C7 (all traits); C120, C37, C18 |
+| 3 | Molla et al. (2019) | *C. annuum* | 47 | Germination / emergence | 12.5% | **Tolerant:** BD-10906, BD-10912, BD-10911, BD-10916, BD-10913 |
+| 4 | Yadav et al. (2025) | Tomato | 5 | Germination / seedling | 3% (−0.18 MPa) | **Tolerant:** NGRCO9569, Monoprecos, Khumal 2 |
+| 5 | Alnaddaf et al. (2026) | Tomato | multi | **Callus** | **0–8%**, genotype-specific LC50 | Daraa, Brieh (best RGR maintenance) |
+| 6 | Thin et al. (2026) | *Capsicum* spp. | 100 | Vegetative | Water withholding (21 d) | **Resistant:** IT308761, IT250221, IT158637 |
+| 7 | Krommydas et al. (2025) | *S. melongena* × wild *Solanum* | 4 + hybrids | Vegetative (4 wk) | Water stress | *S. macrocarpon* tolerant; *S. dasyphyllum* intermediate; cultivated *S. melongena* sensitive |
+| 8 | Anagha et al. (2026) | 15 *Solanum* spp. | 24 | Whole plant | 100% vs 35% water | **Tolerant:** *S. torvum*, *S. viarum*, *S. violaceum*, *S. aethiopicum* |
+| 9 | Kouassi et al. (2021) | *S. melongena* + wild relatives + F₁ | 9 families | Field | Dry vs rainy season | *S. insanum* tolerant → usable donor |
+
+> **Row 2 is the review's thesis in a primary source.** The commercial drought-tolerant check, Gada MK F1, ranked only "moderately tolerant"; the authors attributed this to tolerance being mechanism- and stage-specific. **Row 5 is the one methodological innovation worth adopting directly**: a genotype-specific sub-lethal PEG concentration rather than one fixed threshold.
+
+---
+
+### Table 3 — Tolerance indices
+
+**Specification.** Columns: index | formula | what it measures | characteristic failure mode | appropriate use. Class split: susceptibility-oriented (SSI, TOL, SSPI) versus productivity-oriented (STI, GMP, MP, YSI). The indices rank the same genotypes differently; report at least one of each with justification (Muzafarov et al., 2026; Basavaraj et al., 2025).
+
+---
+
+### Table 4 — Drought-responsive candidate genes in *Capsicum* and tomato
+
+**The validation host is the column that matters.** Much *Capsicum* gene work is validated by heterologous expression in *Arabidopsis* rather than in pepper.
+
+| Gene | Family | Origin | Validation host | Evidence type | Level |
+| --- | --- | --- | --- | --- | --- |
+| ***CaNAC46*** | NAC (ATAF) | *C. annuum* | Transgenic *Arabidopsis*; VIGS in pepper | Overexpression + silencing | L1–L2 |
+| *CaDREBLP1* | AP2/ERF | *C. annuum* | ⚠️ confirm | Expression + heterologous | L1–L2 |
+| *CaDIM1*, *MYB1* | MYB | *C. annuum* | ⚠️ confirm | ABA-associated | L0–L1 |
+| *CaSBP13*, *CaDR1* | SBP / other | *C. annuum* | ⚠️ confirm | RNA-seq; GWAS | L0–L1 |
+| Aquaporin family (12 genes) | PIP/AQP | *C. annuum* | **None** | Genotype-contrasting expression (↑ KCa-4884, ↓ G-4) | L0 |
+| *GRL1*, *CYP77A19*, endoglucanase-like | various | *C. annuum* | **None** | QTL/GWAS candidates, chr 5 and 6 | L0 |
+| *SlAREB1*, *SlAREB2* | bZIP | *S. lycopersicum* | Transgenic tomato | Overexpression | L2 |
+| *SlDREB1/2/3* | AP2/ERF | *S. lycopersicum* | Transgenic tomato | Family-wide characterisation | L2 |
+| *SlJUB1* | NAC | *S. lycopersicum* | Transgenic tomato | Overexpression | L2 |
+| *SlNAC4/6/35/042*, *SlNAP1* | NAC | *S. lycopersicum* | Mixed | Positive regulators | L1–L2 |
+| *SlWRKY8*, *SlWRKY6*, *SlERF5*, *SlERF84*, *SlMYB49*, *SlbZIP1* | WRKY/ERF/MYB/bZIP | *S. lycopersicum* | Mixed | Positive regulators | L1–L2 |
+| *SlWRKY81*, *SlMYB50*, *SlMYB55*, *SlEREB1*, *SlbZIP38* | WRKY/MYB/ERF/bZIP | *S. lycopersicum* | Mixed | **Negative regulators** — routinely omitted from reviews | L1–L2 |
+| ***SlMAPK3*** | MAPK | *S. lycopersicum* | ***CRISPR* mutant** | Genetic loss-of-function; ↓ *SlDHN*, *SlDREB*, *SlGST* | **L1 (genetic)** |
+
+Levels: L0 association · L1 genetic/CRISPR · L2 transgenic overexpression. Sources: Ma et al. (2021); Sahitya et al. (2019); Rai et al. (2026); Pang et al. (2024).
+
+> **Only one of the six *Capsicum* entries has functional evidence in pepper**, and even that combines *Arabidopsis* overexpression with pepper VIGS. A gene demonstrated in *Arabidopsis* is not a gene demonstrated in chilli.
+
+---
+
+### Table 5 — Studies connecting two or more developmental stages
+
+**The table on which the review's central claim rests.** Nine studies identified; they disagree.
+
+| # | Study | Crop | Stages | Outcome | Direction |
+| --- | --- | --- | --- | --- | --- |
+| C1 | Pessoa et al. (2023) | **Tomato** | Germination/seedling → vegetative/reproductive | IL 1-4-18 and IL 1-2 tolerant at all stages; most germination-tolerant also most tolerant later | ✅ **supports** |
+| C2 | Sallam et al. (2018) | Wheat | Seedling indices → grain yield, 2 environments × 2 seasons | No significant correlations between seedling traits and yield in any environment; 1 genotype combined both | ❌ **contradicts** |
+| C3 | Slawin et al. (2024) | Barley | Germination/seedling → heading yield, n = 164 | r = −0.25; 9 lines at 100% germination → 2 with no yield penalty (~22%) | ❌ **contradicts** |
+| C4 | Badr et al. (2025) | Barley | Germination + seedling + vegetative + flowering, n = 198 | Tolerance "consistent" across the three important growth stages | ✅ **supports** — directly contradicts C3 |
+| C5 | El-Rawy and Hassan (2014) | Wheat | Seedling → grain yield/spike | Root length r = 0.41\*, seedling DW r = 0.46\* at **15%**; non-significant at **20%** | ✅ supports, **concentration-dependent** |
+| C6 | Mohamed et al. (2023) | Wheat | Germination → seedling | "Little to no correlation" between the two stages | ❌ **contradicts** |
+| C7 | Köhl et al. (2023) | Potato | Vegetative → yield, 20 lines, 3 trials | LAI and A2 turning points correlated with tolerance across trials | ✅ supports |
+| C8 | Sahitya et al. (2019) | *Capsicum* | — (mechanism contrast) | 12 aquaporins ↑ in tolerant KCa-4884, ↓ in susceptible G-4 | — |
+| C9 | Yadav et al. (2025) | Tomato | Germination/seedling only | Authors state field validation outstanding | ⚠️ **untested** |
+
+**Score: 4 support · 4 contradict · 1 untested.**
+
+> **Seven of the nine are cereals or potato, one is tomato, and none is *Capsicum*.** The chilli-specific question — does a germination screen predict field drought performance in pepper? — is unanswered.
+
+---
+
+### Table 6 — Cross-crop comparison by developmental stratum
+
+| Stratum | *Capsicum* | Tomato | Eggplant |
+| --- | --- | --- | --- |
+| **A — Germination** | Active (5 studies, Table 2) | Active (Yadav et al., 2025; Alnaddaf et al., 2026) | Limited |
+| **B — Vegetative** | 100-accession screen (Thin et al., 2026) | Active | Active (Krommydas et al., 2025) |
+| **C — Reproductive** | **1 GWAS + QTL study (Rai et al., 2026)** | **Deep** — 19, 56, 12 and 54 QTL across populations; *SlMAPK3* CRISPR | Genetic parameters (Kouassi et al., 2021) |
+| **Wild-relative donors** | **Under-used**; introgression potential shown (Liu et al., 2023) | Established | **Best developed** — *S. torvum*, *S. viarum*, *S. aethiopicum*, *S. insanum* |
+| **Studies connecting strata** | **0** | 1 (C1) | 0 |
+
+---
+
+### Table 7 — Genotyping platforms compared
+
+| Platform | Cost | Equipment | Bioinformatics | Best use |
+| --- | --- | --- | --- | --- |
+| **KASP / PACE** | **~US$0.05–0.10 per data point** | Thermal cycler + real-time PCR | Minimal | Deployment; marker–trait association in a large panel |
+| SSR | Low per assay | Thermal cycler + gel or capillary | Minimal | Accessible first-pass association (Bukhari et al., 2024) |
+| Amplicon sequencing of candidate genes | Low | PCR + sequencing service | Moderate | **Highest value for a PCR-capable lab** |
+| GBS | ~US$10–50 per sample | Sequencing service | High | Genome-wide markers where no array exists |
+| BSA-seq | 2 reactions, depth-dependent | Sequencing service | High | Contrasting extremes; **constrained by genome size — *C. annuum* ~3.5 Gb** |
+| SNP array | Per-sample array cost | Service provider | Moderate | Large panel where an array exists |
+
+Cost figures are order-of-magnitude indicators from Sahoo et al. (2025); confirm by current quotation.
+
+---
+
+### Table 8 — Proposed minimum reporting standard
+
+| # | Parameter | Minimum | Rationale | Costs extra? |
+| --- | --- | --- | --- | --- |
+| 1 | Genotype panel | ≥20, including wild relatives and tolerant/susceptible checks | Checks anchor the ranking; wild relatives carry tolerance absent from cultivars | Design |
+| 2 | Osmoticum identity | PEG molecular weight, supplier, batch | Osmotic pressure at equal mass varies with molecular weight; site of action differs | No |
+| 3 | Concentration | Genotype-specific sub-lethal level where feasible; otherwise ≥3 levels | A single fixed level produces floor effects at the extremes | Prelim. experiment |
+| 4 | Osmotic potential | Measured, instrument named | Nominal values carry temperature- and method-dependent error | Minimal |
+| 5 | Temperature | Controlled and reported | Osmotic potential is temperature-dependent | No |
+| 6 | Experimental unit | Petri dish or plot, stated explicitly | Prevents pseudoreplication; the unit is not the seed | **No** |
+| 7 | Replication | ≥4 units, ≥10 seeds per unit | Generalised linear model stability | Design |
+| 8 | Statistical model | Generalised linear mixed model, binomial family, logit link | Binomial data violate normal-error assumptions, especially near boundaries | **No** |
+| 9 | Interaction term | Genotype × treatment reported | Separates stress tolerance from general vigour | **No** |
+| 10 | Indices | ≥1 productivity-oriented and ≥1 susceptibility-oriented, with justification | Index choice determines genotype ranking | **No** |
+| 11 | Selection range | Spectrum retained, not extremes only | Selecting extremes truncates the predictor and attenuates later correlation | Design |
+| 12 | Correlation reporting | Internal and cross-stage correlations reported separately | Internal concordance is not evidence of transfer | **No** |
+| 13 | Field validation | Multi-season, managed drought | The only test of predictive value | Field season |
+| 14 | Concordance rate | Reported wherever a screen feeds a breeding programme | Genotype overlap, not trait correlation, is the quantity that matters | **No — reporting only** |
+| 15 | Terminology | "Osmotic stress induced by PEG," not "drought" | The treatment does not simulate drought | **No** |
+
+**Six items (6, 8, 9, 10, 12, 15) require no additional experiment, material or field season. Item 14 requires no new work at all — only that an existing number be reported.**
+
+---
+
+## Reference list
+
+> **Status: verified.** Every entry below was checked against Crossref metadata (title, authors, journal, volume, issue, pages, year) on 2026-09-29 using the DOI shown. Ten DOIs in the earlier working bibliography resolved to **different papers** and were corrected; these are listed in `reference-verification.md`. Two entries could not be verified through Crossref and are flagged individually at the end. Frontiers uses author–year style with full journal names, which is the style applied here.
+
+### Statistical practice and experimental design
+
+- Basavaraj, P.S., Rane, J., Jangid, K.K., Babar, R., Kumar, M., Gangurde, A., Shinde, S., Boraiah, K.M., Harisha, C.B., Halli, H.M., Reddy, K.S. and Prabhakar, M. (2025). Index-based selection of chickpea (*Cicer arietinum* L.) genotypes for enhanced drought tolerance. *Scientific Reports*, 15(1). doi:10.1038/s41598-025-93273-1
+- Muzafarov, N., Kapustian, M., Ponurenko, S., Kemešytė, V. and Kolomatska, V. (2026). Integrated assessment of drought tolerance indices in maize genotype selection. *Agronomy*, 16(15), 1457. doi:10.3390/agronomy16151457
+- Sileshi, G.W. (2012). A critique of current trends in the statistical analysis of seed germination and viability data. *Seed Science Research*, 22(3), 145–159. doi:10.1017/S0960258512000025
+- Warton, D.I. and Hui, F.K.C. (2011). The arcsine is asinine: the analysis of proportions in ecology. *Ecology*, 92(1), 3–10. doi:10.1890/10-0340.1
+
+### PEG chemistry, uptake and documented artefacts
+
+- Fan, S. and Blake, T.J. (1997). Comparison of polyethylene glycol 3350 induced osmotic stress and soil drying for drought simulation in three woody species. *Trees*, 11(6), 342. doi:10.1007/s004680050094
+- Janes, B.E. (1974). The effect of molecular size, concentration in nutrient solution, and exposure time on the amount and distribution of polyethylene glycol in pepper plants. *Plant Physiology*, 54(3), 226–230. doi:10.1104/pp.54.3.226
 - Kylyshbayeva, G., Bishimbayeva, N., Jatayev, S., Eliby, S. and Shavrukov, Y. (2025). Polyethylene glycol (PEG) application triggers plant dehydration but does not accurately simulate drought. *Plants*, 14(1), 92. doi:10.3390/plants14010092
-- Osmotic pressure of aqueous polyethylene glycols: relationship between molecular weight and vapor pressure deficit. *Plant Physiology* (1989), 91(2), 766–769. doi:10.1104/pp.91.2.766 ⚠️ authors
-- Comparison of polyethylene glycol 3350 induced osmotic stress and soil drying for drought simulation in three woody species. *Trees* (1997). doi:10.1007/s004680050094 ⚠️ authors
-- Simulation of drought and its effect on germination of five pasture species. *Agronomy Journal* (1973), 65(6). doi:10.2134/agronj1973.00021962006500060041x ⚠️ authors
-- Sajid, M. et al. (2022). Improvement of polyethylene glycol, sorbitol, mannitol and sucrose-induced osmotic stress tolerance. *International Journal of Agronomy*. doi:10.1155/2022/5158768 ⚠️
+- Lagerwerff, J.V., Ogata, G. and Eagle, H.E. (1961). Control of osmotic pressure of culture solutions with polyethylene glycol. *Science*, 133(3463), 1486–1487. doi:10.1126/science.133.3463.1486
+- Lawlor, D.W. (1970). Absorption of polyethylene glycols by plants and their effects on plant growth. *New Phytologist*, 69(2), 501–513. doi:10.1111/j.1469-8137.1970.tb02446.x
+- McClendon, J.H. (1981). The osmotic pressure of concentrated solutions of polyethylene glycol 6000, and its variation with temperature. *Journal of Experimental Botany*, 32(4), 861–866. doi:10.1093/jxb/32.4.861
+- Michel, B.E. and Kaufmann, M.R. (1973). The osmotic potential of polyethylene glycol 6000. *Plant Physiology*, 51(5), 914–916. doi:10.1104/pp.51.5.914
+- Money, N.P. (1989). Osmotic pressure of aqueous polyethylene glycols: relationship between molecular weight and vapor pressure deficit. *Plant Physiology*, 91(2), 766–769. doi:10.1104/pp.91.2.766
+- Sajid, Z.A. and Aftab, F. (2022). Improvement of polyethylene glycol, sorbitol, mannitol, and sucrose-induced osmotic stress tolerance through modulation of the polyamines, proteins, and superoxide dismutase activity in potato. *International Journal of Agronomy*, 2022, 1–14. doi:10.1155/2022/5158768
+- Sharma, M.L. (1973). Simulation of drought and its effect on germination of five pasture species. *Agronomy Journal*, 65(6), 982–987. doi:10.2134/agronj1973.00021962006500060041x
+- Tajaragh, R.P., Rasouli, F., Giglou, M.T., Zahedi, S.M., Hassanpouraghdam, M.B., Aazami, M.A., Adámková, A. and Mlček, J. (2022). Morphological and physiological responses of in vitro-grown *Cucurbita* sp. landraces seedlings under osmotic stress by mannitol and PEG. *Horticulturae*, 8(12), 1117. doi:10.3390/horticulturae8121117
 
-**Cross-stage transfer**
-- Sallam, A., Mourad, A.M.I., Hussain, W. and Baenziger, P.S. (2018). Genetic variation in drought tolerance at seedling stage and grain yield in low rainfall environments in wheat. *Euphytica*, 214, 169. doi:10.1007/s10681-018-2245-9
-- Association mapping unravels the genetic basis for drought related traits in different developmental stages of barley. *Scientific Reports* (2024), 14, 25236. doi:10.1038/s41598-024-73618-y ⚠️ authors
-- GWAS identifies novel loci linked to seedling growth traits in highly diverse barley population under drought stress. *Scientific Reports* (2025). doi:10.1038/s41598-025-94175-y ⚠️ authors
-- Screening spring wheat genotypes for *TaDreb-B1* and *Fehw3* genes under severe drought stress at the germination stage using KASP technology. *Genes* (2023), 14(2), 373. doi:10.3390/genes14020373 ⚠️ authors
-- A diallel analysis of drought tolerance indices at seedling stage in bread wheat. *Plant Breeding and Biotechnology* (2014), 2(3), 276–286. doi:10.9787/PBB.2014.2.3.276 ⚠️ authors
-- Finding phenotypic biomarkers for drought tolerance in *Solanum tuberosum*. *Agronomy* (2023), 13(6), 1457. doi:10.3390/agronomy13061457 ⚠️ authors
-- Uncovering tomato candidate genes associated with drought tolerance using *Solanum pennellii* introgression lines. *PLoS ONE* (2023), 18(6), e0287178. doi:10.1371/journal.pone.0287178 ⚠️ authors
+### Transfer of ranking between developmental stages
 
-**Solanaceae screening and genomics**
-- Yadav, P.K., Bhujel, P., Bhandari, N., Sharma, S. and Sharma, A. (2025). Screening tomato genotypes for early-stage drought tolerance using polyethylene glycol-induced osmotic stress. *BMC Plant Biology*, 25, 1476. doi:10.1186/s12870-025-07508-4
-- In vitro screening of chilli (*Capsicum annuum* L.) genotypes for drought tolerance. *Journal of Horticultural Sciences* (2024). ⚠️ authors/volume
-- Molla, M.R., Ahmed, I., Ara, R., Hassan, L. and Rohman, M.M. (2019). Screening of chilli (*Capsicum annuum* L.) genotypes for drought tolerant at seedling emergence stage. *Journal of Plant Sciences*, 7(4), 76–85. doi:10.11648/j.jps.20190704.12
-- Selection traits for chili pepper drought tolerance at germination stage using polyethylene glycol 6000 and diversity among 22 chili pepper genotypes. *RJOAS* (2021), 10(118). doi:10.18551/rjoas.2021-10.27 ⚠️ authors
-- Genetic and morpho-physiological attributes of drought resistance in *Capsicum* accessions. *Scientia Horticulturae* (2025). doi:10.1016/j.scienta.2025.114315 ⚠️ authors
-- Integrated genome-wide association and quantitative trait locus mapping elucidate the genetic basis of fruit yield and quality traits in pepper under water stress. *Journal of Experimental Botany* (2026). doi:10.1093/jxb/erag385 ⚠️ authors
-- Genomes of cultivated and wild *Capsicum* species provide insights into pepper domestication and population differentiation. *Nature Communications* (2023), 14, 5320. doi:10.1038/s41467-023-41251-4 ⚠️ authors
-- The NAC-type transcription factor *CaNAC46* regulates the salt and drought tolerance of transgenic *Arabidopsis thaliana*. *BMC Plant Biology* (2021), 21, 8. doi:10.1186/s12870-020-02764-y ⚠️ authors
-- Integrated approaches to study the drought tolerance mechanism in hot pepper. *Physiology and Molecular Biology of Plants* (2019). PMC6522565 ⚠️
+- Badr, A., El-Shazly, H.H., Mahdy, M., Schierenbeck, M., Helmi, R.Y., Börner, A. and Youssef, H.M. (2025). GWAS identifies novel loci linked to seedling growth traits in highly diverse barley population under drought stress. *Scientific Reports*, 15(1). doi:10.1038/s41598-025-94175-y
+- El-Rawy, M.A. and Hassan, M.I. (2014). A diallel analysis of drought tolerance indices at seedling stage in bread wheat (*Triticum aestivum* L.). *Plant Breeding and Biotechnology*, 2(3), 276–288. doi:10.9787/PBB.2014.2.3.276
+- Köhl, K.I., Aneley, G.M. and Haas, M. (2023). Finding phenotypic biomarkers for drought tolerance in *Solanum tuberosum*. *Agronomy*, 13(6), 1457. doi:10.3390/agronomy13061457
+- Mohamed, E.A., Ahmed, A.A.M., Schierenbeck, M., Hussein, M.Y., Baenziger, P.S., Börner, A. and Sallam, A. (2023). Screening spring wheat genotypes for *TaDreb-B1* and *Fehw3* genes under severe drought stress at the germination stage using KASP technology. *Genes*, 14(2), 373. doi:10.3390/genes14020373
+- Pessoa, H.P., Dariva, F.D., Copati, M.G.F., de Paula, R.G., Dias, F. de O. and Gomes, C.N. (2023). Uncovering tomato candidate genes associated with drought tolerance using *Solanum pennellii* introgression lines. *PLOS ONE*, 18(6), e0287178. doi:10.1371/journal.pone.0287178
+- Sallam, A., Mourad, A.M.I., Hussain, W. and Baenziger, P.S. (2018). Genetic variation in drought tolerance at seedling stage and grain yield in low rainfall environments in wheat (*Triticum aestivum* L.). *Euphytica*, 214(9), 169. doi:10.1007/s10681-018-2245-9
+- Slawin, C., Ajayi, O. and Mahalingam, R. (2024). Association mapping unravels the genetic basis for drought related traits in different developmental stages of barley. *Scientific Reports*, 14(1). doi:10.1038/s41598-024-73618-y
 
-**Solanaceae comparative**
-- Comparative drought response of *Solanum melongena*, *S. macrocarpon*, *S. dasyphyllum* and interspecific hybrids. *Agronomy* (2025), 15(11), 2516. doi:10.3390/agronomy15112516 ⚠️ authors
-- Differential response of wild and domesticated *Solanum* genotypes to water stress. *Genetic Resources and Crop Evolution* (2026). doi:10.1007/s10722-026-02875-9 ⚠️ authors
-- Kouassi, A.B. et al. (2021). Genetic parameters of drought tolerance for agromorphological traits in eggplant, wild relatives and interspecific hybrids. *Crop Science*. doi:10.1002/csc2.20250 ⚠️
-- Progressive drought transcriptomics and co-expression framework in eggplant (*Solanum melongena* L.). bioRxiv (2026). doi:10.64898/2026.02.21.706950 ⚠️ preprint
-- Physiological response of the three most cultivated pepper species (*Capsicum* spp.) in Africa to drought stress imposed at three stages of growth and development. *Scientia Horticulturae* (2017). doi:10.1016/j.scienta.2017.09.049 ⚠️ authors
+### Solanaceae screening, germplasm and comparative evidence
 
-**Transformation, VIGS and gene editing in pepper**
-- A plant virus-based vector system for gene function studies in pepper. *Plant Physiology* (2019), 181(3), 867–880. PMC6836849 ⚠️ authors
-- Virus-induced systemic and heritable gene editing in pepper (*Capsicum annuum* L.). (2025). PMC12158543 ⚠️ journal/authors
-- Establishment of an efficient *Agrobacterium*-mediated transformation system for chilli pepper and its application in genome editing. (2025). PMC12576473 ⚠️ journal/authors
-- An efficient method for *Agrobacterium*-mediated genetic transformation of chilli pepper (*Capsicum annuum* L.). (2018). ⚠️ journal/authors
-- Mutation in the *Agrobacterium hisI* gene enhances transient expression in pepper. *Plant Communications* (2023). doi:10.1016/j.xplc.2023.100744 ⚠️
+- Alnaddaf, O., Mohsen, W., Al-Tawaha, A.R., Al-Tawaha, A.R.M., Al-Rawashdeh, I.M. and Karnwal, A. (2026). Physiological responses of tomato callus and regenerated plants under PEG-induced stress during in vitro selection for drought tolerance. *BMC Plant Biology*, 26(1). doi:10.1186/s12870-026-08989-7
+- Anagha, P.T.K., Kutty, M.S., Pradheep, K. and Santhoshkumar, A.V. (2026). Differential response of wild and domesticated *Solanum* genotypes to water stress. *Genetic Resources and Crop Evolution*, 73(6). doi:10.1007/s10722-026-02875-9
+- Kouassi, A.B., Kouassi, K.B.A., Sylla, Z., Plazas, M., Fonseka, R.M., Kouassi, A., Fonseka, H., N'guetta, A.S.-P. and Prohens, J. (2021). Genetic parameters of drought tolerance for agromorphological traits in eggplant, wild relatives, and interspecific hybrids. *Crop Science*, 61(1), 55–68. doi:10.1002/csc2.20250
+- Krommydas, K., Papa, E., Gaitani, P., Papadopoulou, A., Mellidou, I., Bouloumpasi, E. and Kadoglidou, K.I. (2025). Comparative drought response of *Solanum melongena*, *S. macrocarpon*, *S. dasyphyllum*, and *S. melongena* × *S. dasyphyllum* interspecific hybrids. *Agronomy*, 15(11), 2516. doi:10.3390/agronomy15112516
+- Millah, Z., Syukur, M., Sobir and Ardie, S.W. (2021). Selection traits for chili pepper drought tolerance at germination stage using polyethylene glycol 6000 and diversity among 22 chili pepper genotypes. *Russian Journal of Agricultural and Socio-Economic Sciences*, 118(10), 240–249. doi:10.18551/rjoas.2021-10.27
+- Okunlola, G.O., Olatunji, O.A., Akinwale, R.O., Tariq, A. and Adelusi, A.A. (2017). Physiological response of the three most cultivated pepper species (*Capsicum* spp.) in Africa to drought stress imposed at three stages of growth and development. *Scientia Horticulturae*, 224, 198–205. doi:10.1016/j.scienta.2017.06.020
+- Sharma, P., Kurubar, A.R., Tembhurne, B.V. and Paatil, S. (2024). In vitro screening of chilli (*Capsicum annuum* L.) genotypes for drought tolerance. *Journal of Horticultural Sciences*, 19(1). doi:10.24154/jhs.v19i1.1882
+- Thin, K.K., Lee, S. and Lee, J.M. (2026). Genetic and morpho-physiological attributes of drought resistance in *Capsicum* accessions. *Horticultural Plant Journal*, 12(2), 402–413. doi:10.1016/j.hpj.2024.11.008
+- Yadav, P.K., Bhujel, P., Bhandari, N., Sharma, S. and Sharma, A. (2025). Screening tomato genotypes for early-stage drought tolerance using polyethylene glycol-induced osmotic stress. *BMC Plant Biology*, 25(1), 1476. doi:10.1186/s12870-025-07508-4
 
-**Genotyping platforms**
-- PCR-based single nucleotide polymorphism (SNP) genotyping for crop improvement: current status and future prospects. (2025). doi:10.1007/s44372-025-00262-9 ⚠️ journal/authors
-- Harnessing the potential of bulk segregant analysis sequencing and its related approaches in crop breeding. *Frontiers in Genetics* (2022), 13, 944501. doi:10.3389/fgene.2022.944501 ⚠️ authors
-- OcBSA: an NGS-based bulk segregant analysis tool for outcross populations. *Molecular Plant* (2024). doi:10.1016/j.molp.2024.02.006 ⚠️ authors
-- Validation of SSR markers for identification of high-yielding and *Phytophthora capsici* root rot resistant chilli genotypes. *Scientific Reports* (2024), 14, 28613. doi:10.1038/s41598-024-79718-z ⚠️
+### Solanaceae genomics and candidate genes
 
-**Tolerance indices**
-- Integrated assessment of drought tolerance indices in maize genotype selection. *Agronomy* (2026), 16(15), 1457. ⚠️
-- Index-based selection of chickpea (*Cicer arietinum* L.) genotypes for enhanced drought tolerance. (2025). PMC11893907 ⚠️
+- Liu, F., Zhao, J., Sun, H., Xiong, C., Sun, X., Wang, X., Wang, Z., Jarret, R., Wang, J., Tang, B., Xu, H., Hu, B., Suo, H., Yang, B., Ou, L., Li, X., Zhou, S., Yang, S., Liu, Z., Yuan, F., Pei, Z., Ma, Y., Dai, X., Wu, S., Fei, Z. and Zou, X. (2023). Genomes of cultivated and wild *Capsicum* species provide insights into pepper domestication and population differentiation. *Nature Communications*, 14(1), 5320. doi:10.1038/s41467-023-41251-4 ⚠️ article number to confirm
+- Ma, J., Wang, L.-y., Dai, J.-x., Wang, Y. and Lin, D. (2021). The NAC-type transcription factor *CaNAC46* regulates the salt and drought tolerance of transgenic *Arabidopsis thaliana*. *BMC Plant Biology*, 21(1), 8. doi:10.1186/s12870-020-02764-y
+- Rai, A., Vatov, E., Georgieva, A.W., Bogdanova, S., Wittenberg, M.F., Anachkov, N., Tripodi, P., Todorova, V., Tringovska, I., Ganeva, D., Petrov, V., Gechev, T. and Alseekh, S. (2026). Integrated genome-wide association and quantitative trait locus mapping elucidate the genetic basis of fruit yield and quality traits in pepper under water stress. *Journal of Experimental Botany*. doi:10.1093/jxb/erag385
+- Sahitya, U.L., Krishna, M.S.R. and Suneetha, P. (2019). Integrated approaches to study the drought tolerance mechanism in hot pepper (*Capsicum annuum* L.). *Physiology and Molecular Biology of Plants*, 25(3), 637–647. doi:10.1007/s12298-019-00655-7
+
+### Transformation, virus-induced silencing and gene editing in pepper
+
+- Choi, B., Kwon, S.-J., Kim, M.-H., Choe, S., Kwak, H.-R., Kim, M.-K., Jung, C. and Seo, J.-K. (2019). A plant virus-based vector system for gene function studies in pepper. *Plant Physiology*, 181(3), 867–880. doi:10.1104/pp.19.00836
+- Kang, B., Lee, S., Ko, D.-h., Venkatesh, J., Kwon, J.-K., Kim, H. and Kang, B.-C. (2025). Virus-induced systemic and heritable gene editing in pepper (*Capsicum annuum* L.). *The Plant Journal*, 122(5). doi:10.1111/tpj.70257
+- Liu, D., Zhao, S., Wang, J., Zhang, X., Deng, Y. and Li, F. (2024). Mutation in the *Agrobacterium hisI* gene enhances transient expression in pepper. *Horticultural Plant Journal*, 10(3), 809–822. doi:10.1016/j.hpj.2023.07.003
+- Park, S.-i., Kim, H.-B., Jeon, H.-J. and Kim, H. (2021). *Agrobacterium*-mediated *Capsicum annuum* gene editing in two cultivars, hot pepper CM334 and bell pepper Dempsey. *International Journal of Molecular Sciences*, 22(8), 3921. doi:10.3390/ijms22083921
+- Tang, Y., Shen, X., Deng, X., Song, Y., Zhou, Y., Lu, Y., Li, F. and Ouyang, B. (2025). Establishment of an efficient *Agrobacterium*-mediated transformation system for chilli pepper and its application in genome editing. *Plant Biotechnology Journal*, 23(11), 4752–4754. doi:10.1111/pbi.70216
+
+### Genotyping platforms
+
+- Bukhari, T., Rana, R.M., Khan, A.I., Khan, M.A., Ullah, A., Naseem, M., Rizwana, H., Elshikh, M.S., Rizwan, M. and Iqbal, R. (2024). Validation of SSR markers for identification of high-yielding and *Phytophthora capsici* root rot resistant chilli genotypes. *Scientific Reports*, 14(1). doi:10.1038/s41598-024-79718-z
+- Majeed, A., Johar, P., Raina, A., Salgotra, R.K., Feng, X. and Bhat, J.A. (2022). Harnessing the potential of bulk segregant analysis sequencing and its related approaches in crop breeding. *Frontiers in Genetics*, 13, 944501. doi:10.3389/fgene.2022.944501
+- Sahoo, J., Mishra, R. and Joshi, R.K. (2025). PCR-based single nucleotide polymorphism (SNP) genotyping for crop improvement—current status and future prospects. *Discover Plants*, 2(1). doi:10.1007/s44372-025-00262-9
+- Zhang, L., Duan, Y., Zhang, Z., Zhang, L., Chen, S., Cai, C., Duan, S., Zhang, K., Li, G. and Cheng, F. (2024). OcBSA: an NGS-based bulk segregant analysis tool for outcross populations. *Molecular Plant*, 17(4), 648–657. doi:10.1016/j.molp.2024.02.011
+
+### Reviews and syntheses consulted
+
+- Pang, X., Chen, J., Li, L., Huang, W. and Liu, J. (2024). Deciphering drought resilience in Solanaceae crops: unraveling molecular and genetic mechanisms. *Biology*, 13(12), 1076. doi:10.3390/biology13121076
+
+### Entries requiring resolution before submission
+
+Two entries in the earlier draft could not be verified through Crossref and appear in the text as unresolved markers. Both are minor and neither carries a load-bearing claim.
+
+- **Molla et al. (2019)**, *Journal of Plant Sciences*, 7(4), 76–85, doi:10.11648/j.jps.20190704.12 — cited in Table 2 and §3.3 for the 47-genotype emergence screen. The DOI does not resolve in Crossref; Science Publishing Group journals are not consistently indexed. **Verify against the publisher's own record.** The data are used in Table 2 and are internally consistent with the abstract as retrieved, but pagination should be confirmed.
+- **⟦VERIFY-2⟧, ⟦VERIFY-3⟧, ⟦VERIFY-4⟧, ⟦VERIFY-5⟧, ⟦VERIFY-6⟧** — six markers in the body text where a supporting source could not be located or confirmed during the verification pass. Each is listed with its disposition in `reference-verification.md`. ⟦VERIFY-1⟧ is a request to supply citations for two competing reviews named generically in §1.2.
+
+> **A note on how this list was verified.** Metadata was resolved through the Crossref REST API and compared field by field against the citation as written. Where the DOI resolved to a different article, the correct DOI was located by bibliographic search and the entry rebuilt from the returned metadata. No field in this list was completed from memory or inferred. This matters more than usual for the present review: its own thesis is that unreverified claims propagate through citation loops, and a reference list is the most direct place for that to happen.
 
 ---
 
 ## Notes for the author
 
-**Word count.** Body text including title, abstract, figure legends and inline tables, excluding references and this note: **9,384 words** — measured, not estimated. Against the Frontiers Review limit of 12,000 words (inclusive of abstract, body and figure legends; exclusive of references), this leaves approximately **2,600 words of headroom**.
+**Word count — measured, not estimated.** Frontiers counts the abstract, main text, figure legends *and* tables toward the limit, and excludes references.
 
-That margin should be used deliberately. Suggested allocation if the review is expanded before submission: Section 5 (cross-crop comparison) and Section 3.3 (what the literature has achieved) are both currently compressed relative to their evidentiary weight, and Section 8's future directions could carry more specificity. Table 2, once fully populated from the study inventory, will also expand substantially.
+| Component | Words |
+| --- | --- |
+| Title, abstract, Sections 1–9 | 9,306 |
+| Figure legends | 177 |
+| Tables | 2,100 |
+| **Counted total** | **11,588** |
+| *Limit* | *12,000* |
+| **Headroom** | **412** |
+
+The margin is thin because populating the tables consumed it. **The remedy is already built in:** Table 2's detailed design and limitation columns are designated **Supplementary Table S1**, and supplementary material does not count toward the word limit. Moving them out recovers roughly 700 words. Do this before expanding any section.
+
+If prose is expanded, the best value is in Section 5 (cross-crop comparison) and Section 3.3, both compressed relative to their evidentiary weight.
 
 **Before submission.**
-1. **Complete and verify every reference in the working bibliography.** Fields marked ⚠️ include missing authors, volumes and page numbers. Frontiers runs reference checks, and memory-generated citations trigger desk rejection. This is the single largest remaining task.
-2. **Confirm the specialty section accepts unsolicited Reviews** and resolve the APC question (Section 0 of the outline records the specifics).
-3. **Build Figures 1–5 and Tables 1–7.** Tables 2, 4 and 5 are partially populated in the study inventory; Tables 1, 3, 6 and 7 are drafted in the body text.
-4. **Declare LLM assistance** per Frontiers policy if this text was drafted with AI assistance.
-5. **Consider a presubmission enquiry** to the editor, given that the review makes methodological recommendations to the field.
+1. **Resolve the six `⟦VERIFY⟧` markers.** Each is listed with its disposition in `reference-verification.md`. Two are requests for a citation that exists but was not located; four are claims whose supporting source could not be confirmed and which should either be cited or deleted. **Do not submit with these markers present.**
+2. **Confirm the specialty section accepts unsolicited Reviews** and resolve the APC question.
+3. **Build Figures 1–5.** All five have legends; none is yet drawn. Figures 2 and 5 are compilations from published data and must be labelled as compiled, not experimental.
+4. **Move Table 2's detail columns to Supplementary Table S1** and re-measure the word count.
+5. **Declare LLM assistance** per Frontiers policy if this text was drafted with AI assistance.
+6. **Consider a presubmission enquiry** to the editor, given that the review makes methodological recommendations to the field.
+
+**What changed in this revision.** Fifty-nine in-text citations were inserted throughout Sections 1–7; the manuscript previously cited nothing in the body. The reference list was rebuilt from Crossref metadata — **ten DOIs in the earlier working bibliography resolved to entirely different papers**, including one to a *Citrus* study and one to an *Arabidopsis* anthocyanin paper. Tables 2, 4 and 5 were populated from verified sources. One claim was deleted for want of a source (cation accumulation in pepper root xylem under PEG). Details in `reference-verification.md`.
 
 **Known limitations of this review, to be stated in the Introduction.** The search was not systematic and may have missed relevant work. The cross-stage transfer analysis draws on cereal and potato evidence where Solanaceae evidence is absent, which is a reasonable but not ideal substitution. Cost figures for genotyping platforms are order-of-magnitude. The minimum reporting standard is a proposal, not a consensus position, and has not been tested for feasibility across laboratories with differing resources.

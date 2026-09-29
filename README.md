@@ -31,11 +31,14 @@ A complete critical review, built by applying the blueprint: **screening for dro
 
 | File | What it is |
 | --- | --- |
-| **`REVIEW-final.md`** | **The assembled paper** — title, abstract, nine sections, five figure legends, seven table specifications, working bibliography, author notes |
+| **`REVIEW-final.md`** | **The assembled paper** — title, abstract, nine sections, 59 in-text citations, five figure legends, eight tables (three populated from primary sources), verified reference list, author notes |
+| **`reference-verification.md`** | **The audit log.** Every reference checked against Crossref; the ten DOIs that resolved to different papers; the six unresolved items and their disposition |
 | `study-inventory.md` | The backbone: 14 screening studies tabulated, candidate genes with validation hosts, connecting studies, corrections log |
 | `preflight-and-plan.md` | The gate result and reverse-engineered research plan |
 | `review-outline.md` | Pre-draft outline, Frontiers format constraints, section plan |
 | `register-and-balance.md` | How to write a critical review the field accepts |
+| `insert-citations.py` | The 59 exact-substring citation insertions, with a per-anchor assertion that refuses to write if any anchor fails |
+| `splice-tables.py` | The table renumbering and late citations, kept as an audit record |
 | `draft-section-2.md`, `-3`, `-4`, `-5`, `sections-6-7` | Section drafts with verification notes and correction notices |
 
 ### What the exercise revealed
@@ -58,11 +61,18 @@ The final review is correspondingly **constructive rather than contrarian**: eve
 
 ### Key numbers
 
-- **9,384 words** — measured body text, against a 12,000 limit (~2,600 headroom)
-- **7 corrections** logged and withdrawn before drafting
+- **11,588 words counted** against the Frontiers 12,000 limit — abstract, prose, legends and tables, references excluded (412 headroom)
+- **59 in-text citations** inserted, where the body previously cited nothing at all
+- **10 of ~30 DOIs resolved to different papers** and were corrected; one pointed at a *Citrus* study
+- **7 claims** withdrawn or reversed before drafting; **1 deleted** at the reference audit for want of a source
 - **14 studies** tabulated with genotype counts, PEG levels and identified lines
-- **15-item** minimum reporting standard proposed
-- **~2,300 words** of verification notes preserved alongside the drafts
+- **15-item** minimum reporting standard proposed, 6 items requiring no new experiment
+
+### The reference audit
+
+The bibliography was rebuilt from Crossref metadata rather than from memory. One in three DOIs was wrong — not randomly wrong, but *plausibly* wrong: right shape, right journal family, right year, wrong paper. Several differed only in an article number and would have passed a glance.
+
+The same pass found something larger: the manuscript's **body contained no in-text citations whatsoever**. Nine thousand words of critical review resting on a 46-item bibliography with nothing attributing anything. That is a desk rejection, and no amount of reference-list formatting would have caught it. Both findings are documented in `reference-verification.md`.
 
 ---
 
