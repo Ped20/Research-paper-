@@ -39,6 +39,9 @@ A complete critical review, built by applying the blueprint: **screening for dro
 | **`deposit/REVIEW-deposit.pdf`** | **The upload-ready manuscript** — 28 pages, author apparatus stripped, Figures 1–5 embedded with legends |
 | `make-deposit.py` | Builds the deposit PDF and HTML from `REVIEW-final.md`; takes author, ORCID and affiliation |
 | `zenodo-deposit.md` | Zenodo metadata, upload checklist, and what a repository DOI does and does not confer |
+| **`implementation-steps.md`** | **The submission plan.** Ordered steps for Zenodo and JHS, the drafted editor enquiry, the cover letter, and the 3,000-word blocker |
+| `make-jhs-docx.py` | Builds the blinded JHS submission file: Times New Roman 12 pt, 1.5 spacing, figures and tables inline |
+| `deposit/JHS-submission.docx` | The blinded Word file, ready for the OJS upload if the word limit clears |
 | `resolve-markers.py`, `final-pass.py` | The two one-shot marker-resolution passes, kept as an audit record; both refuse to write unless every anchor matches |
 | `study-inventory.md` | The backbone: 14 screening studies tabulated, candidate genes with validation hosts, connecting studies, corrections log |
 | `preflight-and-plan.md` | The gate result and reverse-engineered research plan |
@@ -74,7 +77,7 @@ The final review is correspondingly **constructive rather than contrarian**: eve
 
 ### Key numbers
 
-- **11,907 words counted** — abstract, prose, legends and tables, references excluded. Table 2's detail columns were moved to supplementary to make room against the 12,000-word ceiling common to many review formats
+- **11,932 words counted** — abstract, prose, legends and tables, references excluded. Table 2's detail columns were moved to supplementary to make room against the 12,000-word ceiling common to many review formats
 - **59 in-text citations** inserted, where the body previously cited nothing at all; **52 references**, six added to resolve the last markers
 - **10 of ~30 DOIs resolved to different papers** and were corrected; one pointed at a *Citrus* study
 - **7 claims** withdrawn or reversed before drafting; **1 deleted** at the reference audit for want of a source

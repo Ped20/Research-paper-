@@ -1,6 +1,7 @@
 # Screening for drought tolerance in *Capsicum* and the Solanaceae: methodological assumptions, an unresolved predictive link, and a cost-tiered path to markers
 
 **Article type:** Review
+**Running title:** Drought screening in *Capsicum* and the Solanaceae (7 words)
 **Venue:** deliberately not fixed. The manuscript is formatted for submission to any plant-science or horticulture journal that publishes review articles; the venue decision and its consequences are set out in the author notes.
 **Status:** Submission-ready draft. All in-text citations resolved; no placeholder markers anywhere in the manuscript. Reference list verified against Crossref (`reference-verification.md`). Figures 1–5 drawn (`figures/`). Supplementary Table S1 compiled.
 
@@ -8,7 +9,7 @@
 
 ## Abstract
 
-Drought limits productivity across the Solanaceae, and early-stage screening using polyethylene glycol (PEG) has become the standard low-cost route to identifying tolerant genotypes in chilli pepper, tomato and eggplant. The method requires no field season, discriminates among genotypes, and has produced tolerant germplasm in every crop to which it has been applied. This review assesses what that screening can support. Four findings emerge. First, the physicochemical basis of the treatment is less secure than its customary presentation implies: PEG solutions are non-colligative, their osmotic potential is temperature- and molecular-weight-dependent, and the assumption that PEG does not enter plant tissue is contradicted by direct measurement, including in *Capsicum* itself. Measurements of impurities and detergent effects, by contrast, were tested and rejected decades ago and continue to be cited as established artefacts. Second, the field's default statistical treatment of germination data is inappropriate to the conditions osmotic screening creates, which drive means toward 0% and 100% where normal-error assumptions fail. Third, whether early-stage rankings transfer to field performance is genuinely unresolved: of the studies testing transfer across developmental stages, four support it and four contradict it, and the disagreement tracks identifiable design choices rather than biology alone. In *Capsicum* specifically, the question remains untested. Fourth, the molecular route is more accessible than pepper's transformation recalcitrance suggests, with virus-induced gene silencing and heritable virus-induced gene editing now providing tissue-culture-free validation. We propose a four-stage framework and a fifteen-item minimum reporting standard, of which six items require no additional experiment. The single substantive change — reporting the proportion of screen-selected genotypes that prove superior in the field — would resolve the central question using data that screening programmes already generate.
+Drought limits productivity across the Solanaceae, and early-stage screening with polyethylene glycol (PEG) has become the standard low-cost route to identifying tolerant genotypes in chilli pepper, tomato and eggplant. It requires no field season and has produced tolerant germplasm in every crop tested. This review assesses what that screening can support. Four findings emerge. First, the physicochemical basis of the treatment is less secure than its customary presentation implies: PEG solutions are non-colligative, their osmotic potential is temperature- and molecular-weight-dependent, and the assumption that PEG does not enter plant tissue is contradicted by direct measurement, including in *Capsicum* itself. Impurity and detergent effects were tested and rejected decades ago yet are still cited as established artefacts. Second, the field's default statistical treatment of germination data is inappropriate to the conditions osmotic screening creates, driving means toward 0% and 100% where normal-error assumptions fail. Third, whether early-stage rankings predict field performance is unresolved: of studies testing transfer across stages, four support it and four contradict it, and the disagreement tracks design choices rather than biology alone. In *Capsicum*, the question remains untested. Fourth, the molecular route is more accessible than pepper's transformation recalcitrance suggests: virus-induced gene silencing and heritable gene editing now allow tissue-culture-free validation. We propose a four-stage framework and a fifteen-item reporting standard, six items of which require no additional experiment. The single substantive change — reporting the proportion of screen-selected genotypes that prove superior in the field — would answer that question using data screening programmes already generate.
 
 **Keywords:** *Capsicum annuum*; polyethylene glycol; drought tolerance; genotype screening; Solanaceae; reporting standards
 
@@ -86,14 +87,7 @@ Separating what is established from what is assumed, and from what has been test
 
 ### 2.5 Alternatives
 
-| Agent | Principle | Documented limitation |
-| --- | --- | --- |
-| Mannitol | Sugar alcohol; lowers water potential | Taken up into apoplast and symplast; effects partially reversible, indicating uptake |
-| Sorbitol | Sugar alcohol | Same class of problem; metabolisable |
-| Sucrose | Metabolite and osmoticum | Supplies carbon as well as lowering water potential; confounds stress with nutrition |
-| NaCl | Ionic | Adds ion toxicity to water deficit; a different stress rather than a substitute |
-| Solidified PEG media; raft-and-membrane systems | Prevent PEG uptake while imposing osmotic stress | Developed specifically to solve the penetration problem; rarely used in Solanaceae screening |
-| Soil or vermiculite drying | Imposes matric stress directly | Most realistic; least high-throughput; inherently more variable |
+Table 1 sets out the osmotica that are actually used, with the documented limitation of each.
 
 The raft and solidified-media approaches deserve attention precisely because they were designed in response to the penetration problem described in Section 2.3, and they remain almost unused in the Solanaceae work this review catalogues. That is a specific and inexpensive methodological gap.
 
@@ -112,7 +106,9 @@ PEG-induced osmotic stress is fit for relative ranking of genotypes under a defi
 
 The screening literature has a consistent architecture. Genotypes are exposed to an osmoticum at one to four concentrations spanning roughly 5–20% (w/v), with germination and early seedling traits scored over 7–14 days. Almost all studies use a completely randomised design with three or four replications (e.g. Sharma et al., 2024). Most report germination percentage, germination rate or index, root and shoot length, seedling fresh and dry weight, and a derived vigour index; a minority add proline, relative water content, membrane stability or antioxidant activity.
 
-The three crops differ in emphasis rather than approach.
+The three crops differ in emphasis rather than approach (Table 9).
+
+**Table 9.** Distinguishing features of the screening literature by crop.
 
 | Crop | Screening stage | Distinguishing feature |
 | --- | --- | --- |
@@ -146,7 +142,9 @@ A methodological good practice also deserves credit. A recent tomato callus-sele
 
 Germination percentage is binomial: a count of successes from a fixed number of trials, bounded at 0 and 100%. Analysis of variance assumes normally distributed errors with homogeneous variance, and these assumptions are violated by such data, often severely, particularly when means approach the boundaries.
 
-This is not an impression formed from reading a subset of papers. A systematic critique of statistical practice in seed germination and viability research examined 429 studies and reported the following (Sileshi, 2012).
+This is not an impression formed from reading a subset of papers. A systematic critique of statistical practice in seed germination and viability research examined 429 studies and reported the distribution in Table 10 (Sileshi, 2012).
+
+**Table 10.** Statistical practice in germination and viability studies, after Sileshi (2012).
 
 | Practice | Proportion of studies |
 | --- | --- |
@@ -173,7 +171,7 @@ A related issue is the ceiling effect. In a 32-genotype tomato screen, most geno
 
 ## 4. The predictive gap: does early-stage screening forecast field performance?
 
-Early-stage screening rests on an assumption that is rarely stated explicitly: that genotypes ranked as tolerant at germination or the seedling stage will also perform better under drought at the reproductive stage, where yield is determined. This section examines the studies that have tested that assumption. The literature divides, and it does not divide by crop.
+Early-stage screening rests on an assumption that is rarely stated explicitly: that genotypes ranked as tolerant at germination or the seedling stage will also perform better under drought at the reproductive stage, where yield is determined. This section examines the studies that have tested that assumption. The literature divides, and it does not divide by crop. Figure 3 situates the stages and the transfer question between them; Figure 4 maps which crop-and-stage combinations the evidence actually covers.
 
 ### 4.1 Evidence that early-stage ranking does not transfer
 
@@ -201,7 +199,7 @@ The contradiction is not random. Four design and biological factors plausibly dr
 
 **Internal concordance is being reported as cross-stage transfer.** Several studies reporting strong correlations are correlating traits measured within a single stage or treatment — germination percentage with germination rate, or root with shoot biomass. These are near-tautological relationships between co-measured growth traits. They appear in the same correlation matrices as genuine cross-stage relationships, which makes a study appear to demonstrate transfer when it has demonstrated only internal consistency. This is likely the most common source of apparent support for predictive validity, and separating internal from cross-stage correlations in every correlation analysis would resolve it at no cost.
 
-**Trait-level correlation and genotype-level overlap are different questions.** In the wheat study described above, no seedling trait correlated with grain yield, yet individual genotypes were identified that were tolerant at the seedling stage and high-yielding in the field. A screening programme does not require a significant trait correlation; it requires retaining the right genotypes. Reviews that dismiss early screening on the basis of absent trait correlations may be applying the wrong test. The appropriate metric is the concordance rate among selected genotypes, and it is almost never reported.
+**Trait-level correlation and genotype-level overlap are different questions.** In the wheat study described above, no seedling trait correlated with grain yield, yet individual genotypes were identified that were tolerant at the seedling stage and high-yielding in the field. A screening programme does not require a significant trait correlation; it requires retaining the right genotypes. Reviews that dismiss early screening on the basis of absent trait correlations may be applying the wrong test. The appropriate metric is the concordance rate among selected genotypes, and it is almost never reported (Figure 5).
 
 **PEG concentration determines whether the screen discriminates.** The diallel study's positive correlations at 15% PEG became non-significant at 20%. Severe stress can drive most genotypes to the floor of the measurable range, destroying resolution. Combined with the finding that most tomato genotypes fail to germinate at all above −0.35 MPa, this argues against applying a fixed concentration to all genotypes and in favour of the genotype-specific sub-lethal approach described in Section 3.3.
 
@@ -226,7 +224,9 @@ The unresolved cases should be resolved deliberately. Barley now has two large, 
 
 ### 5.1 Three developmental strata
 
-Drought tolerance research in the Solanaceae is organised by developmental stage, and the stages are largely studied separately.
+Drought tolerance research in the Solanaceae is organised by developmental stage, and the stages are largely studied separately (Table 11).
+
+**Table 11.** The three developmental strata and the typical approach used at each.
 
 | Stratum | Stage | Typical approach |
 | --- | --- | --- |
@@ -306,7 +306,7 @@ Cost figures for genotyping platforms are frequently sourced from vendor materia
 
 ### 7.1 What this review has established
 
-The preceding sections support four conclusions, and they are more encouraging than a critical reading of any one of them suggests.
+The preceding sections support four conclusions, and they are more encouraging than a critical reading of any one of them suggests. Figure 1 sets out the resulting framework and its decision points.
 
 Early-stage osmotic screening works in the sense that it discriminates. It has produced tolerant germplasm in every Solanaceae crop examined, at low cost, without a field season, and independently in many laboratories. The genetic variation it detects is real.
 
@@ -346,24 +346,6 @@ The framework has four stages, each with an explicit decision point.
 
 **Table 8** presents the review's principal deliverable: a fifteen-item minimum reporting standard, offered as a checklist for authors, reviewers and editors. Each item is either free or inexpensive to satisfy.
 
-| # | Parameter | Minimum | Rationale |
-| --- | --- | --- | --- |
-| 1 | Genotype panel | ≥20, including wild relatives and tolerant/susceptible checks | Checks anchor the ranking; wild relatives carry tolerance absent from cultivars |
-| 2 | Osmoticum identity | PEG molecular weight, supplier, batch | Osmotic pressure at equal mass varies with molecular weight; the site of action differs |
-| 3 | Concentration | Genotype-specific sub-lethal level where feasible; otherwise ≥3 levels | A single fixed level produces floor effects at the extremes |
-| 4 | Osmotic potential | Measured, instrument named | Nominal values carry temperature- and method-dependent error |
-| 5 | Temperature | Controlled and reported | Osmotic potential is temperature-dependent |
-| 6 | Experimental unit | Petri dish or plot, stated explicitly | Prevents pseudoreplication; the unit is not the seed |
-| 7 | Replication | ≥4 units, ≥10 seeds per unit | Generalised linear model stability |
-| 8 | Statistical model | Generalised linear mixed model, binomial, logit link | Binomial data violate normal-error assumptions, especially near boundaries |
-| 9 | Interaction term | Genotype × treatment reported | Separates stress tolerance from general vigour |
-| 10 | Indices | ≥1 productivity-oriented and ≥1 susceptibility-oriented, with justification | Index choice determines genotype ranking |
-| 11 | Selection range | Spectrum retained, not extremes only | Selecting extremes truncates the predictor and attenuates any later correlation |
-| 12 | Correlation reporting | Internal and cross-stage correlations reported separately | Internal concordance is not evidence of transfer |
-| 13 | Field validation | Multi-season, managed drought | The only test of predictive value |
-| 14 | Concordance rate | Reported wherever a screen feeds a breeding programme | Genotype overlap, not trait correlation, is the quantity that matters |
-| 15 | Terminology | "Osmotic stress induced by PEG," not "drought" | The treatment does not simulate drought |
-
 ### 7.5 What adoption would change
 
 The standard is deliberately undemanding. Items 6, 8, 9, 10, 12 and 15 are reporting or analysis choices requiring no additional experiment, material or field season. Items 1, 2, 3, 7 and 11 are design choices within existing budgets, with genotype-specific concentration determination the only one requiring a preliminary experiment and optional where resources are constrained.
@@ -400,6 +382,20 @@ Early-stage osmotic screening with PEG is the most widely used method for identi
 None of these findings requires the method to be abandoned. Each has a cheap remedy, and six of the fifteen items in the proposed reporting standard require no additional experiment at all. The single substantive change — reporting the proportion of screen-selected genotypes that prove superior in the field — would answer the central question using data that screening programmes already produce. The screening literature has generated the material and the infrastructure. What it has not yet generated is the reporting convention that would let its results accumulate.
 
 ---
+
+## Declarations
+
+**CRediT authorship contribution statement.** [AUTHOR NAME]: Conceptualization, Investigation, Methodology, Visualization, Writing – original draft, Writing – review and editing.
+
+**Declaration of competing interest.** The author declares no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+**Acknowledgments.** [Acknowledge any individuals or institutions that provided support, advice or assistance. Delete this item if there are none.]
+
+**Funding.** This research received no specific grant from any funding agency in the public, commercial or not-for-profit sectors. [Amend if this is not correct.]
+
+**Data availability.** This review analysed only previously published literature. No new data were generated or analysed for this study.
+
+**Generative AI disclosure.** During the preparation of this work the author used [TOOL NAME, VERSION, PROVIDER] to assist with literature synthesis, drafting and language editing. The author set the scope and framing, verified every cited source against primary records and publisher metadata, drew the figures from published equations and reported data, and reviewed and edited all content, and takes full responsibility for the content of the publication.
 
 ## Figure legends
 
@@ -454,6 +450,18 @@ None of these findings requires the method to be abandoned. Each has a cheap rem
 ---
 
 ### Table 3 — Tolerance indices
+
+| Index | Formula | What it measures | Characteristic failure mode | Appropriate use |
+| --- | --- | --- | --- | --- |
+| **TOL** (tolerance) | Yp − Ys | Absolute yield loss under stress | Scale-dependent: values in yield units, so not comparable across trials or crops | Comparing genotypes within one trial at one site |
+| **SSI** (stress susceptibility index) | (1 − Ys/Yp) / (1 − Ȳs/Ȳp) | Yield loss relative to the trial's mean loss; <1 indicates tolerance | Sensitive to the trial mean; a genotype's score moves with the panel it is tested in | Comparing stress response across environments, within one panel |
+| **SSPI** (stress susceptibility percentage index) | [(Yp − Ys) / (2Ȳp)] × 100 | Percentage yield reduction, trial-normalised | Inherits the mean-dependence of SSI | Reporting percentage loss in a form comparable across trials |
+| **MP** (mean productivity) | (Ys + Yp) / 2 | Average performance across both conditions | Rises with yield potential; selects for high-yielding genotypes whether or not they resist stress | Selecting for performance in both conditions when stress is moderate |
+| **GMP** (geometric mean productivity) | √(Ys × Yp) | Performance across both conditions, penalising imbalance | Same direction of bias as MP, more conservative | Where a genotype must not collapse in one condition |
+| **STI** (stress tolerance index) | (Ys × Yp) / Ȳp² | Tolerance scaled to the panel's non-stress potential | Highly correlated with yield potential under non-stress; discriminates poorly when stress is mild | Ranking when stress intensity is known and moderate to severe |
+| **YSI** (yield stability index) | Ys / Yp | Proportional retention of yield under stress | Uses a single stress level; no measure of variance across environments | Simple screening where one stress treatment is available |
+
+*Ys*, genotype value under stress; *Yp*, under non-stress; Ȳs and Ȳp, the corresponding panel means. TOL and MP follow Rosielle and Hamblin (1981); SSI follows Fischer and Maurer (1978); YSI follows Bouslama and Schapaugh (1984). GMP and STI are given in their standard forms; their primary source (Fernandez, 1992) is a conference proceedings not indexed in Crossref and should be cited from the original volume. SSPI is given as presented in the review literature cited below.
 
 **Specification.** Columns: index | formula | what it measures | failure mode | appropriate use. Susceptibility-oriented (SSI, TOL, SSPI) versus productivity-oriented (STI, GMP, MP, YSI). The indices rank the same genotypes differently; report one of each with justification (Muzafarov et al., 2026; Basavaraj et al., 2025).
 
@@ -566,6 +574,12 @@ Costs are order-of-magnitude, from Sahoo et al. (2025); confirm by quotation.
 - Sileshi, G.W. (2012). A critique of current trends in the statistical analysis of seed germination and viability data. *Seed Science Research*, 22(3), 145–159. doi:10.1017/S0960258512000025
 - Warton, D.I. and Hui, F.K.C. (2011). The arcsine is asinine: the analysis of proportions in ecology. *Ecology*, 92(1), 3–10. doi:10.1890/10-0340.1
 
+### Tolerance indices and selection criteria
+
+- Bouslama, M. and Schapaugh, W.T. (1984). Stress tolerance in soybeans. I. Evaluation of three screening techniques for heat and drought tolerance. *Crop Science*, 24(5), 933–937. doi:10.2135/cropsci1984.0011183x002400050026x
+- Fischer, R.A. and Maurer, R. (1978). Drought resistance in spring wheat cultivars. I. Grain yield responses. *Australian Journal of Agricultural Research*, 29(5), 897–912. doi:10.1071/ar9780897
+- Rosielle, A.A. and Hamblin, J. (1981). Theoretical aspects of selection for yield in stress and non-stress environments. *Crop Science*, 21(6), 943–946. doi:10.2135/cropsci1981.0011183x002100060033x
+
 ### PEG chemistry, uptake and documented artefacts
 
 - Fan, S. and Blake, T.J. (1997). Comparison of polyethylene glycol 3350 induced osmotic stress and soil drying for drought simulation in three woody species. *Trees*, 11(6), 342. doi:10.1007/s004680050094
@@ -642,6 +656,7 @@ Costs are order-of-magnitude, from Sahoo et al. (2025); confirm by quotation.
 - Lim, J., Lim, C.W. and Lee, S.C. (2022). Role of pepper MYB transcription factor CaDIM1 in regulation of the drought response. *Frontiers in Plant Science*, 13, 1028392. doi:10.3389/fpls.2022.1028392
 - Zhang, H.-X., Zhang, Y. and Zhang, B.-W. (2024). Pepper SBP-box transcription factor, CaSBP13, plays a negatively role in drought response. *Frontiers in Plant Science*, 15, 1412685. doi:10.3389/fpls.2024.1412685
 
+---
 
 ## Notes for the author
 
@@ -649,12 +664,12 @@ Costs are order-of-magnitude, from Sahoo et al. (2025); confirm by quotation.
 
 | Component | Words |
 | --- | --- |
-| Title, abstract, Sections 1–9 | 9,558 |
+| Title, abstract, Sections 1–9 | 9,167 |
 | Figure legends | 221 |
-| Tables | 2,155 |
-| **Counted total** | **11,934** |
+| Tables | 2,544 |
+| **Counted total** | **11,932** |
 | *Limit* | *12,000* |
-| **Headroom** | **66** |
+| **Headroom** | **68** |
 
 Table 2's detailed design and limitation columns are in **Supplementary Table S1** (with Table S2 for the connecting studies), and supplementary material does not count toward the limit. If prose is expanded, the best value is in Section 5 and Section 3.3, both compressed relative to their evidentiary weight.
 
@@ -665,6 +680,8 @@ Table 2's detailed design and limitation columns are in **Supplementary Table S1
 4. **Add author contributions.** Most venues now require CRediT taxonomy; for a single author, *Conceptualization, Investigation, Writing – original draft, Writing – review and editing*.
 5. **Decide the Discussion heading.** Many review formats expect Abstract, Introduction, Subsections, Discussion. Sections 7–9 carry the Discussion content but none is titled Discussion.
 6. **Check every stated osmotic potential against its primary source.** Figure 2 shows why: the same nominal PEG-6000 percentage spans a several-fold range of potentials, and Table S1 flags one screen whose reported values differ from the equation by more than threefold.
+
+**Word limit — read before choosing a venue.** The *Journal of Horticultural Sciences* states a maximum of 3,000 words for full-length papers and does not exempt review articles in its published guidelines. This manuscript is 11,932 words. See `implementation-steps.md` for the enquiry email drafted to resolve this before any reformatting is done.
 
 **Venue note — the cost problem.** Open-access publication at *Frontiers in Plant Science* costs CHF 3,150, which is real money and not a reason to abandon the paper. Three routes exist, and they are not equivalent:
 
